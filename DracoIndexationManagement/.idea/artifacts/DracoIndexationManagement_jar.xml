@@ -3,7 +3,6 @@
     <output-path>$PROJECT_DIR$/out/artifacts/DracoIndexationManagement_jar</output-path>
     <root id="archive" name="DracoIndexationManagement.jar">
       <element id="module-output" name="DracoIndexationManagement" />
-      <element id="archive" name="DracoIndexationManagement.jar" />
     </root>
   </artifact>
 </component>
