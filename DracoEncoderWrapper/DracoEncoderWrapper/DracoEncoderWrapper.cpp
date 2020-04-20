@@ -1,6 +1,7 @@
 ﻿#include <iostream>
 #include <algorithm>
 #include <iterator>
+#include  "encode.h"
 
 int main(int argc, char* argv[])
 {
@@ -13,4 +14,8 @@ int main(int argc, char* argv[])
 
         std::copy(argv + 1, argv + argc, std::ostream_iterator<const char*>(std::cout, "\n"));
     }
+       
+    
+
+
 }
