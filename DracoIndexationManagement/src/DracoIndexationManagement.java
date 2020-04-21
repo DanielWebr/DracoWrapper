@@ -29,14 +29,24 @@ public class DracoIndexationManagement {
 
     }
 
+    /**
+     * pokud je soubor oindexovan
+     * @return boolean
+     */
     public boolean isFileIndexed(){
         return true;
     }
 
+    /**
+     * seřadí podle indexu
+     */
     public void orderByIndex(){
 
     }
 
+    /**
+     * smaže idnex
+     */
     public void deleteIndex(){
 
     }
