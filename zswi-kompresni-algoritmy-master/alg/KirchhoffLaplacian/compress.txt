@@ -1,0 +1,2 @@
+EPC_codec.exe
+-e {0} {0}.bin {1} 0

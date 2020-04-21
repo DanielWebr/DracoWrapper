@@ -1,0 +1,2 @@
+EPC_codec.exe
+-d {0} mesh.obj 0

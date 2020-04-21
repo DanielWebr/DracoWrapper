@@ -1,0 +1,1 @@
+java -jar "Algorithm testing.jar"

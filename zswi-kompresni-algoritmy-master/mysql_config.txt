@@ -1,0 +1,9 @@
+db1.relaxhosting.cz:3306/4211meshcompres?serverTimezone=UTC&useJDBCCompliantTimezoneShift=true
+4211meshcompres
+Xg5b#R5JMzub
+
+algorithm
+metric
+object
+combo
+result
