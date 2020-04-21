@@ -29,6 +29,18 @@ public class DracoIndexationManagement {
 
     }
 
+    public boolean isFileIndexed(){
+        return true;
+    }
+
+    public void orderByIndex(){
+
+    }
+
+    public void deleteIndex(){
+
+    }
+
     public static String getFileName(File file){
         String fileName = "";
 
