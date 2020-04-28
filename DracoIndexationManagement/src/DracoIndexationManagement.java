@@ -29,6 +29,22 @@ public class DracoIndexationManagement {
 
     }
 
+    public static String getFileName(File file){
+        String fileName = "";
+
+        try {
+            if (file != null && file.exists()) {
+                String name = file.getName();
+                fileName = name.substring(0,name.indexOf("."));
+            }
+        } catch (Exception e) {
+            fileName = "";
+        }
+
+        return fileName;
+
+    }
+
     /**
      * pokud je soubor oindexovan
      * @return boolean
@@ -51,21 +67,6 @@ public class DracoIndexationManagement {
 
     }
 
-    public static String getFileName(File file){
-        String fileName = "";
-
-        try {
-            if (file != null && file.exists()) {
-                String name = file.getName();
-                fileName = name.substring(0,name.indexOf("."));
-            }
-        } catch (Exception e) {
-            fileName = "";
-        }
-
-        return fileName;
-
-    }
 
     public void addIndexes(){
         String newFile = "";
