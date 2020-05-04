@@ -1,0 +1,7 @@
+﻿  Building Custom Rule C:/Users/jachu/Downloads/draco-1.2.0/draco-1.2.0/CMakeLists.txt
+  metadata_decoder.cc
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/metadata/metadata.h(134,27): warning C4267: return: Převod z: size_t na: int, může dojít ke ztrátě dat.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco\metadata\metadata_decoder.cc(41,21): warning C4018: <: signed/unsigned – neshoda
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco\metadata\metadata_decoder.cc(57,21): warning C4018: <: signed/unsigned – neshoda
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco\metadata\metadata_decoder.cc(63,21): warning C4018: <: signed/unsigned – neshoda
+  draco_metadata_dec.vcxproj -> C:\Users\jachu\Downloads\draco-1.2.0\draco_metadata_dec.dir\Debug\draco_metadata_dec.lib

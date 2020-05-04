@@ -1,0 +1,139 @@
+﻿  Building Custom Rule C:/Users/jachu/Downloads/draco-1.2.0/draco-1.2.0/CMakeLists.txt
+  mesh_io.cc
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/attributes/point_attribute.h(68,1): warning C4267: =: Převod z: size_t na: int, může dojít ke ztrátě dat.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/metadata/metadata.h(134,27): warning C4267: return: Převod z: size_t na: int, může dojít ke ztrátě dat.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/point_cloud/point_cloud.h(57,34): warning C4267: return: Převod z: size_t na: int32_t, může dojít ke ztrátě dat.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/mesh/mesh.h(51,1): warning C4267: argument: Převod z: size_t na: const ValueTypeT, může dojít ke ztrátě dat.
+          with
+          [
+              ValueTypeT=int32_t
+          ]
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/mesh/mesh.h(61,42): warning C4267: return: Převod z: size_t na: int, může dojít ke ztrátě dat.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/mesh/mesh.h(122,1): warning C4267: argument: Převod z: size_t na: const ValueTypeT, může dojít ke ztrátě dat.
+          with
+          [
+              ValueTypeT=int32_t
+          ]
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/io/ply_reader.h(82,1): warning C4267: =: Převod z: size_t na: int, může dojít ke ztrátě dat.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/io/ply_reader.h(85,38): warning C4244: argument: int64_t se převádí na int; může dojít ke ztrátě dat.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/io/ply_reader.h(95,30): warning C4267: return: Převod z: size_t na: int, může dojít ke ztrátě dat.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/io/ply_reader.h(96,36): warning C4244: return: const int64_t se převádí na int; může dojít ke ztrátě dat.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/io/ply_reader.h(123,28): warning C4267: return: Převod z: size_t na: int, může dojít ke ztrátě dat.
+  obj_decoder.cc
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/attributes/point_attribute.h(68,1): warning C4267: =: Převod z: size_t na: int, může dojít ke ztrátě dat.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/metadata/metadata.h(134,27): warning C4267: return: Převod z: size_t na: int, může dojít ke ztrátě dat.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/point_cloud/point_cloud.h(57,34): warning C4267: return: Převod z: size_t na: int32_t, může dojít ke ztrátě dat.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/mesh/mesh.h(51,1): warning C4267: argument: Převod z: size_t na: const ValueTypeT, může dojít ke ztrátě dat.
+          with
+          [
+              ValueTypeT=int32_t
+          ]
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/mesh/mesh.h(61,42): warning C4267: return: Převod z: size_t na: int, může dojít ke ztrátě dat.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/mesh/mesh.h(122,1): warning C4267: argument: Převod z: size_t na: const ValueTypeT, může dojít ke ztrátě dat.
+          with
+          [
+              ValueTypeT=int32_t
+          ]
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco\io\obj_decoder.cc(172,73): warning C4267: argument: Převod z: size_t na: int, může dojít ke ztrátě dat.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco\io\obj_decoder.cc(486,47): warning C4267: inicializování: Převod z: size_t na: int, může dojít ke ztrátě dat.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco\io\obj_decoder.cc(486,47): warning C4267: inicializování: Převod z: size_t na: const int, může dojít ke ztrátě dat.
+  obj_encoder.cc
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/attributes/point_attribute.h(68,1): warning C4267: =: Převod z: size_t na: int, může dojít ke ztrátě dat.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/metadata/metadata.h(134,27): warning C4267: return: Převod z: size_t na: int, může dojít ke ztrátě dat.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/point_cloud/point_cloud.h(57,34): warning C4267: return: Převod z: size_t na: int32_t, může dojít ke ztrátě dat.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/mesh/mesh.h(51,1): warning C4267: argument: Převod z: size_t na: const ValueTypeT, může dojít ke ztrátě dat.
+          with
+          [
+              ValueTypeT=int32_t
+          ]
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/mesh/mesh.h(61,42): warning C4267: return: Převod z: size_t na: int, může dojít ke ztrátě dat.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/mesh/mesh.h(122,1): warning C4267: argument: Převod z: size_t na: const ValueTypeT, může dojít ke ztrátě dat.
+          with
+          [
+              ValueTypeT=int32_t
+          ]
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco\io\obj_encoder.cc(164,49): warning C4267: argument: Převod z: size_t na: const ValueTypeT, může dojít ke ztrátě dat.
+          with
+          [
+              ValueTypeT=int32_t
+          ]
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco\io\obj_encoder.cc(181,49): warning C4267: argument: Převod z: size_t na: const ValueTypeT, může dojít ke ztrátě dat.
+          with
+          [
+              ValueTypeT=int32_t
+          ]
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco\io\obj_encoder.cc(198,49): warning C4267: argument: Převod z: size_t na: const ValueTypeT, může dojít ke ztrátě dat.
+          with
+          [
+              ValueTypeT=int32_t
+          ]
+  parser_utils.cc
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco\io\parser_utils.cc(28,48): warning C4267: inicializování: Převod z: size_t na: int, může dojít ke ztrátě dat.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco\io\parser_utils.cc(28,48): warning C4267: inicializování: Převod z: size_t na: const int, může dojít ke ztrátě dat.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco\io\parser_utils.cc(135,18): warning C4244: =: double se převádí na float; může dojít ke ztrátě dat.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco\io\parser_utils.cc(153,28): warning C4146: Unární operátor minus je použitý pro typ bez znaménka. Výsledkem bude i tak hodnota bez znaménka.
+  ply_decoder.cc
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/io/ply_reader.h(82,1): warning C4267: =: Převod z: size_t na: int, může dojít ke ztrátě dat.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/io/ply_reader.h(85,38): warning C4244: argument: int64_t se převádí na int; může dojít ke ztrátě dat.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/io/ply_reader.h(95,30): warning C4267: return: Převod z: size_t na: int, může dojít ke ztrátě dat.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/io/ply_reader.h(96,36): warning C4244: return: const int64_t se převádí na int; může dojít ke ztrátě dat.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/io/ply_reader.h(123,28): warning C4267: return: Převod z: size_t na: int, může dojít ke ztrátě dat.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/attributes/point_attribute.h(68,1): warning C4267: =: Převod z: size_t na: int, může dojít ke ztrátě dat.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/metadata/metadata.h(134,27): warning C4267: return: Převod z: size_t na: int, může dojít ke ztrátě dat.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/point_cloud/point_cloud.h(57,34): warning C4267: return: Převod z: size_t na: int32_t, může dojít ke ztrátě dat.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/mesh/mesh.h(51,1): warning C4267: argument: Převod z: size_t na: const ValueTypeT, může dojít ke ztrátě dat.
+          with
+          [
+              ValueTypeT=int32_t
+          ]
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/mesh/mesh.h(61,42): warning C4267: return: Převod z: size_t na: int, může dojít ke ztrátě dat.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/mesh/mesh.h(122,1): warning C4267: argument: Převod z: size_t na: const ValueTypeT, může dojít ke ztrátě dat.
+          with
+          [
+              ValueTypeT=int32_t
+          ]
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco\io\ply_decoder.cc(109,59): warning C4244: argument: int64_t se převádí na int; může dojít ke ztrátě dat.
+  ply_encoder.cc
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/attributes/point_attribute.h(68,1): warning C4267: =: Převod z: size_t na: int, může dojít ke ztrátě dat.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/metadata/metadata.h(134,27): warning C4267: return: Převod z: size_t na: int, může dojít ke ztrátě dat.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/point_cloud/point_cloud.h(57,34): warning C4267: return: Převod z: size_t na: int32_t, může dojít ke ztrátě dat.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/mesh/mesh.h(51,1): warning C4267: argument: Převod z: size_t na: const ValueTypeT, může dojít ke ztrátě dat.
+          with
+          [
+              ValueTypeT=int32_t
+          ]
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/mesh/mesh.h(61,42): warning C4267: return: Převod z: size_t na: int, může dojít ke ztrátě dat.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/mesh/mesh.h(122,1): warning C4267: argument: Převod z: size_t na: const ValueTypeT, může dojít ke ztrátě dat.
+          with
+          [
+              ValueTypeT=int32_t
+          ]
+  ply_reader.cc
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/io/ply_reader.h(82,1): warning C4267: =: Převod z: size_t na: int, může dojít ke ztrátě dat.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/io/ply_reader.h(85,38): warning C4244: argument: int64_t se převádí na int; může dojít ke ztrátě dat.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/io/ply_reader.h(95,30): warning C4267: return: Převod z: size_t na: int, může dojít ke ztrátě dat.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/io/ply_reader.h(96,36): warning C4244: return: const int64_t se převádí na int; může dojít ke ztrátě dat.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/io/ply_reader.h(123,28): warning C4267: return: Převod z: size_t na: int, může dojít ke ztrátě dat.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco\io\ply_reader.cc(123,50): warning C4267: =: Převod z: size_t na: int, může dojít ke ztrátě dat.
+  point_cloud_io.cc
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/attributes/point_attribute.h(68,1): warning C4267: =: Převod z: size_t na: int, může dojít ke ztrátě dat.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/metadata/metadata.h(134,27): warning C4267: return: Převod z: size_t na: int, může dojít ke ztrátě dat.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/point_cloud/point_cloud.h(57,34): warning C4267: return: Převod z: size_t na: int32_t, může dojít ke ztrátě dat.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/mesh/mesh.h(51,1): warning C4267: argument: Převod z: size_t na: const ValueTypeT, může dojít ke ztrátě dat.
+          with
+          [
+              ValueTypeT=int32_t
+          ]
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/mesh/mesh.h(61,42): warning C4267: return: Převod z: size_t na: int, může dojít ke ztrátě dat.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/mesh/mesh.h(122,1): warning C4267: argument: Převod z: size_t na: const ValueTypeT, může dojít ke ztrátě dat.
+          with
+          [
+              ValueTypeT=int32_t
+          ]
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/io/ply_reader.h(82,1): warning C4267: =: Převod z: size_t na: int, může dojít ke ztrátě dat.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/io/ply_reader.h(85,38): warning C4244: argument: int64_t se převádí na int; může dojít ke ztrátě dat.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/io/ply_reader.h(95,30): warning C4267: return: Převod z: size_t na: int, může dojít ke ztrátě dat.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/io/ply_reader.h(96,36): warning C4244: return: const int64_t se převádí na int; může dojít ke ztrátě dat.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/io/ply_reader.h(123,28): warning C4267: return: Převod z: size_t na: int, může dojít ke ztrátě dat.
+  Generování kódu...
+  draco_io.vcxproj -> C:\Users\jachu\Downloads\draco-1.2.0\draco_io.dir\Debug\draco_io.lib

@@ -1,0 +1,48 @@
+﻿  Building Custom Rule C:/Users/jachu/Downloads/draco-1.2.0/draco-1.2.0/CMakeLists.txt
+  point_cloud_encoder.cc
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/attributes/point_attribute.h(68,1): warning C4267: =: Převod z: size_t na: int, může dojít ke ztrátě dat.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/metadata/metadata.h(134,27): warning C4267: return: Převod z: size_t na: int, může dojít ke ztrátě dat.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/point_cloud/point_cloud.h(57,34): warning C4267: return: Převod z: size_t na: int32_t, může dojít ke ztrátě dat.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/attributes/attributes_encoder.h(92,1): warning C4267: =: Převod z: size_t na: _Ty, může dojít ke ztrátě dat.
+          with
+          [
+              _Ty=int32_t
+          ]
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/attributes/attributes_encoder.h(105,35): warning C4267: return: Převod z: size_t na: uint32_t, může dojít ke ztrátě dat.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/attributes/attributes_encoder.h(125,1): warning C4267: inicializování: Převod z: size_t na: int, může dojít ke ztrátě dat.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/attributes/attributes_encoder.h(125,1): warning C4267: inicializování: Převod z: size_t na: const int, může dojít ke ztrátě dat.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/point_cloud/point_cloud_encoder.h(47,39): warning C4267: return: Převod z: size_t na: int, může dojít ke ztrátě dat.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/point_cloud/point_cloud_encoder.h(55,1): warning C4267: return: Převod z: size_t na: int, může dojít ke ztrátě dat.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco\compression\point_cloud\point_cloud_encoder.cc(135,23): warning C4018: <: signed/unsigned – neshoda
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco\compression\point_cloud\point_cloud_encoder.cc(195,25): warning C4018: <: signed/unsigned – neshoda
+  point_cloud_kd_tree_encoder.cc
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/attributes/point_attribute.h(68,1): warning C4267: =: Převod z: size_t na: int, může dojít ke ztrátě dat.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/metadata/metadata.h(134,27): warning C4267: return: Převod z: size_t na: int, může dojít ke ztrátě dat.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/point_cloud/point_cloud.h(57,34): warning C4267: return: Převod z: size_t na: int32_t, může dojít ke ztrátě dat.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/attributes/attributes_encoder.h(92,1): warning C4267: =: Převod z: size_t na: _Ty, může dojít ke ztrátě dat.
+          with
+          [
+              _Ty=int32_t
+          ]
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/attributes/attributes_encoder.h(105,35): warning C4267: return: Převod z: size_t na: uint32_t, může dojít ke ztrátě dat.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/attributes/attributes_encoder.h(125,1): warning C4267: inicializování: Převod z: size_t na: int, může dojít ke ztrátě dat.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/attributes/attributes_encoder.h(125,1): warning C4267: inicializování: Převod z: size_t na: const int, může dojít ke ztrátě dat.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/point_cloud/point_cloud_encoder.h(47,39): warning C4267: return: Převod z: size_t na: int, může dojít ke ztrátě dat.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/point_cloud/point_cloud_encoder.h(55,1): warning C4267: return: Převod z: size_t na: int, může dojít ke ztrátě dat.
+  point_cloud_sequential_encoder.cc
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/attributes/point_attribute.h(68,1): warning C4267: =: Převod z: size_t na: int, může dojít ke ztrátě dat.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/metadata/metadata.h(134,27): warning C4267: return: Převod z: size_t na: int, může dojít ke ztrátě dat.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/point_cloud/point_cloud.h(57,34): warning C4267: return: Převod z: size_t na: int32_t, může dojít ke ztrátě dat.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/attributes/attributes_encoder.h(92,1): warning C4267: =: Převod z: size_t na: _Ty, může dojít ke ztrátě dat.
+          with
+          [
+              _Ty=int32_t
+          ]
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/attributes/attributes_encoder.h(105,35): warning C4267: return: Převod z: size_t na: uint32_t, může dojít ke ztrátě dat.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/attributes/attributes_encoder.h(125,1): warning C4267: inicializování: Převod z: size_t na: int, může dojít ke ztrátě dat.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/attributes/attributes_encoder.h(125,1): warning C4267: inicializování: Převod z: size_t na: const int, může dojít ke ztrátě dat.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/point_cloud/point_cloud_encoder.h(47,39): warning C4267: return: Převod z: size_t na: int, může dojít ke ztrátě dat.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/point_cloud/point_cloud_encoder.h(55,1): warning C4267: return: Převod z: size_t na: int, může dojít ke ztrátě dat.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/attributes/sequential_attribute_encoder.h(61,35): warning C4267: return: Převod z: size_t na: int, může dojít ke ztrátě dat.
+  Generování kódu...
+  draco_compression_point_cloud_enc.vcxproj -> C:\Users\jachu\Downloads\draco-1.2.0\draco_compression_point_cloud_enc.dir\Debug\draco_compression_point_cloud_enc.lib

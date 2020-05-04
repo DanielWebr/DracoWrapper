@@ -1,0 +1,7 @@
+﻿  Building Custom Rule C:/Users/jachu/Downloads/draco-1.2.0/draco-1.2.0/CMakeLists.txt
+  geometry_metadata.cc
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/metadata/metadata.h(134,27): warning C4267: return: Převod z: size_t na: int, může dojít ke ztrátě dat.
+  metadata.cc
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/metadata/metadata.h(134,27): warning C4267: return: Převod z: size_t na: int, může dojít ke ztrátě dat.
+  Generování kódu...
+  draco_metadata.vcxproj -> C:\Users\jachu\Downloads\draco-1.2.0\draco_metadata.dir\Debug\draco_metadata.lib

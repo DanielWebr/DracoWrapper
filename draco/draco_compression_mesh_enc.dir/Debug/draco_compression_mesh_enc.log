@@ -1,0 +1,379 @@
+﻿  Building Custom Rule C:/Users/jachu/Downloads/draco-1.2.0/draco-1.2.0/CMakeLists.txt
+  mesh_edgebreaker_encoder.cc
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/mesh/corner_table.h(63,35): warning C4267: return: Převod z: size_t na: int, může dojít ke ztrátě dat.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/mesh/corner_table.h(64,34): warning C4267: return: Převod z: size_t na: int, může dojít ke ztrátě dat.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/mesh/corner_table.h(65,32): warning C4267: return: Převod z: size_t na: int, může dojít ke ztrátě dat.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/mesh/corner_table.h(235,1): warning C4267: argument: Převod z: size_t na: ValueTypeT, může dojít ke ztrátě dat.
+          with
+          [
+              ValueTypeT=int32_t
+          ]
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/attributes/point_attribute.h(68,1): warning C4267: =: Převod z: size_t na: int, může dojít ke ztrátě dat.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/metadata/metadata.h(134,27): warning C4267: return: Převod z: size_t na: int, může dojít ke ztrátě dat.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/point_cloud/point_cloud.h(57,34): warning C4267: return: Převod z: size_t na: int32_t, může dojít ke ztrátě dat.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/mesh/mesh.h(51,1): warning C4267: argument: Převod z: size_t na: const ValueTypeT, může dojít ke ztrátě dat.
+          with
+          [
+              ValueTypeT=int32_t
+          ]
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/mesh/mesh.h(61,42): warning C4267: return: Převod z: size_t na: int, může dojít ke ztrátě dat.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/mesh/mesh.h(122,1): warning C4267: argument: Převod z: size_t na: const ValueTypeT, může dojít ke ztrátě dat.
+          with
+          [
+              ValueTypeT=int32_t
+          ]
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/mesh/mesh_attribute_corner_table.h(85,28): warning C4267: return: Převod z: size_t na: int, může dojít ke ztrátě dat.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/attributes/attributes_encoder.h(92,1): warning C4267: =: Převod z: size_t na: _Ty, může dojít ke ztrátě dat.
+          with
+          [
+              _Ty=int32_t
+          ]
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/attributes/attributes_encoder.h(105,35): warning C4267: return: Převod z: size_t na: uint32_t, může dojít ke ztrátě dat.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/attributes/attributes_encoder.h(125,1): warning C4267: inicializování: Převod z: size_t na: int, může dojít ke ztrátě dat.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/attributes/attributes_encoder.h(125,1): warning C4267: inicializování: Převod z: size_t na: const int, může dojít ke ztrátě dat.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/point_cloud/point_cloud_encoder.h(47,39): warning C4267: return: Převod z: size_t na: int, může dojít ke ztrátě dat.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/point_cloud/point_cloud_encoder.h(55,1): warning C4267: return: Převod z: size_t na: int, může dojít ke ztrátě dat.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/mesh/mesh_edgebreaker_traversal_encoder.h(90,33): warning C4267: return: Převod z: size_t na: int, může dojít ke ztrátě dat.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/mesh/mesh_edgebreaker_traversal_encoder.h(101,1): warning C4267: inicializování: Převod z: size_t na: int, může dojít ke ztrátě dat.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/mesh/mesh_edgebreaker_traversal_predictive_encoder.h(148,1): warning C4267: inicializování: Převod z: size_t na: int, může dojít ke ztrátě dat.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/mesh/mesh_edgebreaker_traversal_valence_encoder.h(54,1): warning C4267: argument: Převod z: size_t na: const ValueTypeT, může dojít ke ztrátě dat.
+          with
+          [
+              ValueTypeT=int32_t
+          ]
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/mesh/mesh_edgebreaker_traversal_valence_encoder.h(129,1): warning C4267: inicializování: Převod z: size_t na: int, může dojít ke ztrátě dat.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/mesh/mesh_edgebreaker_traversal_valence_encoder.h(129,1): warning C4267: inicializování: Převod z: size_t na: const int, může dojít ke ztrátě dat.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/mesh/mesh_edgebreaker_traversal_valence_encoder.h(190,1): warning C4267: argument: Převod z: size_t na: IntTypeT, může dojít ke ztrátě dat.
+          with
+          [
+              IntTypeT=uint32_t
+          ]
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/mesh/mesh_edgebreaker_traversal_valence_encoder.h(193,1): warning C4267: argument: Převod z: size_t na: int, může dojít ke ztrátě dat.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/core/symbol_coding_utils.h(44,1): warning C4146: Unární operátor minus je použitý pro typ bez znaménka. Výsledkem bude i tak hodnota bez znaménka.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/core/varint_encoding.h(48): message : Zobrazit odkaz na kompilované vytváření instancí funkce šablona unsigned int draco::ConvertSignedIntToSymbol<IntTypeT>(IntTypeT)
+          with
+          [
+              IntTypeT=uint32_t
+          ]
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/mesh/mesh_edgebreaker_traversal_valence_encoder.h(190): message : Zobrazit odkaz na kompilované vytváření instancí funkce šablona bool draco::EncodeVarint<uint32_t>(IntTypeT,draco::EncoderBuffer *)
+          with
+          [
+              IntTypeT=uint32_t
+          ]
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/attributes/geometry_indices.h(34): message : Zobrazit odkaz na kompilované vytváření instancí funkce třída šablona draco::IndexType<int32_t,draco::AttributeValueIndex_tag_type_>
+  mesh_edgebreaker_encoder_impl.cc
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/attributes/point_attribute.h(68,1): warning C4267: =: Převod z: size_t na: int, může dojít ke ztrátě dat.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/metadata/metadata.h(134,27): warning C4267: return: Převod z: size_t na: int, může dojít ke ztrátě dat.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/point_cloud/point_cloud.h(57,34): warning C4267: return: Převod z: size_t na: int32_t, může dojít ke ztrátě dat.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/mesh/mesh.h(51,1): warning C4267: argument: Převod z: size_t na: const ValueTypeT, může dojít ke ztrátě dat.
+          with
+          [
+              ValueTypeT=int32_t
+          ]
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/mesh/mesh.h(61,42): warning C4267: return: Převod z: size_t na: int, může dojít ke ztrátě dat.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/mesh/mesh.h(122,1): warning C4267: argument: Převod z: size_t na: const ValueTypeT, může dojít ke ztrátě dat.
+          with
+          [
+              ValueTypeT=int32_t
+          ]
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/mesh/corner_table.h(63,35): warning C4267: return: Převod z: size_t na: int, může dojít ke ztrátě dat.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/mesh/corner_table.h(64,34): warning C4267: return: Převod z: size_t na: int, může dojít ke ztrátě dat.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/mesh/corner_table.h(65,32): warning C4267: return: Převod z: size_t na: int, může dojít ke ztrátě dat.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/mesh/corner_table.h(235,1): warning C4267: argument: Převod z: size_t na: ValueTypeT, může dojít ke ztrátě dat.
+          with
+          [
+              ValueTypeT=int32_t
+          ]
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/mesh/mesh_attribute_corner_table.h(85,28): warning C4267: return: Převod z: size_t na: int, může dojít ke ztrátě dat.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/attributes/attributes_encoder.h(92,1): warning C4267: =: Převod z: size_t na: _Ty, může dojít ke ztrátě dat.
+          with
+          [
+              _Ty=int32_t
+          ]
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/attributes/attributes_encoder.h(105,35): warning C4267: return: Převod z: size_t na: uint32_t, může dojít ke ztrátě dat.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/attributes/attributes_encoder.h(125,1): warning C4267: inicializování: Převod z: size_t na: int, může dojít ke ztrátě dat.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/attributes/attributes_encoder.h(125,1): warning C4267: inicializování: Převod z: size_t na: const int, může dojít ke ztrátě dat.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/point_cloud/point_cloud_encoder.h(47,39): warning C4267: return: Převod z: size_t na: int, může dojít ke ztrátě dat.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/point_cloud/point_cloud_encoder.h(55,1): warning C4267: return: Převod z: size_t na: int, může dojít ke ztrátě dat.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/attributes/sequential_attribute_encoder.h(61,35): warning C4267: return: Převod z: size_t na: int, může dojít ke ztrátě dat.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/mesh/mesh_edgebreaker_traversal_encoder.h(90,33): warning C4267: return: Převod z: size_t na: int, může dojít ke ztrátě dat.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/mesh/mesh_edgebreaker_traversal_encoder.h(101,1): warning C4267: inicializování: Převod z: size_t na: int, může dojít ke ztrátě dat.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/mesh/mesh_edgebreaker_traversal_predictive_encoder.h(148,1): warning C4267: inicializování: Převod z: size_t na: int, může dojít ke ztrátě dat.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/mesh/mesh_edgebreaker_traversal_valence_encoder.h(54,1): warning C4267: argument: Převod z: size_t na: const ValueTypeT, může dojít ke ztrátě dat.
+          with
+          [
+              ValueTypeT=int32_t
+          ]
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/mesh/mesh_edgebreaker_traversal_valence_encoder.h(129,1): warning C4267: inicializování: Převod z: size_t na: int, může dojít ke ztrátě dat.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/mesh/mesh_edgebreaker_traversal_valence_encoder.h(129,1): warning C4267: inicializování: Převod z: size_t na: const int, může dojít ke ztrátě dat.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/mesh/mesh_edgebreaker_traversal_valence_encoder.h(190,1): warning C4267: argument: Převod z: size_t na: IntTypeT, může dojít ke ztrátě dat.
+          with
+          [
+              IntTypeT=uint32_t
+          ]
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/mesh/mesh_edgebreaker_traversal_valence_encoder.h(193,1): warning C4267: argument: Převod z: size_t na: int, může dojít ke ztrátě dat.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco\compression\mesh\mesh_edgebreaker_encoder_impl.cc(815): warning C4661: draco::MeshEdgeBreakerEncoderImpl<draco::MeshEdgeBreakerTraversalEncoder>::MeshEdgeBreakerEncoderImpl(const TraversalEncoderT &): Není zadaná žádná vhodná definice pro požadavek na explicitní vytváření instancí šablony.
+          with
+          [
+              TraversalEncoderT=draco::MeshEdgeBreakerTraversalEncoder
+          ]
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/mesh/mesh_edgebreaker_encoder_impl.h(37): message : viz deklarace: draco::MeshEdgeBreakerEncoderImpl<draco::MeshEdgeBreakerTraversalEncoder>::MeshEdgeBreakerEncoderImpl
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco\compression\mesh\mesh_edgebreaker_encoder_impl.cc(815): warning C4661: bool draco::MeshEdgeBreakerEncoderImpl<draco::MeshEdgeBreakerTraversalEncoder>::AssignPositionEncodingOrderToAllCorners(void): Není zadaná žádná vhodná definice pro požadavek na explicitní vytváření instancí šablony.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/mesh/mesh_edgebreaker_encoder_impl.h(119): message : viz deklarace: draco::MeshEdgeBreakerEncoderImpl<draco::MeshEdgeBreakerTraversalEncoder>::AssignPositionEncodingOrderToAllCorners
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco\compression\mesh\mesh_edgebreaker_encoder_impl.cc(815): warning C4661: bool draco::MeshEdgeBreakerEncoderImpl<draco::MeshEdgeBreakerTraversalEncoder>::GenerateEncodingOrderForAttributes(void): Není zadaná žádná vhodná definice pro požadavek na explicitní vytváření instancí šablony.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/mesh/mesh_edgebreaker_encoder_impl.h(124): message : viz deklarace: draco::MeshEdgeBreakerEncoderImpl<draco::MeshEdgeBreakerTraversalEncoder>::GenerateEncodingOrderForAttributes
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco\compression\mesh\mesh_edgebreaker_encoder_impl.cc(817): warning C4661: draco::MeshEdgeBreakerEncoderImpl<draco::MeshEdgeBreakerTraversalPredictiveEncoder>::MeshEdgeBreakerEncoderImpl(const TraversalEncoderT &): Není zadaná žádná vhodná definice pro požadavek na explicitní vytváření instancí šablony.
+          with
+          [
+              TraversalEncoderT=draco::MeshEdgeBreakerTraversalPredictiveEncoder
+          ]
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/mesh/mesh_edgebreaker_encoder_impl.h(37): message : viz deklarace: draco::MeshEdgeBreakerEncoderImpl<draco::MeshEdgeBreakerTraversalPredictiveEncoder>::MeshEdgeBreakerEncoderImpl
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco\compression\mesh\mesh_edgebreaker_encoder_impl.cc(817): warning C4661: bool draco::MeshEdgeBreakerEncoderImpl<draco::MeshEdgeBreakerTraversalPredictiveEncoder>::AssignPositionEncodingOrderToAllCorners(void): Není zadaná žádná vhodná definice pro požadavek na explicitní vytváření instancí šablony.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/mesh/mesh_edgebreaker_encoder_impl.h(119): message : viz deklarace: draco::MeshEdgeBreakerEncoderImpl<draco::MeshEdgeBreakerTraversalPredictiveEncoder>::AssignPositionEncodingOrderToAllCorners
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco\compression\mesh\mesh_edgebreaker_encoder_impl.cc(817): warning C4661: bool draco::MeshEdgeBreakerEncoderImpl<draco::MeshEdgeBreakerTraversalPredictiveEncoder>::GenerateEncodingOrderForAttributes(void): Není zadaná žádná vhodná definice pro požadavek na explicitní vytváření instancí šablony.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/mesh/mesh_edgebreaker_encoder_impl.h(124): message : viz deklarace: draco::MeshEdgeBreakerEncoderImpl<draco::MeshEdgeBreakerTraversalPredictiveEncoder>::GenerateEncodingOrderForAttributes
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco\compression\mesh\mesh_edgebreaker_encoder_impl.cc(819): warning C4661: draco::MeshEdgeBreakerEncoderImpl<draco::MeshEdgeBreakerTraversalValenceEncoder>::MeshEdgeBreakerEncoderImpl(const TraversalEncoderT &): Není zadaná žádná vhodná definice pro požadavek na explicitní vytváření instancí šablony.
+          with
+          [
+              TraversalEncoderT=draco::MeshEdgeBreakerTraversalValenceEncoder
+          ]
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/mesh/mesh_edgebreaker_encoder_impl.h(37): message : viz deklarace: draco::MeshEdgeBreakerEncoderImpl<draco::MeshEdgeBreakerTraversalValenceEncoder>::MeshEdgeBreakerEncoderImpl
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco\compression\mesh\mesh_edgebreaker_encoder_impl.cc(819): warning C4661: bool draco::MeshEdgeBreakerEncoderImpl<draco::MeshEdgeBreakerTraversalValenceEncoder>::AssignPositionEncodingOrderToAllCorners(void): Není zadaná žádná vhodná definice pro požadavek na explicitní vytváření instancí šablony.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/mesh/mesh_edgebreaker_encoder_impl.h(119): message : viz deklarace: draco::MeshEdgeBreakerEncoderImpl<draco::MeshEdgeBreakerTraversalValenceEncoder>::AssignPositionEncodingOrderToAllCorners
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco\compression\mesh\mesh_edgebreaker_encoder_impl.cc(819): warning C4661: bool draco::MeshEdgeBreakerEncoderImpl<draco::MeshEdgeBreakerTraversalValenceEncoder>::GenerateEncodingOrderForAttributes(void): Není zadaná žádná vhodná definice pro požadavek na explicitní vytváření instancí šablony.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/mesh/mesh_edgebreaker_encoder_impl.h(124): message : viz deklarace: draco::MeshEdgeBreakerEncoderImpl<draco::MeshEdgeBreakerTraversalValenceEncoder>::GenerateEncodingOrderForAttributes
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco\compression\mesh\mesh_edgebreaker_encoder_impl.cc(315,1): warning C4267: inicializování: Převod z: size_t na: uint8_t, může dojít ke ztrátě dat.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco\compression\mesh\mesh_edgebreaker_encoder_impl.cc(258): message : Při kompilaci členské funkce třída šablona bool draco::MeshEdgeBreakerEncoderImpl<draco::MeshEdgeBreakerTraversalEncoder>::EncodeConnectivity(void)
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco\compression\mesh\mesh_edgebreaker_encoder_impl.cc(815): message : Zobrazit odkaz na kompilované vytváření instancí funkce třída šablona draco::MeshEdgeBreakerEncoderImpl<draco::MeshEdgeBreakerTraversalEncoder>
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/attributes/geometry_indices.h(34): message : Zobrazit odkaz na kompilované vytváření instancí funkce třída šablona draco::IndexType<int32_t,draco::AttributeValueIndex_tag_type_>
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco\compression\mesh\mesh_edgebreaker_encoder_impl.cc(315,1): warning C4267: inicializování: Převod z: size_t na: const uint8_t, může dojít ke ztrátě dat.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco\compression\mesh\mesh_edgebreaker_encoder_impl.cc(418,1): warning C4267: inicializování: Převod z: size_t na: uint32_t, může dojít ke ztrátě dat.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco\compression\mesh\mesh_edgebreaker_encoder_impl.cc(417): message : Při kompilaci členské funkce třída šablona bool draco::MeshEdgeBreakerEncoderImpl<draco::MeshEdgeBreakerTraversalEncoder>::EncodeSplitData(void)
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco\compression\mesh\mesh_edgebreaker_encoder_impl.cc(408): message : Zobrazit odkaz na kompilované vytváření instancí funkce šablona bool draco::MeshEdgeBreakerEncoderImpl<draco::MeshEdgeBreakerTraversalEncoder>::EncodeSplitData(void)
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco\compression\mesh\mesh_edgebreaker_encoder_impl.cc(698,1): warning C4267: inicializování: Převod z: size_t na: int, může dojít ke ztrátě dat.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco\compression\mesh\mesh_edgebreaker_encoder_impl.cc(678): message : Při kompilaci členské funkce třída šablona bool draco::MeshEdgeBreakerEncoderImpl<draco::MeshEdgeBreakerTraversalEncoder>::FindHoles(void)
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco\compression\mesh\mesh_edgebreaker_encoder_impl.cc(309): message : Zobrazit odkaz na kompilované vytváření instancí funkce šablona bool draco::MeshEdgeBreakerEncoderImpl<draco::MeshEdgeBreakerTraversalEncoder>::FindHoles(void)
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco\compression\mesh\mesh_edgebreaker_encoder_impl.cc(698,1): warning C4267: inicializování: Převod z: size_t na: const int, může dojít ke ztrátě dat.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/attributes/mesh_traversal_sequencer.h(52,1): warning C4267: argument: Převod z: size_t na: const ValueTypeT, může dojít ke ztrátě dat.
+          with
+          [
+              ValueTypeT=int32_t
+          ]
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/attributes/mesh_traversal_sequencer.h(47): message : Při kompilaci členské funkce třída šablona bool draco::MeshTraversalSequencer<AttTraverser>::UpdatePointToAttributeIndexMapping(draco::PointAttribute *)
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco\compression\mesh\mesh_edgebreaker_encoder_impl.cc(189): message : Zobrazit odkaz na kompilované vytváření instancí funkce třída šablona draco::MeshTraversalSequencer<AttTraverser>
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco\compression\mesh\mesh_edgebreaker_encoder_impl.cc(114): message : Při kompilaci členské funkce třída šablona bool draco::MeshEdgeBreakerEncoderImpl<draco::MeshEdgeBreakerTraversalEncoder>::GenerateAttributesEncoder(int32_t)
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco\compression\mesh\mesh_edgebreaker_encoder_impl.cc(42): warning C4661: draco::MeshEdgeBreakerEncoderImpl<draco::MeshEdgeBreakerTraversalEncoder>::MeshEdgeBreakerEncoderImpl(const TraversalEncoderT &): Není zadaná žádná vhodná definice pro požadavek na explicitní vytváření instancí šablony.
+          with
+          [
+              TraversalEncoderT=draco::MeshEdgeBreakerTraversalEncoder
+          ]
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/mesh/mesh_edgebreaker_encoder_impl.h(37): message : viz deklarace: draco::MeshEdgeBreakerEncoderImpl<draco::MeshEdgeBreakerTraversalEncoder>::MeshEdgeBreakerEncoderImpl
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco\compression\mesh\mesh_edgebreaker_encoder_impl.cc(42): warning C4661: bool draco::MeshEdgeBreakerEncoderImpl<draco::MeshEdgeBreakerTraversalEncoder>::AssignPositionEncodingOrderToAllCorners(void): Není zadaná žádná vhodná definice pro požadavek na explicitní vytváření instancí šablony.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/mesh/mesh_edgebreaker_encoder_impl.h(119): message : viz deklarace: draco::MeshEdgeBreakerEncoderImpl<draco::MeshEdgeBreakerTraversalEncoder>::AssignPositionEncodingOrderToAllCorners
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco\compression\mesh\mesh_edgebreaker_encoder_impl.cc(42): warning C4661: bool draco::MeshEdgeBreakerEncoderImpl<draco::MeshEdgeBreakerTraversalEncoder>::GenerateEncodingOrderForAttributes(void): Není zadaná žádná vhodná definice pro požadavek na explicitní vytváření instancí šablony.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/mesh/mesh_edgebreaker_encoder_impl.h(124): message : viz deklarace: draco::MeshEdgeBreakerEncoderImpl<draco::MeshEdgeBreakerTraversalEncoder>::GenerateEncodingOrderForAttributes
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco\compression\mesh\mesh_edgebreaker_encoder_impl.cc(42): warning C4661: draco::MeshEdgeBreakerEncoderImpl<draco::MeshEdgeBreakerTraversalPredictiveEncoder>::MeshEdgeBreakerEncoderImpl(const TraversalEncoderT &): Není zadaná žádná vhodná definice pro požadavek na explicitní vytváření instancí šablony.
+          with
+          [
+              TraversalEncoderT=draco::MeshEdgeBreakerTraversalPredictiveEncoder
+          ]
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/mesh/mesh_edgebreaker_encoder_impl.h(37): message : viz deklarace: draco::MeshEdgeBreakerEncoderImpl<draco::MeshEdgeBreakerTraversalPredictiveEncoder>::MeshEdgeBreakerEncoderImpl
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco\compression\mesh\mesh_edgebreaker_encoder_impl.cc(42): warning C4661: bool draco::MeshEdgeBreakerEncoderImpl<draco::MeshEdgeBreakerTraversalPredictiveEncoder>::AssignPositionEncodingOrderToAllCorners(void): Není zadaná žádná vhodná definice pro požadavek na explicitní vytváření instancí šablony.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/mesh/mesh_edgebreaker_encoder_impl.h(119): message : viz deklarace: draco::MeshEdgeBreakerEncoderImpl<draco::MeshEdgeBreakerTraversalPredictiveEncoder>::AssignPositionEncodingOrderToAllCorners
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco\compression\mesh\mesh_edgebreaker_encoder_impl.cc(42): warning C4661: bool draco::MeshEdgeBreakerEncoderImpl<draco::MeshEdgeBreakerTraversalPredictiveEncoder>::GenerateEncodingOrderForAttributes(void): Není zadaná žádná vhodná definice pro požadavek na explicitní vytváření instancí šablony.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/mesh/mesh_edgebreaker_encoder_impl.h(124): message : viz deklarace: draco::MeshEdgeBreakerEncoderImpl<draco::MeshEdgeBreakerTraversalPredictiveEncoder>::GenerateEncodingOrderForAttributes
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco\compression\mesh\mesh_edgebreaker_encoder_impl.cc(42): warning C4661: draco::MeshEdgeBreakerEncoderImpl<draco::MeshEdgeBreakerTraversalValenceEncoder>::MeshEdgeBreakerEncoderImpl(const TraversalEncoderT &): Není zadaná žádná vhodná definice pro požadavek na explicitní vytváření instancí šablony.
+          with
+          [
+              TraversalEncoderT=draco::MeshEdgeBreakerTraversalValenceEncoder
+          ]
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/mesh/mesh_edgebreaker_encoder_impl.h(37): message : viz deklarace: draco::MeshEdgeBreakerEncoderImpl<draco::MeshEdgeBreakerTraversalValenceEncoder>::MeshEdgeBreakerEncoderImpl
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco\compression\mesh\mesh_edgebreaker_encoder_impl.cc(42): warning C4661: bool draco::MeshEdgeBreakerEncoderImpl<draco::MeshEdgeBreakerTraversalValenceEncoder>::AssignPositionEncodingOrderToAllCorners(void): Není zadaná žádná vhodná definice pro požadavek na explicitní vytváření instancí šablony.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/mesh/mesh_edgebreaker_encoder_impl.h(119): message : viz deklarace: draco::MeshEdgeBreakerEncoderImpl<draco::MeshEdgeBreakerTraversalValenceEncoder>::AssignPositionEncodingOrderToAllCorners
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco\compression\mesh\mesh_edgebreaker_encoder_impl.cc(42): warning C4661: bool draco::MeshEdgeBreakerEncoderImpl<draco::MeshEdgeBreakerTraversalValenceEncoder>::GenerateEncodingOrderForAttributes(void): Není zadaná žádná vhodná definice pro požadavek na explicitní vytváření instancí šablony.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/mesh/mesh_edgebreaker_encoder_impl.h(124): message : viz deklarace: draco::MeshEdgeBreakerEncoderImpl<draco::MeshEdgeBreakerTraversalValenceEncoder>::GenerateEncodingOrderForAttributes
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/core/symbol_coding_utils.h(44,1): warning C4146: Unární operátor minus je použitý pro typ bez znaménka. Výsledkem bude i tak hodnota bez znaménka.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/core/varint_encoding.h(48): message : Zobrazit odkaz na kompilované vytváření instancí funkce šablona unsigned int draco::ConvertSignedIntToSymbol<IntTypeT>(IntTypeT)
+          with
+          [
+              IntTypeT=uint32_t
+          ]
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/mesh/mesh_edgebreaker_traversal_valence_encoder.h(190): message : Zobrazit odkaz na kompilované vytváření instancí funkce šablona bool draco::EncodeVarint<uint32_t>(IntTypeT,draco::EncoderBuffer *)
+          with
+          [
+              IntTypeT=uint32_t
+          ]
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco\compression\mesh\mesh_edgebreaker_encoder_impl.cc(92): warning C4661: draco::MeshEdgeBreakerEncoderImpl<draco::MeshEdgeBreakerTraversalEncoder>::MeshEdgeBreakerEncoderImpl(const TraversalEncoderT &): Není zadaná žádná vhodná definice pro požadavek na explicitní vytváření instancí šablony.
+          with
+          [
+              TraversalEncoderT=draco::MeshEdgeBreakerTraversalEncoder
+          ]
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/mesh/mesh_edgebreaker_encoder_impl.h(37): message : viz deklarace: draco::MeshEdgeBreakerEncoderImpl<draco::MeshEdgeBreakerTraversalEncoder>::MeshEdgeBreakerEncoderImpl
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco\compression\mesh\mesh_edgebreaker_encoder_impl.cc(92): warning C4661: bool draco::MeshEdgeBreakerEncoderImpl<draco::MeshEdgeBreakerTraversalEncoder>::AssignPositionEncodingOrderToAllCorners(void): Není zadaná žádná vhodná definice pro požadavek na explicitní vytváření instancí šablony.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/mesh/mesh_edgebreaker_encoder_impl.h(119): message : viz deklarace: draco::MeshEdgeBreakerEncoderImpl<draco::MeshEdgeBreakerTraversalEncoder>::AssignPositionEncodingOrderToAllCorners
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco\compression\mesh\mesh_edgebreaker_encoder_impl.cc(92): warning C4661: bool draco::MeshEdgeBreakerEncoderImpl<draco::MeshEdgeBreakerTraversalEncoder>::GenerateEncodingOrderForAttributes(void): Není zadaná žádná vhodná definice pro požadavek na explicitní vytváření instancí šablony.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/mesh/mesh_edgebreaker_encoder_impl.h(124): message : viz deklarace: draco::MeshEdgeBreakerEncoderImpl<draco::MeshEdgeBreakerTraversalEncoder>::GenerateEncodingOrderForAttributes
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco\compression\mesh\mesh_edgebreaker_encoder_impl.cc(92): warning C4661: draco::MeshEdgeBreakerEncoderImpl<draco::MeshEdgeBreakerTraversalPredictiveEncoder>::MeshEdgeBreakerEncoderImpl(const TraversalEncoderT &): Není zadaná žádná vhodná definice pro požadavek na explicitní vytváření instancí šablony.
+          with
+          [
+              TraversalEncoderT=draco::MeshEdgeBreakerTraversalPredictiveEncoder
+          ]
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/mesh/mesh_edgebreaker_encoder_impl.h(37): message : viz deklarace: draco::MeshEdgeBreakerEncoderImpl<draco::MeshEdgeBreakerTraversalPredictiveEncoder>::MeshEdgeBreakerEncoderImpl
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco\compression\mesh\mesh_edgebreaker_encoder_impl.cc(92): warning C4661: bool draco::MeshEdgeBreakerEncoderImpl<draco::MeshEdgeBreakerTraversalPredictiveEncoder>::AssignPositionEncodingOrderToAllCorners(void): Není zadaná žádná vhodná definice pro požadavek na explicitní vytváření instancí šablony.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/mesh/mesh_edgebreaker_encoder_impl.h(119): message : viz deklarace: draco::MeshEdgeBreakerEncoderImpl<draco::MeshEdgeBreakerTraversalPredictiveEncoder>::AssignPositionEncodingOrderToAllCorners
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco\compression\mesh\mesh_edgebreaker_encoder_impl.cc(92): warning C4661: bool draco::MeshEdgeBreakerEncoderImpl<draco::MeshEdgeBreakerTraversalPredictiveEncoder>::GenerateEncodingOrderForAttributes(void): Není zadaná žádná vhodná definice pro požadavek na explicitní vytváření instancí šablony.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/mesh/mesh_edgebreaker_encoder_impl.h(124): message : viz deklarace: draco::MeshEdgeBreakerEncoderImpl<draco::MeshEdgeBreakerTraversalPredictiveEncoder>::GenerateEncodingOrderForAttributes
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco\compression\mesh\mesh_edgebreaker_encoder_impl.cc(92): warning C4661: draco::MeshEdgeBreakerEncoderImpl<draco::MeshEdgeBreakerTraversalValenceEncoder>::MeshEdgeBreakerEncoderImpl(const TraversalEncoderT &): Není zadaná žádná vhodná definice pro požadavek na explicitní vytváření instancí šablony.
+          with
+          [
+              TraversalEncoderT=draco::MeshEdgeBreakerTraversalValenceEncoder
+          ]
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/mesh/mesh_edgebreaker_encoder_impl.h(37): message : viz deklarace: draco::MeshEdgeBreakerEncoderImpl<draco::MeshEdgeBreakerTraversalValenceEncoder>::MeshEdgeBreakerEncoderImpl
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco\compression\mesh\mesh_edgebreaker_encoder_impl.cc(92): warning C4661: bool draco::MeshEdgeBreakerEncoderImpl<draco::MeshEdgeBreakerTraversalValenceEncoder>::AssignPositionEncodingOrderToAllCorners(void): Není zadaná žádná vhodná definice pro požadavek na explicitní vytváření instancí šablony.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/mesh/mesh_edgebreaker_encoder_impl.h(119): message : viz deklarace: draco::MeshEdgeBreakerEncoderImpl<draco::MeshEdgeBreakerTraversalValenceEncoder>::AssignPositionEncodingOrderToAllCorners
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco\compression\mesh\mesh_edgebreaker_encoder_impl.cc(92): warning C4661: bool draco::MeshEdgeBreakerEncoderImpl<draco::MeshEdgeBreakerTraversalValenceEncoder>::GenerateEncodingOrderForAttributes(void): Není zadaná žádná vhodná definice pro požadavek na explicitní vytváření instancí šablony.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/mesh/mesh_edgebreaker_encoder_impl.h(124): message : viz deklarace: draco::MeshEdgeBreakerEncoderImpl<draco::MeshEdgeBreakerTraversalValenceEncoder>::GenerateEncodingOrderForAttributes
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\xmemory(676): warning C4661: draco::MeshEdgeBreakerEncoderImpl<draco::MeshEdgeBreakerTraversalEncoder>::MeshEdgeBreakerEncoderImpl(const TraversalEncoderT &): Není zadaná žádná vhodná definice pro požadavek na explicitní vytváření instancí šablony.
+          with
+          [
+              TraversalEncoderT=draco::MeshEdgeBreakerTraversalEncoder
+          ]
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/mesh/mesh_edgebreaker_encoder_impl.h(37): message : viz deklarace: draco::MeshEdgeBreakerEncoderImpl<draco::MeshEdgeBreakerTraversalEncoder>::MeshEdgeBreakerEncoderImpl
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\xmemory(676): warning C4661: bool draco::MeshEdgeBreakerEncoderImpl<draco::MeshEdgeBreakerTraversalEncoder>::AssignPositionEncodingOrderToAllCorners(void): Není zadaná žádná vhodná definice pro požadavek na explicitní vytváření instancí šablony.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/mesh/mesh_edgebreaker_encoder_impl.h(119): message : viz deklarace: draco::MeshEdgeBreakerEncoderImpl<draco::MeshEdgeBreakerTraversalEncoder>::AssignPositionEncodingOrderToAllCorners
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\xmemory(676): warning C4661: bool draco::MeshEdgeBreakerEncoderImpl<draco::MeshEdgeBreakerTraversalEncoder>::GenerateEncodingOrderForAttributes(void): Není zadaná žádná vhodná definice pro požadavek na explicitní vytváření instancí šablony.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/mesh/mesh_edgebreaker_encoder_impl.h(124): message : viz deklarace: draco::MeshEdgeBreakerEncoderImpl<draco::MeshEdgeBreakerTraversalEncoder>::GenerateEncodingOrderForAttributes
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\xmemory(676): warning C4661: draco::MeshEdgeBreakerEncoderImpl<draco::MeshEdgeBreakerTraversalPredictiveEncoder>::MeshEdgeBreakerEncoderImpl(const TraversalEncoderT &): Není zadaná žádná vhodná definice pro požadavek na explicitní vytváření instancí šablony.
+          with
+          [
+              TraversalEncoderT=draco::MeshEdgeBreakerTraversalPredictiveEncoder
+          ]
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/mesh/mesh_edgebreaker_encoder_impl.h(37): message : viz deklarace: draco::MeshEdgeBreakerEncoderImpl<draco::MeshEdgeBreakerTraversalPredictiveEncoder>::MeshEdgeBreakerEncoderImpl
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\xmemory(676): warning C4661: bool draco::MeshEdgeBreakerEncoderImpl<draco::MeshEdgeBreakerTraversalPredictiveEncoder>::AssignPositionEncodingOrderToAllCorners(void): Není zadaná žádná vhodná definice pro požadavek na explicitní vytváření instancí šablony.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/mesh/mesh_edgebreaker_encoder_impl.h(119): message : viz deklarace: draco::MeshEdgeBreakerEncoderImpl<draco::MeshEdgeBreakerTraversalPredictiveEncoder>::AssignPositionEncodingOrderToAllCorners
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\xmemory(676): warning C4661: bool draco::MeshEdgeBreakerEncoderImpl<draco::MeshEdgeBreakerTraversalPredictiveEncoder>::GenerateEncodingOrderForAttributes(void): Není zadaná žádná vhodná definice pro požadavek na explicitní vytváření instancí šablony.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/mesh/mesh_edgebreaker_encoder_impl.h(124): message : viz deklarace: draco::MeshEdgeBreakerEncoderImpl<draco::MeshEdgeBreakerTraversalPredictiveEncoder>::GenerateEncodingOrderForAttributes
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\xmemory(676): warning C4661: draco::MeshEdgeBreakerEncoderImpl<draco::MeshEdgeBreakerTraversalValenceEncoder>::MeshEdgeBreakerEncoderImpl(const TraversalEncoderT &): Není zadaná žádná vhodná definice pro požadavek na explicitní vytváření instancí šablony.
+          with
+          [
+              TraversalEncoderT=draco::MeshEdgeBreakerTraversalValenceEncoder
+          ]
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/mesh/mesh_edgebreaker_encoder_impl.h(37): message : viz deklarace: draco::MeshEdgeBreakerEncoderImpl<draco::MeshEdgeBreakerTraversalValenceEncoder>::MeshEdgeBreakerEncoderImpl
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\xmemory(676): warning C4661: bool draco::MeshEdgeBreakerEncoderImpl<draco::MeshEdgeBreakerTraversalValenceEncoder>::AssignPositionEncodingOrderToAllCorners(void): Není zadaná žádná vhodná definice pro požadavek na explicitní vytváření instancí šablony.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/mesh/mesh_edgebreaker_encoder_impl.h(119): message : viz deklarace: draco::MeshEdgeBreakerEncoderImpl<draco::MeshEdgeBreakerTraversalValenceEncoder>::AssignPositionEncodingOrderToAllCorners
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\xmemory(676): warning C4661: bool draco::MeshEdgeBreakerEncoderImpl<draco::MeshEdgeBreakerTraversalValenceEncoder>::GenerateEncodingOrderForAttributes(void): Není zadaná žádná vhodná definice pro požadavek na explicitní vytváření instancí šablony.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/mesh/mesh_edgebreaker_encoder_impl.h(124): message : viz deklarace: draco::MeshEdgeBreakerEncoderImpl<draco::MeshEdgeBreakerTraversalValenceEncoder>::GenerateEncodingOrderForAttributes
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\xmemory(671): warning C4661: draco::MeshEdgeBreakerEncoderImpl<draco::MeshEdgeBreakerTraversalEncoder>::MeshEdgeBreakerEncoderImpl(const TraversalEncoderT &): Není zadaná žádná vhodná definice pro požadavek na explicitní vytváření instancí šablony.
+          with
+          [
+              TraversalEncoderT=draco::MeshEdgeBreakerTraversalEncoder
+          ]
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/mesh/mesh_edgebreaker_encoder_impl.h(37): message : viz deklarace: draco::MeshEdgeBreakerEncoderImpl<draco::MeshEdgeBreakerTraversalEncoder>::MeshEdgeBreakerEncoderImpl
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\xmemory(671): warning C4661: bool draco::MeshEdgeBreakerEncoderImpl<draco::MeshEdgeBreakerTraversalEncoder>::AssignPositionEncodingOrderToAllCorners(void): Není zadaná žádná vhodná definice pro požadavek na explicitní vytváření instancí šablony.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/mesh/mesh_edgebreaker_encoder_impl.h(119): message : viz deklarace: draco::MeshEdgeBreakerEncoderImpl<draco::MeshEdgeBreakerTraversalEncoder>::AssignPositionEncodingOrderToAllCorners
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\xmemory(671): warning C4661: bool draco::MeshEdgeBreakerEncoderImpl<draco::MeshEdgeBreakerTraversalEncoder>::GenerateEncodingOrderForAttributes(void): Není zadaná žádná vhodná definice pro požadavek na explicitní vytváření instancí šablony.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/mesh/mesh_edgebreaker_encoder_impl.h(124): message : viz deklarace: draco::MeshEdgeBreakerEncoderImpl<draco::MeshEdgeBreakerTraversalEncoder>::GenerateEncodingOrderForAttributes
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\xmemory(671): warning C4661: draco::MeshEdgeBreakerEncoderImpl<draco::MeshEdgeBreakerTraversalPredictiveEncoder>::MeshEdgeBreakerEncoderImpl(const TraversalEncoderT &): Není zadaná žádná vhodná definice pro požadavek na explicitní vytváření instancí šablony.
+          with
+          [
+              TraversalEncoderT=draco::MeshEdgeBreakerTraversalPredictiveEncoder
+          ]
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/mesh/mesh_edgebreaker_encoder_impl.h(37): message : viz deklarace: draco::MeshEdgeBreakerEncoderImpl<draco::MeshEdgeBreakerTraversalPredictiveEncoder>::MeshEdgeBreakerEncoderImpl
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\xmemory(671): warning C4661: bool draco::MeshEdgeBreakerEncoderImpl<draco::MeshEdgeBreakerTraversalPredictiveEncoder>::AssignPositionEncodingOrderToAllCorners(void): Není zadaná žádná vhodná definice pro požadavek na explicitní vytváření instancí šablony.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/mesh/mesh_edgebreaker_encoder_impl.h(119): message : viz deklarace: draco::MeshEdgeBreakerEncoderImpl<draco::MeshEdgeBreakerTraversalPredictiveEncoder>::AssignPositionEncodingOrderToAllCorners
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\xmemory(671): warning C4661: bool draco::MeshEdgeBreakerEncoderImpl<draco::MeshEdgeBreakerTraversalPredictiveEncoder>::GenerateEncodingOrderForAttributes(void): Není zadaná žádná vhodná definice pro požadavek na explicitní vytváření instancí šablony.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/mesh/mesh_edgebreaker_encoder_impl.h(124): message : viz deklarace: draco::MeshEdgeBreakerEncoderImpl<draco::MeshEdgeBreakerTraversalPredictiveEncoder>::GenerateEncodingOrderForAttributes
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\xmemory(671): warning C4661: draco::MeshEdgeBreakerEncoderImpl<draco::MeshEdgeBreakerTraversalValenceEncoder>::MeshEdgeBreakerEncoderImpl(const TraversalEncoderT &): Není zadaná žádná vhodná definice pro požadavek na explicitní vytváření instancí šablony.
+          with
+          [
+              TraversalEncoderT=draco::MeshEdgeBreakerTraversalValenceEncoder
+          ]
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/mesh/mesh_edgebreaker_encoder_impl.h(37): message : viz deklarace: draco::MeshEdgeBreakerEncoderImpl<draco::MeshEdgeBreakerTraversalValenceEncoder>::MeshEdgeBreakerEncoderImpl
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\xmemory(671): warning C4661: bool draco::MeshEdgeBreakerEncoderImpl<draco::MeshEdgeBreakerTraversalValenceEncoder>::AssignPositionEncodingOrderToAllCorners(void): Není zadaná žádná vhodná definice pro požadavek na explicitní vytváření instancí šablony.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/mesh/mesh_edgebreaker_encoder_impl.h(119): message : viz deklarace: draco::MeshEdgeBreakerEncoderImpl<draco::MeshEdgeBreakerTraversalValenceEncoder>::AssignPositionEncodingOrderToAllCorners
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\xmemory(671): warning C4661: bool draco::MeshEdgeBreakerEncoderImpl<draco::MeshEdgeBreakerTraversalValenceEncoder>::GenerateEncodingOrderForAttributes(void): Není zadaná žádná vhodná definice pro požadavek na explicitní vytváření instancí šablony.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/mesh/mesh_edgebreaker_encoder_impl.h(124): message : viz deklarace: draco::MeshEdgeBreakerEncoderImpl<draco::MeshEdgeBreakerTraversalValenceEncoder>::GenerateEncodingOrderForAttributes
+  mesh_encoder.cc
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/attributes/point_attribute.h(68,1): warning C4267: =: Převod z: size_t na: int, může dojít ke ztrátě dat.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/metadata/metadata.h(134,27): warning C4267: return: Převod z: size_t na: int, může dojít ke ztrátě dat.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/point_cloud/point_cloud.h(57,34): warning C4267: return: Převod z: size_t na: int32_t, může dojít ke ztrátě dat.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/attributes/attributes_encoder.h(92,1): warning C4267: =: Převod z: size_t na: _Ty, může dojít ke ztrátě dat.
+          with
+          [
+              _Ty=int32_t
+          ]
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/attributes/attributes_encoder.h(105,35): warning C4267: return: Převod z: size_t na: uint32_t, může dojít ke ztrátě dat.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/attributes/attributes_encoder.h(125,1): warning C4267: inicializování: Převod z: size_t na: int, může dojít ke ztrátě dat.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/attributes/attributes_encoder.h(125,1): warning C4267: inicializování: Převod z: size_t na: const int, může dojít ke ztrátě dat.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/point_cloud/point_cloud_encoder.h(47,39): warning C4267: return: Převod z: size_t na: int, může dojít ke ztrátě dat.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/point_cloud/point_cloud_encoder.h(55,1): warning C4267: return: Převod z: size_t na: int, může dojít ke ztrátě dat.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/mesh/mesh.h(51,1): warning C4267: argument: Převod z: size_t na: const ValueTypeT, může dojít ke ztrátě dat.
+          with
+          [
+              ValueTypeT=int32_t
+          ]
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/mesh/mesh.h(61,42): warning C4267: return: Převod z: size_t na: int, může dojít ke ztrátě dat.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/mesh/mesh.h(122,1): warning C4267: argument: Převod z: size_t na: const ValueTypeT, může dojít ke ztrátě dat.
+          with
+          [
+              ValueTypeT=int32_t
+          ]
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/mesh/corner_table.h(63,35): warning C4267: return: Převod z: size_t na: int, může dojít ke ztrátě dat.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/mesh/corner_table.h(64,34): warning C4267: return: Převod z: size_t na: int, může dojít ke ztrátě dat.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/mesh/corner_table.h(65,32): warning C4267: return: Převod z: size_t na: int, může dojít ke ztrátě dat.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/mesh/corner_table.h(235,1): warning C4267: argument: Převod z: size_t na: ValueTypeT, může dojít ke ztrátě dat.
+          with
+          [
+              ValueTypeT=int32_t
+          ]
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/mesh/mesh_attribute_corner_table.h(85,28): warning C4267: return: Převod z: size_t na: int, může dojít ke ztrátě dat.
+  mesh_sequential_encoder.cc
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/attributes/point_attribute.h(68,1): warning C4267: =: Převod z: size_t na: int, může dojít ke ztrátě dat.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/metadata/metadata.h(134,27): warning C4267: return: Převod z: size_t na: int, může dojít ke ztrátě dat.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/point_cloud/point_cloud.h(57,34): warning C4267: return: Převod z: size_t na: int32_t, může dojít ke ztrátě dat.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/attributes/attributes_encoder.h(92,1): warning C4267: =: Převod z: size_t na: _Ty, může dojít ke ztrátě dat.
+          with
+          [
+              _Ty=int32_t
+          ]
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/attributes/attributes_encoder.h(105,35): warning C4267: return: Převod z: size_t na: uint32_t, může dojít ke ztrátě dat.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/attributes/attributes_encoder.h(125,1): warning C4267: inicializování: Převod z: size_t na: int, může dojít ke ztrátě dat.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/attributes/attributes_encoder.h(125,1): warning C4267: inicializování: Převod z: size_t na: const int, může dojít ke ztrátě dat.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/point_cloud/point_cloud_encoder.h(47,39): warning C4267: return: Převod z: size_t na: int, může dojít ke ztrátě dat.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/point_cloud/point_cloud_encoder.h(55,1): warning C4267: return: Převod z: size_t na: int, může dojít ke ztrátě dat.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/mesh/mesh.h(51,1): warning C4267: argument: Převod z: size_t na: const ValueTypeT, může dojít ke ztrátě dat.
+          with
+          [
+              ValueTypeT=int32_t
+          ]
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/mesh/mesh.h(61,42): warning C4267: return: Převod z: size_t na: int, může dojít ke ztrátě dat.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/mesh/mesh.h(122,1): warning C4267: argument: Převod z: size_t na: const ValueTypeT, může dojít ke ztrátě dat.
+          with
+          [
+              ValueTypeT=int32_t
+          ]
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/mesh/corner_table.h(63,35): warning C4267: return: Převod z: size_t na: int, může dojít ke ztrátě dat.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/mesh/corner_table.h(64,34): warning C4267: return: Převod z: size_t na: int, může dojít ke ztrátě dat.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/mesh/corner_table.h(65,32): warning C4267: return: Převod z: size_t na: int, může dojít ke ztrátě dat.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/mesh/corner_table.h(235,1): warning C4267: argument: Převod z: size_t na: ValueTypeT, může dojít ke ztrátě dat.
+          with
+          [
+              ValueTypeT=int32_t
+          ]
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/mesh/mesh_attribute_corner_table.h(85,28): warning C4267: return: Převod z: size_t na: int, může dojít ke ztrátě dat.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/attributes/sequential_attribute_encoder.h(61,35): warning C4267: return: Převod z: size_t na: int, může dojít ke ztrátě dat.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco\compression\mesh\mesh_sequential_encoder.cc(118,74): warning C4267: argument: Převod z: size_t na: int, může dojít ke ztrátě dat.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/core/symbol_coding_utils.h(44,1): warning C4146: Unární operátor minus je použitý pro typ bez znaménka. Výsledkem bude i tak hodnota bez znaménka.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/core/varint_encoding.h(48): message : Zobrazit odkaz na kompilované vytváření instancí funkce šablona unsigned int draco::ConvertSignedIntToSymbol<IntTypeT>(IntTypeT)
+          with
+          [
+              IntTypeT=uint32_t
+          ]
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco\compression\mesh\mesh_sequential_encoder.cc(31): message : Zobrazit odkaz na kompilované vytváření instancí funkce šablona bool draco::EncodeVarint<uint32_t>(IntTypeT,draco::EncoderBuffer *)
+          with
+          [
+              IntTypeT=uint32_t
+          ]
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/attributes/geometry_indices.h(34): message : Zobrazit odkaz na kompilované vytváření instancí funkce třída šablona draco::IndexType<int32_t,draco::AttributeValueIndex_tag_type_>
+  Generování kódu...
+  draco_compression_mesh_enc.vcxproj -> C:\Users\jachu\Downloads\draco-1.2.0\draco_compression_mesh_enc.dir\Debug\draco_compression_mesh_enc.lib

@@ -1,0 +1,48 @@
+﻿  Building Custom Rule C:/Users/jachu/Downloads/draco-1.2.0/draco-1.2.0/CMakeLists.txt
+  attribute_octahedron_transform.cc
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/attributes/point_attribute.h(68,1): warning C4267: =: Převod z: size_t na: int, může dojít ke ztrátě dat.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco\attributes\attribute_octahedron_transform.cc(60,43): warning C4267: inicializování: Převod z: size_t na: int, může dojít ke ztrátě dat.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco\attributes\attribute_octahedron_transform.cc(60,43): warning C4267: inicializování: Převod z: size_t na: const int, může dojít ke ztrátě dat.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/attributes/attribute_transform_data.h(61,1): warning C4267: argument: Převod z: size_t na: int, může dojít ke ztrátě dat.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco\attributes\attribute_octahedron_transform.cc(37): message : Zobrazit odkaz na kompilované vytváření instancí funkce šablona void draco::AttributeTransformData::AppendParameterValue<int32_t>(const DataTypeT &)
+          with
+          [
+              DataTypeT=int32_t
+          ]
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/attributes/geometry_indices.h(34): message : Zobrazit odkaz na kompilované vytváření instancí funkce třída šablona draco::IndexType<int32_t,draco::AttributeValueIndex_tag_type_>
+  attribute_quantization_transform.cc
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/attributes/point_attribute.h(68,1): warning C4267: =: Převod z: size_t na: int, může dojít ke ztrátě dat.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco\attributes\attribute_quantization_transform.cc(79,54): warning C4267: argument: Převod z: size_t na: const ValueTypeT, může dojít ke ztrátě dat.
+          with
+          [
+              ValueTypeT=int32_t
+          ]
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco\attributes\attribute_quantization_transform.cc(116,43): warning C4267: inicializování: Převod z: size_t na: int, může dojít ke ztrátě dat.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco\attributes\attribute_quantization_transform.cc(116,43): warning C4267: inicializování: Převod z: size_t na: const int, může dojít ke ztrátě dat.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/attributes/attribute_transform_data.h(61,1): warning C4267: argument: Převod z: size_t na: int, může dojít ke ztrátě dat.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco\attributes\attribute_quantization_transform.cc(46): message : Zobrazit odkaz na kompilované vytváření instancí funkce šablona void draco::AttributeTransformData::AppendParameterValue<int32_t>(const DataTypeT &)
+          with
+          [
+              DataTypeT=int32_t
+          ]
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/attributes/geometry_indices.h(34): message : Zobrazit odkaz na kompilované vytváření instancí funkce třída šablona draco::IndexType<int32_t,draco::AttributeValueIndex_tag_type_>
+  attribute_transform.cc
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/attributes/point_attribute.h(68,1): warning C4267: =: Převod z: size_t na: int, může dojít ke ztrátě dat.
+  geometry_attribute.cc
+  point_attribute.cc
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/attributes/point_attribute.h(68,1): warning C4267: =: Převod z: size_t na: int, může dojít ke ztrátě dat.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco\attributes\point_attribute.cc(63,45): warning C4267: =: Převod z: size_t na: int, může dojít ke ztrátě dat.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco\attributes\point_attribute.cc(195,1): warning C4267: argument: Převod z: size_t na: const ValueTypeT, může dojít ke ztrátě dat.
+          with
+          [
+              ValueTypeT=int32_t
+          ]
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco\attributes\point_attribute.cc(117): message : Zobrazit odkaz na kompilované vytváření instancí funkce šablona int draco::PointAttribute::DeduplicateFormattedValues<T,1>(const draco::GeometryAttribute &,draco::AttributeValueIndex)
+          with
+          [
+              T=float
+          ]
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco\attributes\point_attribute.cc(78): message : Zobrazit odkaz na kompilované vytváření instancí funkce šablona int draco::PointAttribute::DeduplicateTypedValues<float>(const draco::GeometryAttribute &,draco::AttributeValueIndex)
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/attributes/geometry_indices.h(34): message : Zobrazit odkaz na kompilované vytváření instancí funkce třída šablona draco::IndexType<int32_t,draco::AttributeValueIndex_tag_type_>
+  Generování kódu...
+  draco_attributes.vcxproj -> C:\Users\jachu\Downloads\draco-1.2.0\draco_attributes.dir\Debug\draco_attributes.lib

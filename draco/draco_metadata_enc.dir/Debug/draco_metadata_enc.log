@@ -1,0 +1,17 @@
+﻿  Building Custom Rule C:/Users/jachu/Downloads/draco-1.2.0/draco-1.2.0/CMakeLists.txt
+  metadata_encoder.cc
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/metadata/metadata.h(134,27): warning C4267: return: Převod z: size_t na: int, může dojít ke ztrátě dat.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco\metadata\metadata_encoder.cc(32,50): warning C4267: inicializování: Převod z: size_t na: uint32_t, může dojít ke ztrátě dat.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco\metadata\metadata_encoder.cc(32,50): warning C4267: inicializování: Převod z: size_t na: const uint32_t, může dojít ke ztrátě dat.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/core/symbol_coding_utils.h(44,1): warning C4146: Unární operátor minus je použitý pro typ bez znaménka. Výsledkem bude i tak hodnota bez znaménka.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/core/varint_encoding.h(48): message : Zobrazit odkaz na kompilované vytváření instancí funkce šablona unsigned int draco::ConvertSignedIntToSymbol<IntTypeT>(IntTypeT)
+          with
+          [
+              IntTypeT=uint32_t
+          ]
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco\metadata\metadata_encoder.cc(26): message : Zobrazit odkaz na kompilované vytváření instancí funkce šablona bool draco::EncodeVarint<uint32_t>(IntTypeT,draco::EncoderBuffer *)
+          with
+          [
+              IntTypeT=uint32_t
+          ]
+  draco_metadata_enc.vcxproj -> C:\Users\jachu\Downloads\draco-1.2.0\draco_metadata_enc.dir\Debug\draco_metadata_enc.lib

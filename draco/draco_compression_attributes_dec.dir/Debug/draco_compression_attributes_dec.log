@@ -1,0 +1,1032 @@
+﻿  Building Custom Rule C:/Users/jachu/Downloads/draco-1.2.0/draco-1.2.0/CMakeLists.txt
+  attributes_decoder.cc
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/attributes/point_attribute.h(68,1): warning C4267: =: Převod z: size_t na: int, může dojít ke ztrátě dat.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/metadata/metadata.h(134,27): warning C4267: return: Převod z: size_t na: int, může dojít ke ztrátě dat.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/point_cloud/point_cloud.h(57,34): warning C4267: return: Převod z: size_t na: int32_t, může dojít ke ztrátě dat.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/point_cloud/point_cloud_decoder.h(66,1): warning C4267: return: Převod z: size_t na: int32_t, může dojít ke ztrátě dat.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/attributes/attributes_decoder.h(47,1): warning C4267: return: Převod z: size_t na: int32_t, může dojít ke ztrátě dat.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/attributes/attributes_decoder.h(66,1): warning C4267: inicializování: Převod z: size_t na: int, může dojít ke ztrátě dat.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/attributes/attributes_decoder.h(66,1): warning C4267: inicializování: Převod z: size_t na: const int, může dojít ke ztrátě dat.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco\compression\attributes\attributes_decoder.cc(45,21): warning C4018: <: signed/unsigned – neshoda
+  kd_tree_attributes_decoder.cc
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/attributes/point_attribute.h(68,1): warning C4267: =: Převod z: size_t na: int, může dojít ke ztrátě dat.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/metadata/metadata.h(134,27): warning C4267: return: Převod z: size_t na: int, může dojít ke ztrátě dat.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/point_cloud/point_cloud.h(57,34): warning C4267: return: Převod z: size_t na: int32_t, může dojít ke ztrátě dat.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/point_cloud/point_cloud_decoder.h(66,1): warning C4267: return: Převod z: size_t na: int32_t, může dojít ke ztrátě dat.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/attributes/attributes_decoder.h(47,1): warning C4267: return: Převod z: size_t na: int32_t, může dojít ke ztrátě dat.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/attributes/attributes_decoder.h(66,1): warning C4267: inicializování: Převod z: size_t na: int, může dojít ke ztrátě dat.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/attributes/attributes_decoder.h(66,1): warning C4267: inicializování: Převod z: size_t na: const int, může dojít ke ztrátě dat.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/point_cloud/algorithms/dynamic_integer_points_kd_tree_decoder.h(229,25): warning C4018: <: signed/unsigned – neshoda
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/point_cloud/algorithms/dynamic_integer_points_kd_tree_decoder.h(159): message : Zobrazit odkaz na kompilované vytváření instancí funkce šablona void draco::DynamicIntegerPointsKdTreeDecoder<0>::DecodeInternal<OutputIteratorT>(uint32_t,OutputIteratorT)
+          with
+          [
+              OutputIteratorT=draco::PointAttributeVectorOutputIterator<uint32_t,3>
+          ]
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/point_cloud/algorithms/dynamic_integer_points_kd_tree_decoder.h(159): message : Zobrazit odkaz na kompilované vytváření instancí funkce šablona void draco::DynamicIntegerPointsKdTreeDecoder<0>::DecodeInternal<OutputIteratorT>(uint32_t,OutputIteratorT)
+          with
+          [
+              OutputIteratorT=draco::PointAttributeVectorOutputIterator<uint32_t,3>
+          ]
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco\compression\attributes\kd_tree_attributes_decoder.cc(112): message : Zobrazit odkaz na kompilované vytváření instancí funkce šablona bool draco::DynamicIntegerPointsKdTreeDecoder<0>::DecodePoints<draco::PointAttributeVectorOutputIterator<uint32_t,3>>(draco::DecoderBuffer *,OutputIteratorT)
+          with
+          [
+              OutputIteratorT=draco::PointAttributeVectorOutputIterator<uint32_t,3>
+          ]
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco\compression\attributes\kd_tree_attributes_decoder.cc(112): message : Zobrazit odkaz na kompilované vytváření instancí funkce šablona bool draco::DynamicIntegerPointsKdTreeDecoder<0>::DecodePoints<draco::PointAttributeVectorOutputIterator<uint32_t,3>>(draco::DecoderBuffer *,OutputIteratorT)
+          with
+          [
+              OutputIteratorT=draco::PointAttributeVectorOutputIterator<uint32_t,3>
+          ]
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/attributes/geometry_indices.h(34): message : Zobrazit odkaz na kompilované vytváření instancí funkce třída šablona draco::IndexType<int32_t,draco::AttributeValueIndex_tag_type_>
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/point_cloud/algorithms/dynamic_integer_points_kd_tree_decoder.h(233,27): warning C4018: <: signed/unsigned – neshoda
+  sequential_attribute_decoder.cc
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/attributes/point_attribute.h(68,1): warning C4267: =: Převod z: size_t na: int, může dojít ke ztrátě dat.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/metadata/metadata.h(134,27): warning C4267: return: Převod z: size_t na: int, může dojít ke ztrátě dat.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/point_cloud/point_cloud.h(57,34): warning C4267: return: Převod z: size_t na: int32_t, může dojít ke ztrátě dat.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/point_cloud/point_cloud_decoder.h(66,1): warning C4267: return: Převod z: size_t na: int32_t, může dojít ke ztrátě dat.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco\compression\attributes\sequential_attribute_decoder.cc(64,61): warning C4267: argument: Převod z: size_t na: const ValueTypeT, může dojít ke ztrátě dat.
+          with
+          [
+              ValueTypeT=int32_t
+          ]
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco\compression\attributes\sequential_attribute_decoder.cc(93,46): warning C4267: inicializování: Převod z: size_t na: int32_t, může dojít ke ztrátě dat.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco\compression\attributes\sequential_attribute_decoder.cc(93,46): warning C4267: inicializování: Převod z: size_t na: const int32_t, může dojít ke ztrátě dat.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco\compression\attributes\sequential_attribute_decoder.cc(94,49): warning C4244: inicializování: int64_t se převádí na int; může dojít ke ztrátě dat.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco\compression\attributes\sequential_attribute_decoder.cc(94,24): warning C4244: inicializování: int64_t se převádí na const int; může dojít ke ztrátě dat.
+  sequential_attribute_decoders_controller.cc
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/attributes/point_attribute.h(68,1): warning C4267: =: Převod z: size_t na: int, může dojít ke ztrátě dat.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/metadata/metadata.h(134,27): warning C4267: return: Převod z: size_t na: int, může dojít ke ztrátě dat.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/point_cloud/point_cloud.h(57,34): warning C4267: return: Převod z: size_t na: int32_t, může dojít ke ztrátě dat.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/point_cloud/point_cloud_decoder.h(66,1): warning C4267: return: Převod z: size_t na: int32_t, může dojít ke ztrátě dat.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/attributes/attributes_decoder.h(47,1): warning C4267: return: Převod z: size_t na: int32_t, může dojít ke ztrátě dat.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/attributes/attributes_decoder.h(66,1): warning C4267: inicializování: Převod z: size_t na: int, může dojít ke ztrátě dat.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/attributes/attributes_decoder.h(66,1): warning C4267: inicializování: Převod z: size_t na: const int, může dojít ke ztrátě dat.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/mesh/corner_table.h(63,35): warning C4267: return: Převod z: size_t na: int, může dojít ke ztrátě dat.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/mesh/corner_table.h(64,34): warning C4267: return: Převod z: size_t na: int, může dojít ke ztrátě dat.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/mesh/corner_table.h(65,32): warning C4267: return: Převod z: size_t na: int, může dojít ke ztrátě dat.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/mesh/corner_table.h(235,1): warning C4267: argument: Převod z: size_t na: ValueTypeT, může dojít ke ztrátě dat.
+          with
+          [
+              ValueTypeT=int32_t
+          ]
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/mesh/mesh.h(51,1): warning C4267: argument: Převod z: size_t na: const ValueTypeT, může dojít ke ztrátě dat.
+          with
+          [
+              ValueTypeT=int32_t
+          ]
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/mesh/mesh.h(61,42): warning C4267: return: Převod z: size_t na: int, může dojít ke ztrátě dat.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/mesh/mesh.h(122,1): warning C4267: argument: Převod z: size_t na: const ValueTypeT, může dojít ke ztrátě dat.
+          with
+          [
+              ValueTypeT=int32_t
+          ]
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/mesh/mesh_attribute_corner_table.h(85,28): warning C4267: return: Převod z: size_t na: int, může dojít ke ztrátě dat.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/attributes/prediction_schemes/mesh_prediction_scheme_geometric_normal_predictor_area.h(79,44): warning C4244: inicializování: CoeffT se převádí na int32_t; může dojít ke ztrátě dat.
+          with
+          [
+              CoeffT=int64_t
+          ]
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/attributes/prediction_schemes/mesh_prediction_scheme_geometric_normal_predictor_area.h(41): message : Při kompilaci členské funkce třída šablona void draco::MeshPredictionSchemeGeometricNormalPredictorArea<DataTypeT,TransformT,MeshDataT>::ComputePredictedValue(draco::CornerIndex,DataTypeT *)
+          with
+          [
+              DataTypeT=int32_t,
+              TransformT=draco::PredictionSchemeNormalOctahedronCanonicalizedDecodingTransform<int32_t>,
+              MeshDataT=MeshData
+          ]
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/attributes/prediction_schemes/mesh_prediction_scheme_geometric_normal_decoder.h(85): message : Zobrazit odkaz na kompilované vytváření instancí funkce třída šablona draco::MeshPredictionSchemeGeometricNormalPredictorArea<DataTypeT,TransformT,MeshDataT>
+          with
+          [
+              DataTypeT=int32_t,
+              TransformT=draco::PredictionSchemeNormalOctahedronCanonicalizedDecodingTransform<int32_t>,
+              MeshDataT=MeshData
+          ]
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/attributes/prediction_schemes/prediction_scheme_decoder_factory.h(70): message : Zobrazit odkaz na kompilované vytváření instancí funkce třída šablona draco::MeshPredictionSchemeGeometricNormalDecoder<DataTypeT,TransformT,MeshDataT>
+          with
+          [
+              DataTypeT=int32_t,
+              TransformT=draco::PredictionSchemeNormalOctahedronCanonicalizedDecodingTransform<int32_t>,
+              MeshDataT=MeshData
+          ]
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/attributes/prediction_schemes/prediction_scheme_factory.h(73): message : Zobrazit odkaz na kompilované vytváření instancí funkce šablona std::unique_ptr<draco::PredictionSchemeDecoder<int32_t,Transform>,std::default_delete<draco::PredictionSchemeDecoder<int32_t,Transform>>> draco::MeshPredictionSchemeDecoderFactory<DataTypeT>::operator ()<draco::PredictionSchemeNormalOctahedronCanonicalizedDecodingTransform<DataTypeT>,MeshData>(draco::PredictionSchemeMethod,const draco::PointAttribute *,const TransformT &,const MeshDataT &,uint16_t)
+          with
+          [
+              DataTypeT=int32_t,
+              TransformT=draco::PredictionSchemeNormalOctahedronCanonicalizedDecodingTransform<int32_t>,
+              MeshDataT=MeshData
+          ]
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/attributes/prediction_schemes/prediction_scheme_factory.h(73): message : Zobrazit odkaz na kompilované vytváření instancí funkce šablona std::unique_ptr<draco::PredictionSchemeDecoder<int32_t,Transform>,std::default_delete<draco::PredictionSchemeDecoder<int32_t,Transform>>> draco::MeshPredictionSchemeDecoderFactory<DataTypeT>::operator ()<draco::PredictionSchemeNormalOctahedronCanonicalizedDecodingTransform<DataTypeT>,MeshData>(draco::PredictionSchemeMethod,const draco::PointAttribute *,const TransformT &,const MeshDataT &,uint16_t)
+          with
+          [
+              DataTypeT=int32_t,
+              TransformT=draco::PredictionSchemeNormalOctahedronCanonicalizedDecodingTransform<int32_t>,
+              MeshDataT=MeshData
+          ]
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/attributes/prediction_schemes/prediction_scheme_decoder_factory.h(100): message : Zobrazit odkaz na kompilované vytváření instancí funkce šablona std::unique_ptr<draco::PredictionSchemeDecoder<int32_t,Transform>,std::default_delete<draco::PredictionSchemeDecoder<int32_t,Transform>>> draco::CreateMeshPredictionScheme<draco::MeshDecoder,draco::PredictionSchemeDecoder<int32_t,Transform>,draco::MeshPredictionSchemeDecoderFactory<DataTypeT>>(const EncodingDataSourceT *,draco::PredictionSchemeMethod,int,const draco::PredictionSchemeNormalOctahedronCanonicalizedDecodingTransform<DataTypeT> &,uint16_t)
+          with
+          [
+              DataTypeT=int32_t,
+              EncodingDataSourceT=draco::MeshDecoder
+          ]
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/attributes/prediction_schemes/prediction_scheme_decoder_factory.h(116): message : Zobrazit odkaz na kompilované vytváření instancí funkce šablona std::unique_ptr<draco::PredictionSchemeDecoder<int32_t,Transform>,std::default_delete<draco::PredictionSchemeDecoder<int32_t,Transform>>> draco::CreatePredictionSchemeForDecoder<DataTypeT,TransformT>(draco::PredictionSchemeMethod,int,const draco::PointCloudDecoder *,const TransformT &)
+          with
+          [
+              DataTypeT=int32_t,
+              TransformT=Transform
+          ]
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/attributes/sequential_normal_attribute_decoder.h(68): message : Zobrazit odkaz na kompilované vytváření instancí funkce šablona std::unique_ptr<draco::PredictionSchemeDecoder<int32_t,Transform>,std::default_delete<draco::PredictionSchemeDecoder<int32_t,Transform>>> draco::CreatePredictionSchemeForDecoder<int32_t,Transform>(draco::PredictionSchemeMethod,int,const draco::PointCloudDecoder *)
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/mesh/corner_table_indices.h(33): message : Zobrazit odkaz na kompilované vytváření instancí funkce třída šablona draco::IndexType<int32_t,draco::CornerIndex_tag_type_>
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/mesh/corner_table_indices.h(31): message : Zobrazit odkaz na kompilované vytváření instancí funkce třída šablona draco::IndexType<int32_t,draco::VertexIndex_tag_type_>
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/mesh/mesh_indices.h(27): message : Zobrazit odkaz na kompilované vytváření instancí funkce třída šablona draco::IndexType<int32_t,draco::FaceIndex_tag_type_>
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/attributes/geometry_indices.h(34): message : Zobrazit odkaz na kompilované vytváření instancí funkce třída šablona draco::IndexType<int32_t,draco::AttributeValueIndex_tag_type_>
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/attributes/prediction_schemes/mesh_prediction_scheme_geometric_normal_predictor_area.h(79,29): warning C4244: inicializování: CoeffT se převádí na const int32_t; může dojít ke ztrátě dat.
+          with
+          [
+              CoeffT=int64_t
+          ]
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/attributes/prediction_schemes/mesh_prediction_scheme_parallelogram_decoder.h(72,1): warning C4267: inicializování: Převod z: size_t na: int, může dojít ke ztrátě dat.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/attributes/prediction_schemes/mesh_prediction_scheme_parallelogram_decoder.h(60): message : Při kompilaci členské funkce třída šablona bool draco::MeshPredictionSchemeParallelogramDecoder<DataTypeT,TransformT,MeshDataT>::ComputeOriginalValues(const int *,DataTypeT *,int,int,const draco::PointIndex *)
+          with
+          [
+              DataTypeT=int32_t,
+              TransformT=draco::PredictionSchemeNormalOctahedronDecodingTransform<int32_t>,
+              MeshDataT=MeshData
+          ]
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/attributes/prediction_schemes/prediction_scheme_decoder_factory.h(45): message : Zobrazit odkaz na kompilované vytváření instancí funkce třída šablona draco::MeshPredictionSchemeParallelogramDecoder<DataTypeT,TransformT,MeshDataT>
+          with
+          [
+              DataTypeT=int32_t,
+              TransformT=draco::PredictionSchemeNormalOctahedronDecodingTransform<int32_t>,
+              MeshDataT=MeshData
+          ]
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/attributes/prediction_schemes/mesh_prediction_scheme_parallelogram_decoder.h(72,1): warning C4267: inicializování: Převod z: size_t na: const int, může dojít ke ztrátě dat.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/attributes/prediction_schemes/mesh_prediction_scheme_multi_parallelogram_decoder.h(73,1): warning C4267: inicializování: Převod z: size_t na: int, může dojít ke ztrátě dat.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/attributes/prediction_schemes/mesh_prediction_scheme_multi_parallelogram_decoder.h(60): message : Při kompilaci členské funkce třída šablona bool draco::MeshPredictionSchemeMultiParallelogramDecoder<DataTypeT,TransformT,MeshDataT>::ComputeOriginalValues(const int *,DataTypeT *,int,int,const draco::PointIndex *)
+          with
+          [
+              DataTypeT=int32_t,
+              TransformT=draco::PredictionSchemeNormalOctahedronDecodingTransform<int32_t>,
+              MeshDataT=MeshData
+          ]
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/attributes/prediction_schemes/prediction_scheme_decoder_factory.h(50): message : Zobrazit odkaz na kompilované vytváření instancí funkce třída šablona draco::MeshPredictionSchemeMultiParallelogramDecoder<DataTypeT,TransformT,MeshDataT>
+          with
+          [
+              DataTypeT=int32_t,
+              TransformT=draco::PredictionSchemeNormalOctahedronDecodingTransform<int32_t>,
+              MeshDataT=MeshData
+          ]
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/attributes/prediction_schemes/mesh_prediction_scheme_multi_parallelogram_decoder.h(73,1): warning C4267: inicializování: Převod z: size_t na: const int, může dojít ke ztrátě dat.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/attributes/prediction_schemes/mesh_prediction_scheme_constrained_multi_parallelogram_decoder.h(106,1): warning C4267: inicializování: Převod z: size_t na: int, může dojít ke ztrátě dat.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/attributes/prediction_schemes/mesh_prediction_scheme_constrained_multi_parallelogram_decoder.h(84): message : Při kompilaci členské funkce třída šablona bool draco::MeshPredictionSchemeConstrainedMultiParallelogramDecoder<DataTypeT,TransformT,MeshDataT>::ComputeOriginalValues(const int *,DataTypeT *,int,int,const draco::PointIndex *)
+          with
+          [
+              DataTypeT=int32_t,
+              TransformT=draco::PredictionSchemeNormalOctahedronDecodingTransform<int32_t>,
+              MeshDataT=MeshData
+          ]
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/attributes/prediction_schemes/prediction_scheme_decoder_factory.h(55): message : Zobrazit odkaz na kompilované vytváření instancí funkce třída šablona draco::MeshPredictionSchemeConstrainedMultiParallelogramDecoder<DataTypeT,TransformT,MeshDataT>
+          with
+          [
+              DataTypeT=int32_t,
+              TransformT=draco::PredictionSchemeNormalOctahedronDecodingTransform<int32_t>,
+              MeshDataT=MeshData
+          ]
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/attributes/prediction_schemes/mesh_prediction_scheme_constrained_multi_parallelogram_decoder.h(106,1): warning C4267: inicializování: Převod z: size_t na: const int, může dojít ke ztrátě dat.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/attributes/prediction_schemes/mesh_prediction_scheme_constrained_multi_parallelogram_decoder.h(207,25): warning C4018: <: signed/unsigned – neshoda
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/attributes/prediction_schemes/mesh_prediction_scheme_constrained_multi_parallelogram_decoder.h(185): message : Při kompilaci členské funkce třída šablona bool draco::MeshPredictionSchemeConstrainedMultiParallelogramDecoder<DataTypeT,TransformT,MeshDataT>::DecodePredictionData(draco::DecoderBuffer *)
+          with
+          [
+              DataTypeT=int32_t,
+              TransformT=draco::PredictionSchemeNormalOctahedronDecodingTransform<int32_t>,
+              MeshDataT=MeshData
+          ]
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/attributes/prediction_schemes/mesh_prediction_scheme_tex_coords_decoder.h(121,1): warning C4267: inicializování: Převod z: size_t na: int, může dojít ke ztrátě dat.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/attributes/prediction_schemes/mesh_prediction_scheme_tex_coords_decoder.h(114): message : Při kompilaci členské funkce třída šablona bool draco::MeshPredictionSchemeTexCoordsDecoder<DataTypeT,TransformT,MeshDataT>::ComputeOriginalValues(const int *,DataTypeT *,int,int,const draco::PointIndex *)
+          with
+          [
+              DataTypeT=int32_t,
+              TransformT=draco::PredictionSchemeNormalOctahedronDecodingTransform<int32_t>,
+              MeshDataT=MeshData
+          ]
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/attributes/prediction_schemes/prediction_scheme_decoder_factory.h(60): message : Zobrazit odkaz na kompilované vytváření instancí funkce třída šablona draco::MeshPredictionSchemeTexCoordsDecoder<DataTypeT,TransformT,MeshDataT>
+          with
+          [
+              DataTypeT=int32_t,
+              TransformT=draco::PredictionSchemeNormalOctahedronDecodingTransform<int32_t>,
+              MeshDataT=MeshData
+          ]
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/attributes/prediction_schemes/mesh_prediction_scheme_tex_coords_decoder.h(121,1): warning C4267: inicializování: Převod z: size_t na: const int, může dojít ke ztrátě dat.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/attributes/prediction_schemes/mesh_prediction_scheme_tex_coords_decoder.h(150,21): warning C4018: <: signed/unsigned – neshoda
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/attributes/prediction_schemes/mesh_prediction_scheme_tex_coords_decoder.h(135): message : Při kompilaci členské funkce třída šablona bool draco::MeshPredictionSchemeTexCoordsDecoder<DataTypeT,TransformT,MeshDataT>::DecodePredictionData(draco::DecoderBuffer *)
+          with
+          [
+              DataTypeT=int32_t,
+              TransformT=draco::PredictionSchemeNormalOctahedronDecodingTransform<int32_t>,
+              MeshDataT=MeshData
+          ]
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/attributes/prediction_schemes/mesh_prediction_scheme_tex_coords_portable_decoder.h(90,1): warning C4267: inicializování: Převod z: size_t na: int, může dojít ke ztrátě dat.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/attributes/prediction_schemes/mesh_prediction_scheme_tex_coords_portable_decoder.h(86): message : Při kompilaci členské funkce třída šablona bool draco::MeshPredictionSchemeTexCoordsPortableDecoder<DataTypeT,TransformT,MeshDataT>::ComputeOriginalValues(const int *,DataTypeT *,int,int,const draco::PointIndex *)
+          with
+          [
+              DataTypeT=int32_t,
+              TransformT=draco::PredictionSchemeNormalOctahedronDecodingTransform<int32_t>,
+              MeshDataT=MeshData
+          ]
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/attributes/prediction_schemes/prediction_scheme_decoder_factory.h(65): message : Zobrazit odkaz na kompilované vytváření instancí funkce třída šablona draco::MeshPredictionSchemeTexCoordsPortableDecoder<DataTypeT,TransformT,MeshDataT>
+          with
+          [
+              DataTypeT=int32_t,
+              TransformT=draco::PredictionSchemeNormalOctahedronDecodingTransform<int32_t>,
+              MeshDataT=MeshData
+          ]
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/attributes/prediction_schemes/mesh_prediction_scheme_tex_coords_portable_decoder.h(90,1): warning C4267: inicializování: Převod z: size_t na: const int, může dojít ke ztrátě dat.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/attributes/prediction_schemes/mesh_prediction_scheme_geometric_normal_decoder.h(104,1): warning C4267: inicializování: Převod z: size_t na: int, může dojít ke ztrátě dat.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/attributes/prediction_schemes/mesh_prediction_scheme_geometric_normal_decoder.h(96): message : Při kompilaci členské funkce třída šablona bool draco::MeshPredictionSchemeGeometricNormalDecoder<DataTypeT,TransformT,MeshDataT>::ComputeOriginalValues(const int *,DataTypeT *,int,int,const draco::PointIndex *)
+          with
+          [
+              DataTypeT=int32_t,
+              TransformT=draco::PredictionSchemeNormalOctahedronDecodingTransform<int32_t>,
+              MeshDataT=MeshData
+          ]
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/attributes/prediction_schemes/mesh_prediction_scheme_geometric_normal_decoder.h(104,1): warning C4267: inicializování: Převod z: size_t na: const int, může dojít ke ztrátě dat.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/attributes/prediction_schemes/mesh_prediction_scheme_tex_coords_portable_predictor.h(112,35): warning C4244: =: const CoeffT se převádí na DataTypeT; může dojít ke ztrátě dat.
+          with
+          [
+              CoeffT=int64_t
+          ]
+          and
+          [
+              DataTypeT=int32_t
+          ]
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/attributes/prediction_schemes/mesh_prediction_scheme_tex_coords_portable_decoder.h(93): message : Zobrazit odkaz na kompilované vytváření instancí funkce šablona void draco::MeshPredictionSchemeTexCoordsPortablePredictor<DataTypeT,MeshDataT>::ComputePredictedValue<false>(draco::CornerIndex,const DataTypeT *,int)
+          with
+          [
+              DataTypeT=int32_t,
+              MeshDataT=MeshData
+          ]
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/attributes/prediction_schemes/mesh_prediction_scheme_tex_coords_portable_decoder.h(93): message : Zobrazit odkaz na kompilované vytváření instancí funkce šablona void draco::MeshPredictionSchemeTexCoordsPortablePredictor<DataTypeT,MeshDataT>::ComputePredictedValue<false>(draco::CornerIndex,const DataTypeT *,int)
+          with
+          [
+              DataTypeT=int32_t,
+              MeshDataT=MeshData
+          ]
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/attributes/prediction_schemes/mesh_prediction_scheme_tex_coords_portable_decoder.h(86): message : Při kompilaci členské funkce třída šablona bool draco::MeshPredictionSchemeTexCoordsPortableDecoder<DataTypeT,TransformT,MeshDataT>::ComputeOriginalValues(const int *,DataTypeT *,int,int,const draco::PointIndex *)
+          with
+          [
+              DataTypeT=int32_t,
+              TransformT=draco::PredictionSchemeNormalOctahedronDecodingTransform<int32_t>,
+              MeshDataT=MeshData
+          ]
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/attributes/prediction_schemes/mesh_prediction_scheme_tex_coords_portable_predictor.h(113,35): warning C4244: =: const CoeffT se převádí na DataTypeT; může dojít ke ztrátě dat.
+          with
+          [
+              CoeffT=int64_t
+          ]
+          and
+          [
+              DataTypeT=int32_t
+          ]
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/attributes/normal_compression_utils.h(179,63): warning C4244: =: int64_t se převádí na T; může dojít ke ztrátě dat.
+          with
+          [
+              T=int32_t
+          ]
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/attributes/prediction_schemes/mesh_prediction_scheme_geometric_normal_decoder.h(115): message : Zobrazit odkaz na kompilované vytváření instancí funkce šablona void draco::OctahedronToolBox::CanonicalizeIntegerVector<CoeffT>(T *) const
+          with
+          [
+              CoeffT=int32_t,
+              T=int32_t
+          ]
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/attributes/prediction_schemes/mesh_prediction_scheme_geometric_normal_decoder.h(96): message : Při kompilaci členské funkce třída šablona bool draco::MeshPredictionSchemeGeometricNormalDecoder<DataTypeT,TransformT,MeshDataT>::ComputeOriginalValues(const int *,DataTypeT *,int,int,const draco::PointIndex *)
+          with
+          [
+              DataTypeT=int32_t,
+              TransformT=draco::PredictionSchemeNormalOctahedronDecodingTransform<int32_t>,
+              MeshDataT=MeshData
+          ]
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/attributes/normal_compression_utils.h(180,63): warning C4244: =: int64_t se převádí na T; může dojít ke ztrátě dat.
+          with
+          [
+              T=int32_t
+          ]
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/attributes/prediction_schemes/mesh_prediction_scheme_tex_coords_decoder.h(94,60): warning C4244: argument: const DataTypeT se převádí na const CoeffT; může dojít ke ztrátě dat.
+          with
+          [
+              DataTypeT=int32_t
+          ]
+          and
+          [
+              CoeffT=float
+          ]
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/attributes/prediction_schemes/mesh_prediction_scheme_tex_coords_decoder.h(92): message : Při kompilaci členské funkce třída šablona draco::Vector2f draco::MeshPredictionSchemeTexCoordsDecoder<DataTypeT,TransformT,MeshDataT>::GetTexCoordForEntryId(int,const DataTypeT *) const
+          with
+          [
+              DataTypeT=int32_t,
+              TransformT=draco::PredictionSchemeNormalOctahedronCanonicalizedDecodingTransform<int32_t>,
+              MeshDataT=MeshData
+          ]
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/attributes/prediction_schemes/mesh_prediction_scheme_tex_coords_decoder.h(186): message : Zobrazit odkaz na kompilované vytváření instancí funkce šablona draco::Vector2f draco::MeshPredictionSchemeTexCoordsDecoder<DataTypeT,TransformT,MeshDataT>::GetTexCoordForEntryId(int,const DataTypeT *) const
+          with
+          [
+              DataTypeT=int32_t,
+              TransformT=draco::PredictionSchemeNormalOctahedronCanonicalizedDecodingTransform<int32_t>,
+              MeshDataT=MeshData
+          ]
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/attributes/prediction_schemes/mesh_prediction_scheme_tex_coords_decoder.h(94,37): warning C4244: argument: const DataTypeT se převádí na const CoeffT; může dojít ke ztrátě dat.
+          with
+          [
+              DataTypeT=int32_t
+          ]
+          and
+          [
+              CoeffT=float
+          ]
+  sequential_integer_attribute_decoder.cc
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/attributes/point_attribute.h(68,1): warning C4267: =: Převod z: size_t na: int, může dojít ke ztrátě dat.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/metadata/metadata.h(134,27): warning C4267: return: Převod z: size_t na: int, může dojít ke ztrátě dat.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/point_cloud/point_cloud.h(57,34): warning C4267: return: Převod z: size_t na: int32_t, může dojít ke ztrátě dat.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/point_cloud/point_cloud_decoder.h(66,1): warning C4267: return: Převod z: size_t na: int32_t, může dojít ke ztrátě dat.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/mesh/corner_table.h(63,35): warning C4267: return: Převod z: size_t na: int, může dojít ke ztrátě dat.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/mesh/corner_table.h(64,34): warning C4267: return: Převod z: size_t na: int, může dojít ke ztrátě dat.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/mesh/corner_table.h(65,32): warning C4267: return: Převod z: size_t na: int, může dojít ke ztrátě dat.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/mesh/corner_table.h(235,1): warning C4267: argument: Převod z: size_t na: ValueTypeT, může dojít ke ztrátě dat.
+          with
+          [
+              ValueTypeT=int32_t
+          ]
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/mesh/mesh.h(51,1): warning C4267: argument: Převod z: size_t na: const ValueTypeT, může dojít ke ztrátě dat.
+          with
+          [
+              ValueTypeT=int32_t
+          ]
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/mesh/mesh.h(61,42): warning C4267: return: Převod z: size_t na: int, může dojít ke ztrátě dat.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/mesh/mesh.h(122,1): warning C4267: argument: Převod z: size_t na: const ValueTypeT, může dojít ke ztrátě dat.
+          with
+          [
+              ValueTypeT=int32_t
+          ]
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/mesh/mesh_attribute_corner_table.h(85,28): warning C4267: return: Převod z: size_t na: int, může dojít ke ztrátě dat.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco\compression\attributes\sequential_integer_attribute_decoder.cc(37,38): warning C4267: argument: Převod z: size_t na: uint32_t, může dojít ke ztrátě dat.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco\compression\attributes\sequential_integer_attribute_decoder.cc(42,46): warning C4267: inicializování: Převod z: size_t na: int32_t, může dojít ke ztrátě dat.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco\compression\attributes\sequential_integer_attribute_decoder.cc(42,46): warning C4267: inicializování: Převod z: size_t na: const int32_t, může dojít ke ztrátě dat.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco\compression\attributes\sequential_integer_attribute_decoder.cc(87,47): warning C4267: inicializování: Převod z: size_t na: int32_t, může dojít ke ztrátě dat.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco\compression\attributes\sequential_integer_attribute_decoder.cc(87,47): warning C4267: inicializování: Převod z: size_t na: const int32_t, může dojít ke ztrátě dat.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco\compression\attributes\sequential_integer_attribute_decoder.cc(117,30): warning C4018: <: signed/unsigned – neshoda
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/attributes/prediction_schemes/mesh_prediction_scheme_geometric_normal_predictor_area.h(79,44): warning C4244: inicializování: CoeffT se převádí na int32_t; může dojít ke ztrátě dat.
+          with
+          [
+              CoeffT=int64_t
+          ]
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/attributes/prediction_schemes/mesh_prediction_scheme_geometric_normal_predictor_area.h(41): message : Při kompilaci členské funkce třída šablona void draco::MeshPredictionSchemeGeometricNormalPredictorArea<DataTypeT,TransformT,MeshDataT>::ComputePredictedValue(draco::CornerIndex,DataTypeT *)
+          with
+          [
+              DataTypeT=int32_t,
+              TransformT=draco::PredictionSchemeWrapDecodingTransform<int32_t,int32_t>,
+              MeshDataT=MeshData
+          ]
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/attributes/prediction_schemes/mesh_prediction_scheme_geometric_normal_decoder.h(85): message : Zobrazit odkaz na kompilované vytváření instancí funkce třída šablona draco::MeshPredictionSchemeGeometricNormalPredictorArea<DataTypeT,TransformT,MeshDataT>
+          with
+          [
+              DataTypeT=int32_t,
+              TransformT=draco::PredictionSchemeWrapDecodingTransform<int32_t,int32_t>,
+              MeshDataT=MeshData
+          ]
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/attributes/prediction_schemes/prediction_scheme_decoder_factory.h(70): message : Zobrazit odkaz na kompilované vytváření instancí funkce třída šablona draco::MeshPredictionSchemeGeometricNormalDecoder<DataTypeT,TransformT,MeshDataT>
+          with
+          [
+              DataTypeT=int32_t,
+              TransformT=draco::PredictionSchemeWrapDecodingTransform<int32_t,int32_t>,
+              MeshDataT=MeshData
+          ]
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/attributes/prediction_schemes/prediction_scheme_factory.h(73): message : Zobrazit odkaz na kompilované vytváření instancí funkce šablona std::unique_ptr<draco::PredictionSchemeDecoder<int32_t,draco::PredictionSchemeWrapDecodingTransform<int32_t,DataTypeT>>,std::default_delete<draco::PredictionSchemeDecoder<DataTypeT,draco::PredictionSchemeWrapDecodingTransform<DataTypeT,DataTypeT>>>> draco::MeshPredictionSchemeDecoderFactory<DataTypeT>::operator ()<draco::PredictionSchemeWrapDecodingTransform<DataTypeT,DataTypeT>,MeshData>(draco::PredictionSchemeMethod,const draco::PointAttribute *,const TransformT &,const MeshDataT &,uint16_t)
+          with
+          [
+              DataTypeT=int32_t,
+              TransformT=draco::PredictionSchemeWrapDecodingTransform<int32_t,int32_t>,
+              MeshDataT=MeshData
+          ]
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/attributes/prediction_schemes/prediction_scheme_factory.h(73): message : Zobrazit odkaz na kompilované vytváření instancí funkce šablona std::unique_ptr<draco::PredictionSchemeDecoder<int32_t,draco::PredictionSchemeWrapDecodingTransform<int32_t,DataTypeT>>,std::default_delete<draco::PredictionSchemeDecoder<DataTypeT,draco::PredictionSchemeWrapDecodingTransform<DataTypeT,DataTypeT>>>> draco::MeshPredictionSchemeDecoderFactory<DataTypeT>::operator ()<draco::PredictionSchemeWrapDecodingTransform<DataTypeT,DataTypeT>,MeshData>(draco::PredictionSchemeMethod,const draco::PointAttribute *,const TransformT &,const MeshDataT &,uint16_t)
+          with
+          [
+              DataTypeT=int32_t,
+              TransformT=draco::PredictionSchemeWrapDecodingTransform<int32_t,int32_t>,
+              MeshDataT=MeshData
+          ]
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/attributes/prediction_schemes/prediction_scheme_decoder_factory.h(100): message : Zobrazit odkaz na kompilované vytváření instancí funkce šablona std::unique_ptr<draco::PredictionSchemeDecoder<int32_t,draco::PredictionSchemeWrapDecodingTransform<int32_t,DataTypeT>>,std::default_delete<draco::PredictionSchemeDecoder<DataTypeT,draco::PredictionSchemeWrapDecodingTransform<DataTypeT,DataTypeT>>>> draco::CreateMeshPredictionScheme<draco::MeshDecoder,draco::PredictionSchemeDecoder<DataTypeT,draco::PredictionSchemeWrapDecodingTransform<DataTypeT,DataTypeT>>,draco::MeshPredictionSchemeDecoderFactory<DataTypeT>>(const EncodingDataSourceT *,draco::PredictionSchemeMethod,int,const draco::PredictionSchemeWrapDecodingTransform<DataTypeT,DataTypeT> &,uint16_t)
+          with
+          [
+              DataTypeT=int32_t,
+              EncodingDataSourceT=draco::MeshDecoder
+          ]
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/attributes/prediction_schemes/prediction_scheme_decoder_factory.h(116): message : Zobrazit odkaz na kompilované vytváření instancí funkce šablona std::unique_ptr<draco::PredictionSchemeDecoder<int32_t,draco::PredictionSchemeWrapDecodingTransform<int32_t,DataTypeT>>,std::default_delete<draco::PredictionSchemeDecoder<DataTypeT,draco::PredictionSchemeWrapDecodingTransform<DataTypeT,DataTypeT>>>> draco::CreatePredictionSchemeForDecoder<DataTypeT,TransformT>(draco::PredictionSchemeMethod,int,const draco::PointCloudDecoder *,const TransformT &)
+          with
+          [
+              DataTypeT=int32_t,
+              TransformT=draco::PredictionSchemeWrapDecodingTransform<int32_t,int32_t>
+          ]
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco\compression\attributes\sequential_integer_attribute_decoder.cc(79): message : Zobrazit odkaz na kompilované vytváření instancí funkce šablona std::unique_ptr<draco::PredictionSchemeDecoder<int32_t,draco::PredictionSchemeWrapDecodingTransform<int32_t,DataTypeT>>,std::default_delete<draco::PredictionSchemeDecoder<DataTypeT,draco::PredictionSchemeWrapDecodingTransform<DataTypeT,DataTypeT>>>> draco::CreatePredictionSchemeForDecoder<int32_t,draco::PredictionSchemeWrapDecodingTransform<DataTypeT,DataTypeT>>(draco::PredictionSchemeMethod,int,const draco::PointCloudDecoder *)
+          with
+          [
+              DataTypeT=int32_t
+          ]
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/mesh/corner_table_indices.h(33): message : Zobrazit odkaz na kompilované vytváření instancí funkce třída šablona draco::IndexType<int32_t,draco::CornerIndex_tag_type_>
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/mesh/corner_table_indices.h(31): message : Zobrazit odkaz na kompilované vytváření instancí funkce třída šablona draco::IndexType<int32_t,draco::VertexIndex_tag_type_>
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/mesh/mesh_indices.h(27): message : Zobrazit odkaz na kompilované vytváření instancí funkce třída šablona draco::IndexType<int32_t,draco::FaceIndex_tag_type_>
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/attributes/geometry_indices.h(34): message : Zobrazit odkaz na kompilované vytváření instancí funkce třída šablona draco::IndexType<int32_t,draco::AttributeValueIndex_tag_type_>
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/attributes/prediction_schemes/mesh_prediction_scheme_geometric_normal_predictor_area.h(79,29): warning C4244: inicializování: CoeffT se převádí na const int32_t; může dojít ke ztrátě dat.
+          with
+          [
+              CoeffT=int64_t
+          ]
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/attributes/prediction_schemes/mesh_prediction_scheme_parallelogram_decoder.h(72,1): warning C4267: inicializování: Převod z: size_t na: int, může dojít ke ztrátě dat.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/attributes/prediction_schemes/mesh_prediction_scheme_parallelogram_decoder.h(60): message : Při kompilaci členské funkce třída šablona bool draco::MeshPredictionSchemeParallelogramDecoder<DataTypeT,TransformT,MeshDataT>::ComputeOriginalValues(const int *,DataTypeT *,int,int,const draco::PointIndex *)
+          with
+          [
+              DataTypeT=int32_t,
+              TransformT=draco::PredictionSchemeWrapDecodingTransform<int32_t,int32_t>,
+              MeshDataT=MeshData
+          ]
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/attributes/prediction_schemes/prediction_scheme_decoder_factory.h(45): message : Zobrazit odkaz na kompilované vytváření instancí funkce třída šablona draco::MeshPredictionSchemeParallelogramDecoder<DataTypeT,TransformT,MeshDataT>
+          with
+          [
+              DataTypeT=int32_t,
+              TransformT=draco::PredictionSchemeWrapDecodingTransform<int32_t,int32_t>,
+              MeshDataT=MeshData
+          ]
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/attributes/prediction_schemes/mesh_prediction_scheme_parallelogram_decoder.h(72,1): warning C4267: inicializování: Převod z: size_t na: const int, může dojít ke ztrátě dat.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/attributes/prediction_schemes/mesh_prediction_scheme_multi_parallelogram_decoder.h(73,1): warning C4267: inicializování: Převod z: size_t na: int, může dojít ke ztrátě dat.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/attributes/prediction_schemes/mesh_prediction_scheme_multi_parallelogram_decoder.h(60): message : Při kompilaci členské funkce třída šablona bool draco::MeshPredictionSchemeMultiParallelogramDecoder<DataTypeT,TransformT,MeshDataT>::ComputeOriginalValues(const int *,DataTypeT *,int,int,const draco::PointIndex *)
+          with
+          [
+              DataTypeT=int32_t,
+              TransformT=draco::PredictionSchemeWrapDecodingTransform<int32_t,int32_t>,
+              MeshDataT=MeshData
+          ]
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/attributes/prediction_schemes/prediction_scheme_decoder_factory.h(50): message : Zobrazit odkaz na kompilované vytváření instancí funkce třída šablona draco::MeshPredictionSchemeMultiParallelogramDecoder<DataTypeT,TransformT,MeshDataT>
+          with
+          [
+              DataTypeT=int32_t,
+              TransformT=draco::PredictionSchemeWrapDecodingTransform<int32_t,int32_t>,
+              MeshDataT=MeshData
+          ]
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/attributes/prediction_schemes/mesh_prediction_scheme_multi_parallelogram_decoder.h(73,1): warning C4267: inicializování: Převod z: size_t na: const int, může dojít ke ztrátě dat.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/attributes/prediction_schemes/mesh_prediction_scheme_constrained_multi_parallelogram_decoder.h(106,1): warning C4267: inicializování: Převod z: size_t na: int, může dojít ke ztrátě dat.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/attributes/prediction_schemes/mesh_prediction_scheme_constrained_multi_parallelogram_decoder.h(84): message : Při kompilaci členské funkce třída šablona bool draco::MeshPredictionSchemeConstrainedMultiParallelogramDecoder<DataTypeT,TransformT,MeshDataT>::ComputeOriginalValues(const int *,DataTypeT *,int,int,const draco::PointIndex *)
+          with
+          [
+              DataTypeT=int32_t,
+              TransformT=draco::PredictionSchemeWrapDecodingTransform<int32_t,int32_t>,
+              MeshDataT=MeshData
+          ]
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/attributes/prediction_schemes/prediction_scheme_decoder_factory.h(55): message : Zobrazit odkaz na kompilované vytváření instancí funkce třída šablona draco::MeshPredictionSchemeConstrainedMultiParallelogramDecoder<DataTypeT,TransformT,MeshDataT>
+          with
+          [
+              DataTypeT=int32_t,
+              TransformT=draco::PredictionSchemeWrapDecodingTransform<int32_t,int32_t>,
+              MeshDataT=MeshData
+          ]
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/attributes/prediction_schemes/mesh_prediction_scheme_constrained_multi_parallelogram_decoder.h(106,1): warning C4267: inicializování: Převod z: size_t na: const int, může dojít ke ztrátě dat.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/attributes/prediction_schemes/mesh_prediction_scheme_constrained_multi_parallelogram_decoder.h(207,25): warning C4018: <: signed/unsigned – neshoda
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/attributes/prediction_schemes/mesh_prediction_scheme_constrained_multi_parallelogram_decoder.h(185): message : Při kompilaci členské funkce třída šablona bool draco::MeshPredictionSchemeConstrainedMultiParallelogramDecoder<DataTypeT,TransformT,MeshDataT>::DecodePredictionData(draco::DecoderBuffer *)
+          with
+          [
+              DataTypeT=int32_t,
+              TransformT=draco::PredictionSchemeWrapDecodingTransform<int32_t,int32_t>,
+              MeshDataT=MeshData
+          ]
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/attributes/prediction_schemes/mesh_prediction_scheme_tex_coords_decoder.h(121,1): warning C4267: inicializování: Převod z: size_t na: int, může dojít ke ztrátě dat.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/attributes/prediction_schemes/mesh_prediction_scheme_tex_coords_decoder.h(114): message : Při kompilaci členské funkce třída šablona bool draco::MeshPredictionSchemeTexCoordsDecoder<DataTypeT,TransformT,MeshDataT>::ComputeOriginalValues(const int *,DataTypeT *,int,int,const draco::PointIndex *)
+          with
+          [
+              DataTypeT=int32_t,
+              TransformT=draco::PredictionSchemeWrapDecodingTransform<int32_t,int32_t>,
+              MeshDataT=MeshData
+          ]
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/attributes/prediction_schemes/prediction_scheme_decoder_factory.h(60): message : Zobrazit odkaz na kompilované vytváření instancí funkce třída šablona draco::MeshPredictionSchemeTexCoordsDecoder<DataTypeT,TransformT,MeshDataT>
+          with
+          [
+              DataTypeT=int32_t,
+              TransformT=draco::PredictionSchemeWrapDecodingTransform<int32_t,int32_t>,
+              MeshDataT=MeshData
+          ]
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/attributes/prediction_schemes/mesh_prediction_scheme_tex_coords_decoder.h(121,1): warning C4267: inicializování: Převod z: size_t na: const int, může dojít ke ztrátě dat.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/attributes/prediction_schemes/mesh_prediction_scheme_tex_coords_decoder.h(150,21): warning C4018: <: signed/unsigned – neshoda
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/attributes/prediction_schemes/mesh_prediction_scheme_tex_coords_decoder.h(135): message : Při kompilaci členské funkce třída šablona bool draco::MeshPredictionSchemeTexCoordsDecoder<DataTypeT,TransformT,MeshDataT>::DecodePredictionData(draco::DecoderBuffer *)
+          with
+          [
+              DataTypeT=int32_t,
+              TransformT=draco::PredictionSchemeWrapDecodingTransform<int32_t,int32_t>,
+              MeshDataT=MeshData
+          ]
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/attributes/prediction_schemes/mesh_prediction_scheme_tex_coords_portable_decoder.h(90,1): warning C4267: inicializování: Převod z: size_t na: int, může dojít ke ztrátě dat.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/attributes/prediction_schemes/mesh_prediction_scheme_tex_coords_portable_decoder.h(86): message : Při kompilaci členské funkce třída šablona bool draco::MeshPredictionSchemeTexCoordsPortableDecoder<DataTypeT,TransformT,MeshDataT>::ComputeOriginalValues(const int *,DataTypeT *,int,int,const draco::PointIndex *)
+          with
+          [
+              DataTypeT=int32_t,
+              TransformT=draco::PredictionSchemeWrapDecodingTransform<int32_t,int32_t>,
+              MeshDataT=MeshData
+          ]
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/attributes/prediction_schemes/prediction_scheme_decoder_factory.h(65): message : Zobrazit odkaz na kompilované vytváření instancí funkce třída šablona draco::MeshPredictionSchemeTexCoordsPortableDecoder<DataTypeT,TransformT,MeshDataT>
+          with
+          [
+              DataTypeT=int32_t,
+              TransformT=draco::PredictionSchemeWrapDecodingTransform<int32_t,int32_t>,
+              MeshDataT=MeshData
+          ]
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/attributes/prediction_schemes/mesh_prediction_scheme_tex_coords_portable_decoder.h(90,1): warning C4267: inicializování: Převod z: size_t na: const int, může dojít ke ztrátě dat.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/attributes/prediction_schemes/mesh_prediction_scheme_geometric_normal_decoder.h(104,1): warning C4267: inicializování: Převod z: size_t na: int, může dojít ke ztrátě dat.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/attributes/prediction_schemes/mesh_prediction_scheme_geometric_normal_decoder.h(96): message : Při kompilaci členské funkce třída šablona bool draco::MeshPredictionSchemeGeometricNormalDecoder<DataTypeT,TransformT,MeshDataT>::ComputeOriginalValues(const int *,DataTypeT *,int,int,const draco::PointIndex *)
+          with
+          [
+              DataTypeT=int32_t,
+              TransformT=draco::PredictionSchemeWrapDecodingTransform<int32_t,int32_t>,
+              MeshDataT=MeshData
+          ]
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/attributes/prediction_schemes/mesh_prediction_scheme_geometric_normal_decoder.h(104,1): warning C4267: inicializování: Převod z: size_t na: const int, může dojít ke ztrátě dat.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/attributes/prediction_schemes/mesh_prediction_scheme_tex_coords_portable_predictor.h(112,35): warning C4244: =: const CoeffT se převádí na DataTypeT; může dojít ke ztrátě dat.
+          with
+          [
+              CoeffT=int64_t
+          ]
+          and
+          [
+              DataTypeT=int32_t
+          ]
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/attributes/prediction_schemes/mesh_prediction_scheme_tex_coords_portable_decoder.h(93): message : Zobrazit odkaz na kompilované vytváření instancí funkce šablona void draco::MeshPredictionSchemeTexCoordsPortablePredictor<DataTypeT,MeshDataT>::ComputePredictedValue<false>(draco::CornerIndex,const DataTypeT *,int)
+          with
+          [
+              DataTypeT=int32_t,
+              MeshDataT=MeshData
+          ]
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/attributes/prediction_schemes/mesh_prediction_scheme_tex_coords_portable_decoder.h(93): message : Zobrazit odkaz na kompilované vytváření instancí funkce šablona void draco::MeshPredictionSchemeTexCoordsPortablePredictor<DataTypeT,MeshDataT>::ComputePredictedValue<false>(draco::CornerIndex,const DataTypeT *,int)
+          with
+          [
+              DataTypeT=int32_t,
+              MeshDataT=MeshData
+          ]
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/attributes/prediction_schemes/mesh_prediction_scheme_tex_coords_portable_decoder.h(86): message : Při kompilaci členské funkce třída šablona bool draco::MeshPredictionSchemeTexCoordsPortableDecoder<DataTypeT,TransformT,MeshDataT>::ComputeOriginalValues(const int *,DataTypeT *,int,int,const draco::PointIndex *)
+          with
+          [
+              DataTypeT=int32_t,
+              TransformT=draco::PredictionSchemeWrapDecodingTransform<int32_t,int32_t>,
+              MeshDataT=MeshData
+          ]
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/attributes/prediction_schemes/mesh_prediction_scheme_tex_coords_portable_predictor.h(113,35): warning C4244: =: const CoeffT se převádí na DataTypeT; může dojít ke ztrátě dat.
+          with
+          [
+              CoeffT=int64_t
+          ]
+          and
+          [
+              DataTypeT=int32_t
+          ]
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/attributes/normal_compression_utils.h(179,63): warning C4244: =: int64_t se převádí na T; může dojít ke ztrátě dat.
+          with
+          [
+              T=int32_t
+          ]
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/attributes/prediction_schemes/mesh_prediction_scheme_geometric_normal_decoder.h(115): message : Zobrazit odkaz na kompilované vytváření instancí funkce šablona void draco::OctahedronToolBox::CanonicalizeIntegerVector<CoeffT>(T *) const
+          with
+          [
+              CoeffT=int32_t,
+              T=int32_t
+          ]
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/attributes/prediction_schemes/mesh_prediction_scheme_geometric_normal_decoder.h(96): message : Při kompilaci členské funkce třída šablona bool draco::MeshPredictionSchemeGeometricNormalDecoder<DataTypeT,TransformT,MeshDataT>::ComputeOriginalValues(const int *,DataTypeT *,int,int,const draco::PointIndex *)
+          with
+          [
+              DataTypeT=int32_t,
+              TransformT=draco::PredictionSchemeWrapDecodingTransform<int32_t,int32_t>,
+              MeshDataT=MeshData
+          ]
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/attributes/normal_compression_utils.h(180,63): warning C4244: =: int64_t se převádí na T; může dojít ke ztrátě dat.
+          with
+          [
+              T=int32_t
+          ]
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/attributes/prediction_schemes/mesh_prediction_scheme_tex_coords_decoder.h(94,60): warning C4244: argument: const DataTypeT se převádí na const CoeffT; může dojít ke ztrátě dat.
+          with
+          [
+              DataTypeT=int32_t
+          ]
+          and
+          [
+              CoeffT=float
+          ]
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/attributes/prediction_schemes/mesh_prediction_scheme_tex_coords_decoder.h(92): message : Při kompilaci členské funkce třída šablona draco::Vector2f draco::MeshPredictionSchemeTexCoordsDecoder<DataTypeT,TransformT,MeshDataT>::GetTexCoordForEntryId(int,const DataTypeT *) const
+          with
+          [
+              DataTypeT=int32_t,
+              TransformT=draco::PredictionSchemeWrapDecodingTransform<int32_t,int32_t>,
+              MeshDataT=MeshData
+          ]
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/attributes/prediction_schemes/mesh_prediction_scheme_tex_coords_decoder.h(186): message : Zobrazit odkaz na kompilované vytváření instancí funkce šablona draco::Vector2f draco::MeshPredictionSchemeTexCoordsDecoder<DataTypeT,TransformT,MeshDataT>::GetTexCoordForEntryId(int,const DataTypeT *) const
+          with
+          [
+              DataTypeT=int32_t,
+              TransformT=draco::PredictionSchemeWrapDecodingTransform<int32_t,int32_t>,
+              MeshDataT=MeshData
+          ]
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/attributes/prediction_schemes/mesh_prediction_scheme_tex_coords_decoder.h(94,37): warning C4244: argument: const DataTypeT se převádí na const CoeffT; může dojít ke ztrátě dat.
+          with
+          [
+              DataTypeT=int32_t
+          ]
+          and
+          [
+              CoeffT=float
+          ]
+  sequential_normal_attribute_decoder.cc
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/mesh/corner_table.h(63,35): warning C4267: return: Převod z: size_t na: int, může dojít ke ztrátě dat.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/mesh/corner_table.h(64,34): warning C4267: return: Převod z: size_t na: int, může dojít ke ztrátě dat.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/mesh/corner_table.h(65,32): warning C4267: return: Převod z: size_t na: int, může dojít ke ztrátě dat.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/mesh/corner_table.h(235,1): warning C4267: argument: Převod z: size_t na: ValueTypeT, může dojít ke ztrátě dat.
+          with
+          [
+              ValueTypeT=int32_t
+          ]
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/attributes/point_attribute.h(68,1): warning C4267: =: Převod z: size_t na: int, může dojít ke ztrátě dat.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/metadata/metadata.h(134,27): warning C4267: return: Převod z: size_t na: int, může dojít ke ztrátě dat.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/point_cloud/point_cloud.h(57,34): warning C4267: return: Převod z: size_t na: int32_t, může dojít ke ztrátě dat.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/mesh/mesh.h(51,1): warning C4267: argument: Převod z: size_t na: const ValueTypeT, může dojít ke ztrátě dat.
+          with
+          [
+              ValueTypeT=int32_t
+          ]
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/mesh/mesh.h(61,42): warning C4267: return: Převod z: size_t na: int, může dojít ke ztrátě dat.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/mesh/mesh.h(122,1): warning C4267: argument: Převod z: size_t na: const ValueTypeT, může dojít ke ztrátě dat.
+          with
+          [
+              ValueTypeT=int32_t
+          ]
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/mesh/mesh_attribute_corner_table.h(85,28): warning C4267: return: Převod z: size_t na: int, může dojít ke ztrátě dat.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/point_cloud/point_cloud_decoder.h(66,1): warning C4267: return: Převod z: size_t na: int32_t, může dojít ke ztrátě dat.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/attributes/normal_compression_utils.h(243,13): warning C4244: inicializování: double se převádí na T; může dojít ke ztrátě dat.
+          with
+          [
+              T=float
+          ]
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco\compression\attributes\sequential_normal_attribute_decoder.cc(77): message : Zobrazit odkaz na kompilované vytváření instancí funkce šablona void draco::OctahedronToolBox::QuantizedOctaherdalCoordsToUnitVector<float>(int32_t,int32_t,T *) const
+          with
+          [
+              T=float
+          ]
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/attributes/geometry_indices.h(34): message : Zobrazit odkaz na kompilované vytváření instancí funkce třída šablona draco::IndexType<int32_t,draco::AttributeValueIndex_tag_type_>
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/attributes/normal_compression_utils.h(206,17): warning C4244: =: double se převádí na T; může dojít ke ztrátě dat.
+          with
+          [
+              T=float
+          ]
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/attributes/normal_compression_utils.h(244): message : Zobrazit odkaz na kompilované vytváření instancí funkce šablona void draco::OctahedronToolBox::OctaherdalCoordsToUnitVector<T>(T,T,T *) const
+          with
+          [
+              T=float
+          ]
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco\compression\attributes\sequential_normal_attribute_decoder.cc(77): message : Zobrazit odkaz na kompilované vytváření instancí funkce šablona void draco::OctahedronToolBox::QuantizedOctaherdalCoordsToUnitVector<float>(int32_t,int32_t,T *) const
+          with
+          [
+              T=float
+          ]
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/attributes/normal_compression_utils.h(207,17): warning C4244: =: double se převádí na T; může dojít ke ztrátě dat.
+          with
+          [
+              T=float
+          ]
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/attributes/normal_compression_utils.h(209,17): warning C4244: =: double se převádí na T; může dojít ke ztrátě dat.
+          with
+          [
+              T=float
+          ]
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/attributes/normal_compression_utils.h(210,17): warning C4244: =: double se převádí na T; může dojít ke ztrátě dat.
+          with
+          [
+              T=float
+          ]
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/attributes/normal_compression_utils.h(212,18): warning C4244: =: double se převádí na T; může dojít ke ztrátě dat.
+          with
+          [
+              T=float
+          ]
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/attributes/normal_compression_utils.h(213,18): warning C4244: =: double se převádí na T; může dojít ke ztrátě dat.
+          with
+          [
+              T=float
+          ]
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/attributes/normal_compression_utils.h(215,18): warning C4244: =: double se převádí na T; může dojít ke ztrátě dat.
+          with
+          [
+              T=float
+          ]
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/attributes/normal_compression_utils.h(216,18): warning C4244: =: double se převádí na T; může dojít ke ztrátě dat.
+          with
+          [
+              T=float
+          ]
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/attributes/normal_compression_utils.h(221,25): warning C4244: inicializování: double se převádí na T; může dojít ke ztrátě dat.
+          with
+          [
+              T=float
+          ]
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/attributes/normal_compression_utils.h(221,15): warning C4244: inicializování: double se převádí na const T; může dojít ke ztrátě dat.
+          with
+          [
+              T=float
+          ]
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/attributes/normal_compression_utils.h(222,25): warning C4244: inicializování: double se převádí na T; může dojít ke ztrátě dat.
+          with
+          [
+              T=float
+          ]
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/attributes/normal_compression_utils.h(222,15): warning C4244: inicializování: double se převádí na const T; může dojít ke ztrátě dat.
+          with
+          [
+              T=float
+          ]
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/attributes/normal_compression_utils.h(224,70): warning C4244: inicializování: _Ty se převádí na T; může dojít ke ztrátě dat.
+          with
+          [
+              _Ty=double
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/attributes/normal_compression_utils.h(223,15): warning C4244: inicializování: _Ty se převádí na const T; může dojít ke ztrátě dat.
+          with
+          [
+              _Ty=double
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/attributes/normal_compression_utils.h(233,23): warning C4244: inicializování: double se převádí na T; může dojít ke ztrátě dat.
+          with
+          [
+              T=float
+          ]
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/attributes/normal_compression_utils.h(233,17): warning C4244: inicializování: double se převádí na const T; může dojít ke ztrátě dat.
+          with
+          [
+              T=float
+          ]
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/attributes/prediction_schemes/mesh_prediction_scheme_geometric_normal_predictor_area.h(79,44): warning C4244: inicializování: CoeffT se převádí na int32_t; může dojít ke ztrátě dat.
+          with
+          [
+              CoeffT=int64_t
+          ]
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/attributes/prediction_schemes/mesh_prediction_scheme_geometric_normal_predictor_area.h(41): message : Při kompilaci členské funkce třída šablona void draco::MeshPredictionSchemeGeometricNormalPredictorArea<DataTypeT,TransformT,MeshDataT>::ComputePredictedValue(draco::CornerIndex,DataTypeT *)
+          with
+          [
+              DataTypeT=int32_t,
+              TransformT=draco::PredictionSchemeNormalOctahedronCanonicalizedDecodingTransform<int32_t>,
+              MeshDataT=MeshData
+          ]
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/attributes/prediction_schemes/mesh_prediction_scheme_geometric_normal_decoder.h(85): message : Zobrazit odkaz na kompilované vytváření instancí funkce třída šablona draco::MeshPredictionSchemeGeometricNormalPredictorArea<DataTypeT,TransformT,MeshDataT>
+          with
+          [
+              DataTypeT=int32_t,
+              TransformT=draco::PredictionSchemeNormalOctahedronCanonicalizedDecodingTransform<int32_t>,
+              MeshDataT=MeshData
+          ]
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/attributes/prediction_schemes/prediction_scheme_decoder_factory.h(70): message : Zobrazit odkaz na kompilované vytváření instancí funkce třída šablona draco::MeshPredictionSchemeGeometricNormalDecoder<DataTypeT,TransformT,MeshDataT>
+          with
+          [
+              DataTypeT=int32_t,
+              TransformT=draco::PredictionSchemeNormalOctahedronCanonicalizedDecodingTransform<int32_t>,
+              MeshDataT=MeshData
+          ]
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/attributes/prediction_schemes/prediction_scheme_factory.h(73): message : Zobrazit odkaz na kompilované vytváření instancí funkce šablona std::unique_ptr<draco::PredictionSchemeDecoder<int32_t,Transform>,std::default_delete<draco::PredictionSchemeDecoder<int32_t,Transform>>> draco::MeshPredictionSchemeDecoderFactory<DataTypeT>::operator ()<draco::PredictionSchemeNormalOctahedronCanonicalizedDecodingTransform<DataTypeT>,MeshData>(draco::PredictionSchemeMethod,const draco::PointAttribute *,const TransformT &,const MeshDataT &,uint16_t)
+          with
+          [
+              DataTypeT=int32_t,
+              TransformT=draco::PredictionSchemeNormalOctahedronCanonicalizedDecodingTransform<int32_t>,
+              MeshDataT=MeshData
+          ]
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/attributes/prediction_schemes/prediction_scheme_factory.h(73): message : Zobrazit odkaz na kompilované vytváření instancí funkce šablona std::unique_ptr<draco::PredictionSchemeDecoder<int32_t,Transform>,std::default_delete<draco::PredictionSchemeDecoder<int32_t,Transform>>> draco::MeshPredictionSchemeDecoderFactory<DataTypeT>::operator ()<draco::PredictionSchemeNormalOctahedronCanonicalizedDecodingTransform<DataTypeT>,MeshData>(draco::PredictionSchemeMethod,const draco::PointAttribute *,const TransformT &,const MeshDataT &,uint16_t)
+          with
+          [
+              DataTypeT=int32_t,
+              TransformT=draco::PredictionSchemeNormalOctahedronCanonicalizedDecodingTransform<int32_t>,
+              MeshDataT=MeshData
+          ]
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/attributes/prediction_schemes/prediction_scheme_decoder_factory.h(100): message : Zobrazit odkaz na kompilované vytváření instancí funkce šablona std::unique_ptr<draco::PredictionSchemeDecoder<int32_t,Transform>,std::default_delete<draco::PredictionSchemeDecoder<int32_t,Transform>>> draco::CreateMeshPredictionScheme<draco::MeshDecoder,draco::PredictionSchemeDecoder<int32_t,Transform>,draco::MeshPredictionSchemeDecoderFactory<DataTypeT>>(const EncodingDataSourceT *,draco::PredictionSchemeMethod,int,const draco::PredictionSchemeNormalOctahedronCanonicalizedDecodingTransform<DataTypeT> &,uint16_t)
+          with
+          [
+              DataTypeT=int32_t,
+              EncodingDataSourceT=draco::MeshDecoder
+          ]
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/attributes/prediction_schemes/prediction_scheme_decoder_factory.h(116): message : Zobrazit odkaz na kompilované vytváření instancí funkce šablona std::unique_ptr<draco::PredictionSchemeDecoder<int32_t,Transform>,std::default_delete<draco::PredictionSchemeDecoder<int32_t,Transform>>> draco::CreatePredictionSchemeForDecoder<DataTypeT,TransformT>(draco::PredictionSchemeMethod,int,const draco::PointCloudDecoder *,const TransformT &)
+          with
+          [
+              DataTypeT=int32_t,
+              TransformT=Transform
+          ]
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/attributes/sequential_normal_attribute_decoder.h(68): message : Zobrazit odkaz na kompilované vytváření instancí funkce šablona std::unique_ptr<draco::PredictionSchemeDecoder<int32_t,Transform>,std::default_delete<draco::PredictionSchemeDecoder<int32_t,Transform>>> draco::CreatePredictionSchemeForDecoder<int32_t,Transform>(draco::PredictionSchemeMethod,int,const draco::PointCloudDecoder *)
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/attributes/prediction_schemes/mesh_prediction_scheme_geometric_normal_predictor_area.h(79,29): warning C4244: inicializování: CoeffT se převádí na const int32_t; může dojít ke ztrátě dat.
+          with
+          [
+              CoeffT=int64_t
+          ]
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/attributes/prediction_schemes/mesh_prediction_scheme_parallelogram_decoder.h(72,1): warning C4267: inicializování: Převod z: size_t na: int, může dojít ke ztrátě dat.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/attributes/prediction_schemes/mesh_prediction_scheme_parallelogram_decoder.h(60): message : Při kompilaci členské funkce třída šablona bool draco::MeshPredictionSchemeParallelogramDecoder<DataTypeT,TransformT,MeshDataT>::ComputeOriginalValues(const int *,DataTypeT *,int,int,const draco::PointIndex *)
+          with
+          [
+              DataTypeT=int32_t,
+              TransformT=draco::PredictionSchemeNormalOctahedronDecodingTransform<int32_t>,
+              MeshDataT=MeshData
+          ]
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/attributes/prediction_schemes/prediction_scheme_decoder_factory.h(45): message : Zobrazit odkaz na kompilované vytváření instancí funkce třída šablona draco::MeshPredictionSchemeParallelogramDecoder<DataTypeT,TransformT,MeshDataT>
+          with
+          [
+              DataTypeT=int32_t,
+              TransformT=draco::PredictionSchemeNormalOctahedronDecodingTransform<int32_t>,
+              MeshDataT=MeshData
+          ]
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/attributes/prediction_schemes/mesh_prediction_scheme_parallelogram_decoder.h(72,1): warning C4267: inicializování: Převod z: size_t na: const int, může dojít ke ztrátě dat.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/attributes/prediction_schemes/mesh_prediction_scheme_multi_parallelogram_decoder.h(73,1): warning C4267: inicializování: Převod z: size_t na: int, může dojít ke ztrátě dat.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/attributes/prediction_schemes/mesh_prediction_scheme_multi_parallelogram_decoder.h(60): message : Při kompilaci členské funkce třída šablona bool draco::MeshPredictionSchemeMultiParallelogramDecoder<DataTypeT,TransformT,MeshDataT>::ComputeOriginalValues(const int *,DataTypeT *,int,int,const draco::PointIndex *)
+          with
+          [
+              DataTypeT=int32_t,
+              TransformT=draco::PredictionSchemeNormalOctahedronDecodingTransform<int32_t>,
+              MeshDataT=MeshData
+          ]
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/attributes/prediction_schemes/prediction_scheme_decoder_factory.h(50): message : Zobrazit odkaz na kompilované vytváření instancí funkce třída šablona draco::MeshPredictionSchemeMultiParallelogramDecoder<DataTypeT,TransformT,MeshDataT>
+          with
+          [
+              DataTypeT=int32_t,
+              TransformT=draco::PredictionSchemeNormalOctahedronDecodingTransform<int32_t>,
+              MeshDataT=MeshData
+          ]
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/attributes/prediction_schemes/mesh_prediction_scheme_multi_parallelogram_decoder.h(73,1): warning C4267: inicializování: Převod z: size_t na: const int, může dojít ke ztrátě dat.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/attributes/prediction_schemes/mesh_prediction_scheme_constrained_multi_parallelogram_decoder.h(106,1): warning C4267: inicializování: Převod z: size_t na: int, může dojít ke ztrátě dat.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/attributes/prediction_schemes/mesh_prediction_scheme_constrained_multi_parallelogram_decoder.h(84): message : Při kompilaci členské funkce třída šablona bool draco::MeshPredictionSchemeConstrainedMultiParallelogramDecoder<DataTypeT,TransformT,MeshDataT>::ComputeOriginalValues(const int *,DataTypeT *,int,int,const draco::PointIndex *)
+          with
+          [
+              DataTypeT=int32_t,
+              TransformT=draco::PredictionSchemeNormalOctahedronDecodingTransform<int32_t>,
+              MeshDataT=MeshData
+          ]
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/attributes/prediction_schemes/prediction_scheme_decoder_factory.h(55): message : Zobrazit odkaz na kompilované vytváření instancí funkce třída šablona draco::MeshPredictionSchemeConstrainedMultiParallelogramDecoder<DataTypeT,TransformT,MeshDataT>
+          with
+          [
+              DataTypeT=int32_t,
+              TransformT=draco::PredictionSchemeNormalOctahedronDecodingTransform<int32_t>,
+              MeshDataT=MeshData
+          ]
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/attributes/prediction_schemes/mesh_prediction_scheme_constrained_multi_parallelogram_decoder.h(106,1): warning C4267: inicializování: Převod z: size_t na: const int, může dojít ke ztrátě dat.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/attributes/prediction_schemes/mesh_prediction_scheme_constrained_multi_parallelogram_decoder.h(207,25): warning C4018: <: signed/unsigned – neshoda
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/attributes/prediction_schemes/mesh_prediction_scheme_constrained_multi_parallelogram_decoder.h(185): message : Při kompilaci členské funkce třída šablona bool draco::MeshPredictionSchemeConstrainedMultiParallelogramDecoder<DataTypeT,TransformT,MeshDataT>::DecodePredictionData(draco::DecoderBuffer *)
+          with
+          [
+              DataTypeT=int32_t,
+              TransformT=draco::PredictionSchemeNormalOctahedronDecodingTransform<int32_t>,
+              MeshDataT=MeshData
+          ]
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/attributes/prediction_schemes/mesh_prediction_scheme_tex_coords_decoder.h(121,1): warning C4267: inicializování: Převod z: size_t na: int, může dojít ke ztrátě dat.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/attributes/prediction_schemes/mesh_prediction_scheme_tex_coords_decoder.h(114): message : Při kompilaci členské funkce třída šablona bool draco::MeshPredictionSchemeTexCoordsDecoder<DataTypeT,TransformT,MeshDataT>::ComputeOriginalValues(const int *,DataTypeT *,int,int,const draco::PointIndex *)
+          with
+          [
+              DataTypeT=int32_t,
+              TransformT=draco::PredictionSchemeNormalOctahedronDecodingTransform<int32_t>,
+              MeshDataT=MeshData
+          ]
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/attributes/prediction_schemes/prediction_scheme_decoder_factory.h(60): message : Zobrazit odkaz na kompilované vytváření instancí funkce třída šablona draco::MeshPredictionSchemeTexCoordsDecoder<DataTypeT,TransformT,MeshDataT>
+          with
+          [
+              DataTypeT=int32_t,
+              TransformT=draco::PredictionSchemeNormalOctahedronDecodingTransform<int32_t>,
+              MeshDataT=MeshData
+          ]
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/attributes/prediction_schemes/mesh_prediction_scheme_tex_coords_decoder.h(121,1): warning C4267: inicializování: Převod z: size_t na: const int, může dojít ke ztrátě dat.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/attributes/prediction_schemes/mesh_prediction_scheme_tex_coords_decoder.h(150,21): warning C4018: <: signed/unsigned – neshoda
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/attributes/prediction_schemes/mesh_prediction_scheme_tex_coords_decoder.h(135): message : Při kompilaci členské funkce třída šablona bool draco::MeshPredictionSchemeTexCoordsDecoder<DataTypeT,TransformT,MeshDataT>::DecodePredictionData(draco::DecoderBuffer *)
+          with
+          [
+              DataTypeT=int32_t,
+              TransformT=draco::PredictionSchemeNormalOctahedronDecodingTransform<int32_t>,
+              MeshDataT=MeshData
+          ]
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/attributes/prediction_schemes/mesh_prediction_scheme_tex_coords_portable_decoder.h(90,1): warning C4267: inicializování: Převod z: size_t na: int, může dojít ke ztrátě dat.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/attributes/prediction_schemes/mesh_prediction_scheme_tex_coords_portable_decoder.h(86): message : Při kompilaci členské funkce třída šablona bool draco::MeshPredictionSchemeTexCoordsPortableDecoder<DataTypeT,TransformT,MeshDataT>::ComputeOriginalValues(const int *,DataTypeT *,int,int,const draco::PointIndex *)
+          with
+          [
+              DataTypeT=int32_t,
+              TransformT=draco::PredictionSchemeNormalOctahedronDecodingTransform<int32_t>,
+              MeshDataT=MeshData
+          ]
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/attributes/prediction_schemes/prediction_scheme_decoder_factory.h(65): message : Zobrazit odkaz na kompilované vytváření instancí funkce třída šablona draco::MeshPredictionSchemeTexCoordsPortableDecoder<DataTypeT,TransformT,MeshDataT>
+          with
+          [
+              DataTypeT=int32_t,
+              TransformT=draco::PredictionSchemeNormalOctahedronDecodingTransform<int32_t>,
+              MeshDataT=MeshData
+          ]
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/attributes/prediction_schemes/mesh_prediction_scheme_tex_coords_portable_decoder.h(90,1): warning C4267: inicializování: Převod z: size_t na: const int, může dojít ke ztrátě dat.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/attributes/prediction_schemes/mesh_prediction_scheme_geometric_normal_decoder.h(104,1): warning C4267: inicializování: Převod z: size_t na: int, může dojít ke ztrátě dat.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/attributes/prediction_schemes/mesh_prediction_scheme_geometric_normal_decoder.h(96): message : Při kompilaci členské funkce třída šablona bool draco::MeshPredictionSchemeGeometricNormalDecoder<DataTypeT,TransformT,MeshDataT>::ComputeOriginalValues(const int *,DataTypeT *,int,int,const draco::PointIndex *)
+          with
+          [
+              DataTypeT=int32_t,
+              TransformT=draco::PredictionSchemeNormalOctahedronDecodingTransform<int32_t>,
+              MeshDataT=MeshData
+          ]
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/attributes/prediction_schemes/mesh_prediction_scheme_geometric_normal_decoder.h(104,1): warning C4267: inicializování: Převod z: size_t na: const int, může dojít ke ztrátě dat.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/attributes/prediction_schemes/mesh_prediction_scheme_tex_coords_portable_predictor.h(112,35): warning C4244: =: const CoeffT se převádí na DataTypeT; může dojít ke ztrátě dat.
+          with
+          [
+              CoeffT=int64_t
+          ]
+          and
+          [
+              DataTypeT=int32_t
+          ]
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/attributes/prediction_schemes/mesh_prediction_scheme_tex_coords_portable_decoder.h(93): message : Zobrazit odkaz na kompilované vytváření instancí funkce šablona void draco::MeshPredictionSchemeTexCoordsPortablePredictor<DataTypeT,MeshDataT>::ComputePredictedValue<false>(draco::CornerIndex,const DataTypeT *,int)
+          with
+          [
+              DataTypeT=int32_t,
+              MeshDataT=MeshData
+          ]
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/attributes/prediction_schemes/mesh_prediction_scheme_tex_coords_portable_decoder.h(93): message : Zobrazit odkaz na kompilované vytváření instancí funkce šablona void draco::MeshPredictionSchemeTexCoordsPortablePredictor<DataTypeT,MeshDataT>::ComputePredictedValue<false>(draco::CornerIndex,const DataTypeT *,int)
+          with
+          [
+              DataTypeT=int32_t,
+              MeshDataT=MeshData
+          ]
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/attributes/prediction_schemes/mesh_prediction_scheme_tex_coords_portable_decoder.h(86): message : Při kompilaci členské funkce třída šablona bool draco::MeshPredictionSchemeTexCoordsPortableDecoder<DataTypeT,TransformT,MeshDataT>::ComputeOriginalValues(const int *,DataTypeT *,int,int,const draco::PointIndex *)
+          with
+          [
+              DataTypeT=int32_t,
+              TransformT=draco::PredictionSchemeNormalOctahedronDecodingTransform<int32_t>,
+              MeshDataT=MeshData
+          ]
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/attributes/prediction_schemes/mesh_prediction_scheme_tex_coords_portable_predictor.h(113,35): warning C4244: =: const CoeffT se převádí na DataTypeT; může dojít ke ztrátě dat.
+          with
+          [
+              CoeffT=int64_t
+          ]
+          and
+          [
+              DataTypeT=int32_t
+          ]
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/attributes/normal_compression_utils.h(179,63): warning C4244: =: int64_t se převádí na T; může dojít ke ztrátě dat.
+          with
+          [
+              T=int32_t
+          ]
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/attributes/prediction_schemes/mesh_prediction_scheme_geometric_normal_decoder.h(115): message : Zobrazit odkaz na kompilované vytváření instancí funkce šablona void draco::OctahedronToolBox::CanonicalizeIntegerVector<CoeffT>(T *) const
+          with
+          [
+              CoeffT=int32_t,
+              T=int32_t
+          ]
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/attributes/prediction_schemes/mesh_prediction_scheme_geometric_normal_decoder.h(96): message : Při kompilaci členské funkce třída šablona bool draco::MeshPredictionSchemeGeometricNormalDecoder<DataTypeT,TransformT,MeshDataT>::ComputeOriginalValues(const int *,DataTypeT *,int,int,const draco::PointIndex *)
+          with
+          [
+              DataTypeT=int32_t,
+              TransformT=draco::PredictionSchemeNormalOctahedronDecodingTransform<int32_t>,
+              MeshDataT=MeshData
+          ]
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/attributes/normal_compression_utils.h(180,63): warning C4244: =: int64_t se převádí na T; může dojít ke ztrátě dat.
+          with
+          [
+              T=int32_t
+          ]
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/attributes/prediction_schemes/mesh_prediction_scheme_tex_coords_decoder.h(94,60): warning C4244: argument: const DataTypeT se převádí na const CoeffT; může dojít ke ztrátě dat.
+          with
+          [
+              DataTypeT=int32_t
+          ]
+          and
+          [
+              CoeffT=float
+          ]
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/attributes/prediction_schemes/mesh_prediction_scheme_tex_coords_decoder.h(92): message : Při kompilaci členské funkce třída šablona draco::Vector2f draco::MeshPredictionSchemeTexCoordsDecoder<DataTypeT,TransformT,MeshDataT>::GetTexCoordForEntryId(int,const DataTypeT *) const
+          with
+          [
+              DataTypeT=int32_t,
+              TransformT=draco::PredictionSchemeNormalOctahedronCanonicalizedDecodingTransform<int32_t>,
+              MeshDataT=MeshData
+          ]
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/attributes/prediction_schemes/mesh_prediction_scheme_tex_coords_decoder.h(186): message : Zobrazit odkaz na kompilované vytváření instancí funkce šablona draco::Vector2f draco::MeshPredictionSchemeTexCoordsDecoder<DataTypeT,TransformT,MeshDataT>::GetTexCoordForEntryId(int,const DataTypeT *) const
+          with
+          [
+              DataTypeT=int32_t,
+              TransformT=draco::PredictionSchemeNormalOctahedronCanonicalizedDecodingTransform<int32_t>,
+              MeshDataT=MeshData
+          ]
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/attributes/prediction_schemes/mesh_prediction_scheme_tex_coords_decoder.h(94,37): warning C4244: argument: const DataTypeT se převádí na const CoeffT; může dojít ke ztrátě dat.
+          with
+          [
+              DataTypeT=int32_t
+          ]
+          and
+          [
+              CoeffT=float
+          ]
+  sequential_quantization_attribute_decoder.cc
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/attributes/point_attribute.h(68,1): warning C4267: =: Převod z: size_t na: int, může dojít ke ztrátě dat.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/metadata/metadata.h(134,27): warning C4267: return: Převod z: size_t na: int, může dojít ke ztrátě dat.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/point_cloud/point_cloud.h(57,34): warning C4267: return: Převod z: size_t na: int32_t, může dojít ke ztrátě dat.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/compression/point_cloud/point_cloud_decoder.h(66,1): warning C4267: return: Převod z: size_t na: int32_t, může dojít ke ztrátě dat.
+  Generování kódu...
+  draco_compression_attributes_dec.vcxproj -> C:\Users\jachu\Downloads\draco-1.2.0\draco_compression_attributes_dec.dir\Debug\draco_compression_attributes_dec.lib

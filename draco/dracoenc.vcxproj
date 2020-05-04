@@ -1,0 +1,428 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{8088C368-B59E-3677-B55A-115D3FEC0417}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.18362.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>dracoenc</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\jachu\Downloads\draco-1.2.0\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">dracoenc.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">dracoenc</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\jachu\Downloads\draco-1.2.0\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">dracoenc.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">dracoenc</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\jachu\Downloads\draco-1.2.0\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">dracoenc.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">dracoenc</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\jachu\Downloads\draco-1.2.0\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">dracoenc.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">dracoenc</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;DRACO_POINT_CLOUD_COMPRESSION_SUPPORTED;DRACO_MESH_COMPRESSION_SUPPORTED;DRACO_STANDARD_EDGEBREAKER_SUPPORTED;DRACO_PREDICTIVE_EDGEBREAKER_SUPPORTED;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;DRACO_POINT_CLOUD_COMPRESSION_SUPPORTED;DRACO_MESH_COMPRESSION_SUPPORTED;DRACO_STANDARD_EDGEBREAKER_SUPPORTED;DRACO_PREDICTIVE_EDGEBREAKER_SUPPORTED;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;DRACO_POINT_CLOUD_COMPRESSION_SUPPORTED;DRACO_MESH_COMPRESSION_SUPPORTED;DRACO_STANDARD_EDGEBREAKER_SUPPORTED;DRACO_PREDICTIVE_EDGEBREAKER_SUPPORTED;NDEBUG;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;DRACO_POINT_CLOUD_COMPRESSION_SUPPORTED;DRACO_MESH_COMPRESSION_SUPPORTED;DRACO_STANDARD_EDGEBREAKER_SUPPORTED;DRACO_PREDICTIVE_EDGEBREAKER_SUPPORTED;NDEBUG;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;DRACO_POINT_CLOUD_COMPRESSION_SUPPORTED;DRACO_MESH_COMPRESSION_SUPPORTED;DRACO_STANDARD_EDGEBREAKER_SUPPORTED;DRACO_PREDICTIVE_EDGEBREAKER_SUPPORTED;NDEBUG;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;DRACO_POINT_CLOUD_COMPRESSION_SUPPORTED;DRACO_MESH_COMPRESSION_SUPPORTED;DRACO_STANDARD_EDGEBREAKER_SUPPORTED;DRACO_PREDICTIVE_EDGEBREAKER_SUPPORTED;NDEBUG;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;DRACO_POINT_CLOUD_COMPRESSION_SUPPORTED;DRACO_MESH_COMPRESSION_SUPPORTED;DRACO_STANDARD_EDGEBREAKER_SUPPORTED;DRACO_PREDICTIVE_EDGEBREAKER_SUPPORTED;NDEBUG;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;DRACO_POINT_CLOUD_COMPRESSION_SUPPORTED;DRACO_MESH_COMPRESSION_SUPPORTED;DRACO_STANDARD_EDGEBREAKER_SUPPORTED;DRACO_PREDICTIVE_EDGEBREAKER_SUPPORTED;NDEBUG;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/jachu/Downloads/draco-1.2.0/draco-1.2.0/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/jachu/Downloads/draco-1.2.0/draco-1.2.0 -BC:/Users/jachu/Downloads/draco-1.2.0 --check-stamp-file C:/Users/jachu/Downloads/draco-1.2.0/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.16\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CheckCCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CheckCXXCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\WriteBasicConfigVersionFile.cmake;C:\Users\jachu\Downloads\draco-1.2.0\CMakeFiles\3.16.4\CMakeCCompiler.cmake;C:\Users\jachu\Downloads\draco-1.2.0\CMakeFiles\3.16.4\CMakeCXXCompiler.cmake;C:\Users\jachu\Downloads\draco-1.2.0\CMakeFiles\3.16.4\CMakeRCCompiler.cmake;C:\Users\jachu\Downloads\draco-1.2.0\CMakeFiles\3.16.4\CMakeSystem.cmake;C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\cmake\DracoConfig.cmake;C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\cmake\compiler_flags.cmake;C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\cmake\compiler_tests.cmake;C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\cmake\draco_version.cc.cmake;C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\cmake\draco_version.h.cmake;C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\cmake\sanitizers.cmake;C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\cmake\util.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\jachu\Downloads\draco-1.2.0\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/jachu/Downloads/draco-1.2.0/draco-1.2.0/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/jachu/Downloads/draco-1.2.0/draco-1.2.0 -BC:/Users/jachu/Downloads/draco-1.2.0 --check-stamp-file C:/Users/jachu/Downloads/draco-1.2.0/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.16\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CheckCCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CheckCXXCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\WriteBasicConfigVersionFile.cmake;C:\Users\jachu\Downloads\draco-1.2.0\CMakeFiles\3.16.4\CMakeCCompiler.cmake;C:\Users\jachu\Downloads\draco-1.2.0\CMakeFiles\3.16.4\CMakeCXXCompiler.cmake;C:\Users\jachu\Downloads\draco-1.2.0\CMakeFiles\3.16.4\CMakeRCCompiler.cmake;C:\Users\jachu\Downloads\draco-1.2.0\CMakeFiles\3.16.4\CMakeSystem.cmake;C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\cmake\DracoConfig.cmake;C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\cmake\compiler_flags.cmake;C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\cmake\compiler_tests.cmake;C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\cmake\draco_version.cc.cmake;C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\cmake\draco_version.h.cmake;C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\cmake\sanitizers.cmake;C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\cmake\util.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\jachu\Downloads\draco-1.2.0\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/jachu/Downloads/draco-1.2.0/draco-1.2.0/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/jachu/Downloads/draco-1.2.0/draco-1.2.0 -BC:/Users/jachu/Downloads/draco-1.2.0 --check-stamp-file C:/Users/jachu/Downloads/draco-1.2.0/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-3.16\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CheckCCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CheckCXXCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\WriteBasicConfigVersionFile.cmake;C:\Users\jachu\Downloads\draco-1.2.0\CMakeFiles\3.16.4\CMakeCCompiler.cmake;C:\Users\jachu\Downloads\draco-1.2.0\CMakeFiles\3.16.4\CMakeCXXCompiler.cmake;C:\Users\jachu\Downloads\draco-1.2.0\CMakeFiles\3.16.4\CMakeRCCompiler.cmake;C:\Users\jachu\Downloads\draco-1.2.0\CMakeFiles\3.16.4\CMakeSystem.cmake;C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\cmake\DracoConfig.cmake;C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\cmake\compiler_flags.cmake;C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\cmake\compiler_tests.cmake;C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\cmake\draco_version.cc.cmake;C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\cmake\draco_version.h.cmake;C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\cmake\sanitizers.cmake;C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\cmake\util.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\jachu\Downloads\draco-1.2.0\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/jachu/Downloads/draco-1.2.0/draco-1.2.0/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/jachu/Downloads/draco-1.2.0/draco-1.2.0 -BC:/Users/jachu/Downloads/draco-1.2.0 --check-stamp-file C:/Users/jachu/Downloads/draco-1.2.0/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-3.16\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CheckCCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CheckCXXCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\WriteBasicConfigVersionFile.cmake;C:\Users\jachu\Downloads\draco-1.2.0\CMakeFiles\3.16.4\CMakeCCompiler.cmake;C:\Users\jachu\Downloads\draco-1.2.0\CMakeFiles\3.16.4\CMakeCXXCompiler.cmake;C:\Users\jachu\Downloads\draco-1.2.0\CMakeFiles\3.16.4\CMakeRCCompiler.cmake;C:\Users\jachu\Downloads\draco-1.2.0\CMakeFiles\3.16.4\CMakeSystem.cmake;C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\cmake\DracoConfig.cmake;C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\cmake\compiler_flags.cmake;C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\cmake\compiler_tests.cmake;C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\cmake\draco_version.cc.cmake;C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\cmake\draco_version.h.cmake;C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\cmake\sanitizers.cmake;C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\cmake\util.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\jachu\Downloads\draco-1.2.0\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\Users\jachu\Downloads\draco-1.2.0\draco_version.cc" />
+    <ClInclude Include="C:\Users\jachu\Downloads\draco-1.2.0\draco_version.h" />
+    <Object Include="C:\Users\jachu\Downloads\draco-1.2.0\draco_attributes.dir\$(Configuration)\attribute_octahedron_transform.obj" />
+    <Object Include="C:\Users\jachu\Downloads\draco-1.2.0\draco_attributes.dir\$(Configuration)\attribute_quantization_transform.obj" />
+    <Object Include="C:\Users\jachu\Downloads\draco-1.2.0\draco_attributes.dir\$(Configuration)\attribute_transform.obj" />
+    <Object Include="C:\Users\jachu\Downloads\draco-1.2.0\draco_attributes.dir\$(Configuration)\geometry_attribute.obj" />
+    <Object Include="C:\Users\jachu\Downloads\draco-1.2.0\draco_attributes.dir\$(Configuration)\point_attribute.obj" />
+    <Object Include="C:\Users\jachu\Downloads\draco-1.2.0\draco_compression_attributes_enc.dir\$(Configuration)\attributes_encoder.obj" />
+    <Object Include="C:\Users\jachu\Downloads\draco-1.2.0\draco_compression_attributes_enc.dir\$(Configuration)\kd_tree_attributes_encoder.obj" />
+    <Object Include="C:\Users\jachu\Downloads\draco-1.2.0\draco_compression_attributes_enc.dir\$(Configuration)\sequential_attribute_encoder.obj" />
+    <Object Include="C:\Users\jachu\Downloads\draco-1.2.0\draco_compression_attributes_enc.dir\$(Configuration)\sequential_attribute_encoders_controller.obj" />
+    <Object Include="C:\Users\jachu\Downloads\draco-1.2.0\draco_compression_attributes_enc.dir\$(Configuration)\sequential_integer_attribute_encoder.obj" />
+    <Object Include="C:\Users\jachu\Downloads\draco-1.2.0\draco_compression_attributes_enc.dir\$(Configuration)\sequential_normal_attribute_encoder.obj" />
+    <Object Include="C:\Users\jachu\Downloads\draco-1.2.0\draco_compression_attributes_enc.dir\$(Configuration)\sequential_quantization_attribute_encoder.obj" />
+    <Object Include="C:\Users\jachu\Downloads\draco-1.2.0\draco_compression_attributes_pred_schemes_enc.dir\$(Configuration)\prediction_scheme_encoder_factory.obj" />
+    <Object Include="C:\Users\jachu\Downloads\draco-1.2.0\draco_compression_encode.dir\$(Configuration)\encode.obj" />
+    <Object Include="C:\Users\jachu\Downloads\draco-1.2.0\draco_compression_encode.dir\$(Configuration)\expert_encode.obj" />
+    <Object Include="C:\Users\jachu\Downloads\draco-1.2.0\draco_compression_mesh_enc.dir\$(Configuration)\mesh_edgebreaker_encoder.obj" />
+    <Object Include="C:\Users\jachu\Downloads\draco-1.2.0\draco_compression_mesh_enc.dir\$(Configuration)\mesh_edgebreaker_encoder_impl.obj" />
+    <Object Include="C:\Users\jachu\Downloads\draco-1.2.0\draco_compression_mesh_enc.dir\$(Configuration)\mesh_encoder.obj" />
+    <Object Include="C:\Users\jachu\Downloads\draco-1.2.0\draco_compression_mesh_enc.dir\$(Configuration)\mesh_sequential_encoder.obj" />
+    <Object Include="C:\Users\jachu\Downloads\draco-1.2.0\draco_compression_point_cloud_enc.dir\$(Configuration)\point_cloud_encoder.obj" />
+    <Object Include="C:\Users\jachu\Downloads\draco-1.2.0\draco_compression_point_cloud_enc.dir\$(Configuration)\point_cloud_kd_tree_encoder.obj" />
+    <Object Include="C:\Users\jachu\Downloads\draco-1.2.0\draco_compression_point_cloud_enc.dir\$(Configuration)\point_cloud_sequential_encoder.obj" />
+    <Object Include="C:\Users\jachu\Downloads\draco-1.2.0\draco_core.dir\$(Configuration)\cycle_timer.obj" />
+    <Object Include="C:\Users\jachu\Downloads\draco-1.2.0\draco_core.dir\$(Configuration)\data_buffer.obj" />
+    <Object Include="C:\Users\jachu\Downloads\draco-1.2.0\draco_core.dir\$(Configuration)\decoder_buffer.obj" />
+    <Object Include="C:\Users\jachu\Downloads\draco-1.2.0\draco_core.dir\$(Configuration)\divide.obj" />
+    <Object Include="C:\Users\jachu\Downloads\draco-1.2.0\draco_core.dir\$(Configuration)\draco_types.obj" />
+    <Object Include="C:\Users\jachu\Downloads\draco-1.2.0\draco_core.dir\$(Configuration)\encoder_buffer.obj" />
+    <Object Include="C:\Users\jachu\Downloads\draco-1.2.0\draco_core.dir\$(Configuration)\hash_utils.obj" />
+    <Object Include="C:\Users\jachu\Downloads\draco-1.2.0\draco_core.dir\$(Configuration)\options.obj" />
+    <Object Include="C:\Users\jachu\Downloads\draco-1.2.0\draco_core.dir\$(Configuration)\quantization_utils.obj" />
+    <Object Include="C:\Users\jachu\Downloads\draco-1.2.0\draco_core.dir\$(Configuration)\shannon_entropy.obj" />
+    <Object Include="C:\Users\jachu\Downloads\draco-1.2.0\draco_core.dir\$(Configuration)\symbol_coding_utils.obj" />
+    <Object Include="C:\Users\jachu\Downloads\draco-1.2.0\draco_core.dir\$(Configuration)\symbol_decoding.obj" />
+    <Object Include="C:\Users\jachu\Downloads\draco-1.2.0\draco_core.dir\$(Configuration)\symbol_encoding.obj" />
+    <Object Include="C:\Users\jachu\Downloads\draco-1.2.0\draco_core_bit_coders.dir\$(Configuration)\adaptive_rans_bit_decoder.obj" />
+    <Object Include="C:\Users\jachu\Downloads\draco-1.2.0\draco_core_bit_coders.dir\$(Configuration)\adaptive_rans_bit_encoder.obj" />
+    <Object Include="C:\Users\jachu\Downloads\draco-1.2.0\draco_core_bit_coders.dir\$(Configuration)\direct_bit_decoder.obj" />
+    <Object Include="C:\Users\jachu\Downloads\draco-1.2.0\draco_core_bit_coders.dir\$(Configuration)\direct_bit_encoder.obj" />
+    <Object Include="C:\Users\jachu\Downloads\draco-1.2.0\draco_core_bit_coders.dir\$(Configuration)\rans_bit_decoder.obj" />
+    <Object Include="C:\Users\jachu\Downloads\draco-1.2.0\draco_core_bit_coders.dir\$(Configuration)\rans_bit_encoder.obj" />
+    <Object Include="C:\Users\jachu\Downloads\draco-1.2.0\draco_core_bit_coders.dir\$(Configuration)\symbol_bit_decoder.obj" />
+    <Object Include="C:\Users\jachu\Downloads\draco-1.2.0\draco_core_bit_coders.dir\$(Configuration)\symbol_bit_encoder.obj" />
+    <Object Include="C:\Users\jachu\Downloads\draco-1.2.0\draco_enc_config.dir\$(Configuration)\draco_enc_config.obj" />
+    <Object Include="C:\Users\jachu\Downloads\draco-1.2.0\draco_mesh.dir\$(Configuration)\corner_table.obj" />
+    <Object Include="C:\Users\jachu\Downloads\draco-1.2.0\draco_mesh.dir\$(Configuration)\mesh.obj" />
+    <Object Include="C:\Users\jachu\Downloads\draco-1.2.0\draco_mesh.dir\$(Configuration)\mesh_are_equivalent.obj" />
+    <Object Include="C:\Users\jachu\Downloads\draco-1.2.0\draco_mesh.dir\$(Configuration)\mesh_attribute_corner_table.obj" />
+    <Object Include="C:\Users\jachu\Downloads\draco-1.2.0\draco_mesh.dir\$(Configuration)\mesh_cleanup.obj" />
+    <Object Include="C:\Users\jachu\Downloads\draco-1.2.0\draco_mesh.dir\$(Configuration)\mesh_misc_functions.obj" />
+    <Object Include="C:\Users\jachu\Downloads\draco-1.2.0\draco_mesh.dir\$(Configuration)\mesh_stripifier.obj" />
+    <Object Include="C:\Users\jachu\Downloads\draco-1.2.0\draco_mesh.dir\$(Configuration)\triangle_soup_mesh_builder.obj" />
+    <Object Include="C:\Users\jachu\Downloads\draco-1.2.0\draco_metadata.dir\$(Configuration)\geometry_metadata.obj" />
+    <Object Include="C:\Users\jachu\Downloads\draco-1.2.0\draco_metadata.dir\$(Configuration)\metadata.obj" />
+    <Object Include="C:\Users\jachu\Downloads\draco-1.2.0\draco_metadata_enc.dir\$(Configuration)\metadata_encoder.obj" />
+    <Object Include="C:\Users\jachu\Downloads\draco-1.2.0\draco_point_cloud.dir\$(Configuration)\point_cloud.obj" />
+    <Object Include="C:\Users\jachu\Downloads\draco-1.2.0\draco_point_cloud.dir\$(Configuration)\point_cloud_builder.obj" />
+    <Object Include="C:\Users\jachu\Downloads\draco-1.2.0\draco_points_enc.dir\$(Configuration)\dynamic_integer_points_kd_tree_encoder.obj" />
+    <Object Include="C:\Users\jachu\Downloads\draco-1.2.0\draco_points_enc.dir\$(Configuration)\float_points_tree_encoder.obj" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\jachu\Downloads\draco-1.2.0\ZERO_CHECK.vcxproj">
+      <Project>{818E83D0-9FD9-3F8C-8356-C4E547EA92DB}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\jachu\Downloads\draco-1.2.0\draco_attributes.vcxproj">
+      <Project>{26BC9048-FF03-3897-987E-876574374685}</Project>
+      <Name>draco_attributes</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\jachu\Downloads\draco-1.2.0\draco_compression_attributes_enc.vcxproj">
+      <Project>{1F7233D0-FC4C-31D9-8A78-D8B6D518CCF5}</Project>
+      <Name>draco_compression_attributes_enc</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\jachu\Downloads\draco-1.2.0\draco_compression_attributes_pred_schemes_enc.vcxproj">
+      <Project>{757B1686-F01B-36CC-98A2-5D3F071B85EF}</Project>
+      <Name>draco_compression_attributes_pred_schemes_enc</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\jachu\Downloads\draco-1.2.0\draco_compression_encode.vcxproj">
+      <Project>{8CA61AFE-E562-37F4-9087-919540DDF599}</Project>
+      <Name>draco_compression_encode</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\jachu\Downloads\draco-1.2.0\draco_compression_mesh_enc.vcxproj">
+      <Project>{BBBEAE32-02AA-3B41-BCE3-413197992A33}</Project>
+      <Name>draco_compression_mesh_enc</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\jachu\Downloads\draco-1.2.0\draco_compression_point_cloud_enc.vcxproj">
+      <Project>{99F7DB71-2489-3078-8E06-A372E8691008}</Project>
+      <Name>draco_compression_point_cloud_enc</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\jachu\Downloads\draco-1.2.0\draco_core.vcxproj">
+      <Project>{B5254CAF-0915-3361-A6AC-403D31CAAC72}</Project>
+      <Name>draco_core</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\jachu\Downloads\draco-1.2.0\draco_core_bit_coders.vcxproj">
+      <Project>{974FF955-6D85-3010-83E3-9588225EF2DA}</Project>
+      <Name>draco_core_bit_coders</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\jachu\Downloads\draco-1.2.0\draco_enc_config.vcxproj">
+      <Project>{FD48B1C2-4C4F-3C6B-B7E0-8FED6593D7A6}</Project>
+      <Name>draco_enc_config</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\jachu\Downloads\draco-1.2.0\draco_mesh.vcxproj">
+      <Project>{A9845E42-ED62-3F1F-A789-9F5ED784EE7D}</Project>
+      <Name>draco_mesh</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\jachu\Downloads\draco-1.2.0\draco_metadata.vcxproj">
+      <Project>{60230B46-6992-3FCB-9BDA-C2059EB3AE7B}</Project>
+      <Name>draco_metadata</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\jachu\Downloads\draco-1.2.0\draco_metadata_enc.vcxproj">
+      <Project>{90FCA25A-B87F-3943-817A-6B8AB0751BB8}</Project>
+      <Name>draco_metadata_enc</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\jachu\Downloads\draco-1.2.0\draco_point_cloud.vcxproj">
+      <Project>{A16190D9-7BA5-3C18-B2CB-37FDD8F2196B}</Project>
+      <Name>draco_point_cloud</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\jachu\Downloads\draco-1.2.0\draco_points_enc.vcxproj">
+      <Project>{3FD7F464-5BB0-326B-8474-95BB6DB716BF}</Project>
+      <Name>draco_points_enc</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

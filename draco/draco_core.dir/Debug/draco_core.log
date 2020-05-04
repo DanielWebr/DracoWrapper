@@ -1,0 +1,65 @@
+﻿  Building Custom Rule C:/Users/jachu/Downloads/draco-1.2.0/draco-1.2.0/CMakeLists.txt
+  cycle_timer.cc
+  data_buffer.cc
+  decoder_buffer.cc
+  divide.cc
+  draco_types.cc
+  encoder_buffer.cc
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco\core\encoder_buffer.cc(72,53): warning C4267: inicializování: Převod z: size_t na: uint32_t, může dojít ke ztrátě dat.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco\core\encoder_buffer.cc(72,53): warning C4267: inicializování: Převod z: size_t na: const uint32_t, může dojít ke ztrátě dat.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/core/symbol_coding_utils.h(44,1): warning C4146: Unární operátor minus je použitý pro typ bez znaménka. Výsledkem bude i tak hodnota bez znaménka.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/core/varint_encoding.h(48): message : Zobrazit odkaz na kompilované vytváření instancí funkce šablona unsigned __int64 draco::ConvertSignedIntToSymbol<IntTypeT>(IntTypeT)
+          with
+          [
+              IntTypeT=uint64_t
+          ]
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco\core\encoder_buffer.cc(71): message : Zobrazit odkaz na kompilované vytváření instancí funkce šablona bool draco::EncodeVarint<uint64_t>(IntTypeT,draco::EncoderBuffer *)
+          with
+          [
+              IntTypeT=uint64_t
+          ]
+  hash_utils.cc
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco\core\hash_utils.cc(26,44): warning C4267: inicializování: Převod z: size_t na: int, může dojít ke ztrátě dat.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco\core\hash_utils.cc(26,44): warning C4267: inicializování: Převod z: size_t na: const int, může dojít ke ztrátě dat.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco\core\hash_utils.cc(31,43): warning C4267: inicializování: Převod z: size_t na: int, může dojít ke ztrátě dat.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco\core\hash_utils.cc(31,43): warning C4267: inicializování: Převod z: size_t na: const int, může dojít ke ztrátě dat.
+  options.cc
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco\core\options.cc(23,1): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1774): message : viz deklarace: sprintf
+  quantization_utils.cc
+  shannon_entropy.cc
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco\core\shannon_entropy.cc(31,10): warning C4244: return: double se převádí na int64_t; může dojít ke ztrátě dat.
+  symbol_coding_utils.cc
+  symbol_decoding.cc
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/core/rans_symbol_decoder.h(124,21): warning C4018: >: signed/unsigned – neshoda
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/core/rans_symbol_decoder.h(114): message : Při kompilaci členské funkce třída šablona bool draco::RAnsSymbolDecoder<5>::StartDecoding(draco::DecoderBuffer *)
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco\core\symbol_decoding.cc(60): message : Zobrazit odkaz na kompilované vytváření instancí funkce šablona bool draco::RAnsSymbolDecoder<5>::StartDecoding(draco::DecoderBuffer *)
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco\core\symbol_decoding.cc(56): message : Zobrazit odkaz na kompilované vytváření instancí funkce třída šablona draco::RAnsSymbolDecoder<5>
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco\core\symbol_decoding.cc(44): message : Zobrazit odkaz na kompilované vytváření instancí funkce šablona bool draco::DecodeTaggedSymbols<draco::RAnsSymbolDecoder>(int,int,draco::DecoderBuffer *,uint32_t *)
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/core/rans_symbol_decoder.h(130,33): warning C4244: argument: uint64_t se převádí na int; může dojít ke ztrátě dat.
+  symbol_encoding.cc
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco\core\symbol_encoding.cc(71,70): warning C4267: argument: Převod z: size_t na: int, může dojít ke ztrátě dat.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/core/rans_symbol_encoder.h(269,1): warning C4267: inicializování: Převod z: size_t na: uint32_t, může dojít ke ztrátě dat.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/core/rans_symbol_encoder.h(261): message : Při kompilaci členské funkce třída šablona void draco::RAnsSymbolEncoder<5>::EndEncoding(draco::EncoderBuffer *)
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco\core\symbol_encoding.cc(200): message : Zobrazit odkaz na kompilované vytváření instancí funkce šablona void draco::RAnsSymbolEncoder<5>::EndEncoding(draco::EncoderBuffer *)
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco\core\symbol_encoding.cc(166): message : Zobrazit odkaz na kompilované vytváření instancí funkce třída šablona draco::RAnsSymbolEncoder<5>
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco\core\symbol_encoding.cc(130): message : Zobrazit odkaz na kompilované vytváření instancí funkce šablona bool draco::EncodeTaggedSymbols<draco::RAnsSymbolEncoder>(const uint32_t *,int,int,const std::vector<uint32_t,std::allocator<uint32_t>> &,draco::EncoderBuffer *)
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/core/rans_symbol_encoder.h(269,1): warning C4267: inicializování: Převod z: size_t na: const uint32_t, může dojít ke ztrátě dat.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco\core\symbol_encoding.cc(219,1): warning C4267: argument: Převod z: size_t na: int, může dojít ke ztrátě dat.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco\core\symbol_encoding.cc(265): message : Zobrazit odkaz na kompilované vytváření instancí funkce šablona bool draco::EncodeRawSymbolsInternal<draco::RAnsSymbolEncoder<1>>(const uint32_t *,int,const uint32_t &,draco::EncoderBuffer *)
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco\core\symbol_encoding.cc(135): message : Zobrazit odkaz na kompilované vytváření instancí funkce šablona bool draco::EncodeRawSymbols<draco::RAnsSymbolEncoder>(const uint32_t *,int,const uint32_t *,draco::EncoderBuffer *)
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/core/symbol_coding_utils.h(44,1): warning C4146: Unární operátor minus je použitý pro typ bez znaménka. Výsledkem bude i tak hodnota bez znaménka.
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/core/varint_encoding.h(48): message : Zobrazit odkaz na kompilované vytváření instancí funkce šablona unsigned __int64 draco::ConvertSignedIntToSymbol<IntTypeT>(IntTypeT)
+          with
+          [
+              IntTypeT=uint64_t
+          ]
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/core/rans_symbol_encoder.h(268): message : Zobrazit odkaz na kompilované vytváření instancí funkce šablona bool draco::EncodeVarint<uint64_t>(IntTypeT,draco::EncoderBuffer *)
+          with
+          [
+              IntTypeT=uint64_t
+          ]
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/core/rans_symbol_encoder.h(261): message : Při kompilaci členské funkce třída šablona void draco::RAnsSymbolEncoder<5>::EndEncoding(draco::EncoderBuffer *)
+C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco\core\symbol_encoding.cc(200): message : Zobrazit odkaz na kompilované vytváření instancí funkce šablona void draco::RAnsSymbolEncoder<5>::EndEncoding(draco::EncoderBuffer *)
+  Generování kódu...
+  draco_core.vcxproj -> C:\Users\jachu\Downloads\draco-1.2.0\draco_core.dir\Debug\draco_core.lib
