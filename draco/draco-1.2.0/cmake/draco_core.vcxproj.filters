@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\draco-1.2.0\draco-1.2.0\src\draco\core\cycle_timer.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\draco-1.2.0\draco-1.2.0\src\draco\core\data_buffer.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\draco-1.2.0\draco-1.2.0\src\draco\core\decoder_buffer.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\draco-1.2.0\draco-1.2.0\src\draco\core\divide.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\draco-1.2.0\draco-1.2.0\src\draco\core\draco_types.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\draco-1.2.0\draco-1.2.0\src\draco\core\encoder_buffer.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\draco-1.2.0\draco-1.2.0\src\draco\core\hash_utils.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\draco-1.2.0\draco-1.2.0\src\draco\core\options.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\draco-1.2.0\draco-1.2.0\src\draco\core\quantization_utils.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\draco-1.2.0\draco-1.2.0\src\draco\core\shannon_entropy.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\draco-1.2.0\draco-1.2.0\src\draco\core\symbol_coding_utils.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\draco-1.2.0\draco-1.2.0\src\draco\core\symbol_decoding.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\draco-1.2.0\draco-1.2.0\src\draco\core\symbol_encoding.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\draco-1.2.0\draco-1.2.0\src\draco\core\ans.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\draco-1.2.0\draco-1.2.0\src\draco\core\bit_utils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\draco-1.2.0\draco-1.2.0\src\draco\core\cycle_timer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\draco-1.2.0\draco-1.2.0\src\draco\core\data_buffer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\draco-1.2.0\draco-1.2.0\src\draco\core\decoder_buffer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\draco-1.2.0\draco-1.2.0\src\draco\core\divide.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\draco-1.2.0\draco-1.2.0\src\draco\core\draco_index_type.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\draco-1.2.0\draco-1.2.0\src\draco\core\draco_index_type_vector.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\draco-1.2.0\draco-1.2.0\src\draco\core\draco_types.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\draco-1.2.0\draco-1.2.0\src\draco\core\encoder_buffer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\draco-1.2.0\draco-1.2.0\src\draco\core\hash_utils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\draco-1.2.0\draco-1.2.0\src\draco\core\macros.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\draco-1.2.0\draco-1.2.0\src\draco\core\math_utils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\draco-1.2.0\draco-1.2.0\src\draco\core\options.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\draco-1.2.0\draco-1.2.0\src\draco\core\quantization_utils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\draco-1.2.0\draco-1.2.0\src\draco\core\rans_symbol_coding.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\draco-1.2.0\draco-1.2.0\src\draco\core\rans_symbol_decoder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\draco-1.2.0\draco-1.2.0\src\draco\core\rans_symbol_encoder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\draco-1.2.0\draco-1.2.0\src\draco\core\shannon_entropy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\draco-1.2.0\draco-1.2.0\src\draco\core\status.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\draco-1.2.0\draco-1.2.0\src\draco\core\statusor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\draco-1.2.0\draco-1.2.0\src\draco\core\symbol_coding_utils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\draco-1.2.0\draco-1.2.0\src\draco\core\symbol_decoding.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\draco-1.2.0\draco-1.2.0\src\draco\core\symbol_encoding.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\draco-1.2.0\draco-1.2.0\src\draco\core\varint_decoding.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\draco-1.2.0\draco-1.2.0\src\draco\core\varint_encoding.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\draco-1.2.0\draco-1.2.0\src\draco\core\vector_d.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\draco-1.2.0\draco-1.2.0\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{097C26EA-8CA0-3B04-B837-D2142105F01A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{F213DE81-7EFA-3D1F-9B62-4D256CA82BC8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

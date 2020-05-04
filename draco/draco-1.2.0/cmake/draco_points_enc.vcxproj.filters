@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\draco-1.2.0\draco-1.2.0\src\draco\compression\point_cloud\algorithms\dynamic_integer_points_kd_tree_encoder.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\draco-1.2.0\draco-1.2.0\src\draco\compression\point_cloud\algorithms\float_points_tree_encoder.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\draco-1.2.0\draco-1.2.0\src\draco\compression\point_cloud\algorithms\point_cloud_compression_method.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\draco-1.2.0\draco-1.2.0\src\draco\compression\point_cloud\algorithms\point_cloud_types.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\draco-1.2.0\draco-1.2.0\src\draco\compression\point_cloud\algorithms\quantize_points_3.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\draco-1.2.0\draco-1.2.0\src\draco\compression\point_cloud\algorithms\queuing_policy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\draco-1.2.0\draco-1.2.0\src\draco\compression\point_cloud\algorithms\dynamic_integer_points_kd_tree_encoder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\draco-1.2.0\draco-1.2.0\src\draco\compression\point_cloud\algorithms\float_points_tree_encoder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\draco-1.2.0\draco-1.2.0\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{097C26EA-8CA0-3B04-B837-D2142105F01A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{F213DE81-7EFA-3D1F-9B62-4D256CA82BC8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

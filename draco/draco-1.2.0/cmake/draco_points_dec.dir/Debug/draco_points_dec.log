@@ -1,0 +1,27 @@
+﻿  Building Custom Rule C:/draco-1.2.0/draco-1.2.0/CMakeLists.txt
+  dynamic_integer_points_kd_tree_decoder.cc
+  float_points_tree_decoder.cc
+C:\draco-1.2.0\draco-1.2.0\src\draco/compression/point_cloud/algorithms/dynamic_integer_points_kd_tree_decoder.h(229,25): warning C4018: <: signed/unsigned – neshoda
+C:\draco-1.2.0\draco-1.2.0\src\draco/compression/point_cloud/algorithms/dynamic_integer_points_kd_tree_decoder.h(159): message : Zobrazit odkaz na kompilované vytváření instancí funkce šablona void draco::DynamicIntegerPointsKdTreeDecoder<0>::DecodeInternal<OutputIteratorT>(uint32_t,OutputIteratorT)
+          with
+          [
+              OutputIteratorT=draco::ConversionOutputIterator<std::back_insert_iterator<std::vector<draco::Point3ui,std::allocator<draco::Point3ui>>>,draco::Converter>
+          ]
+C:\draco-1.2.0\draco-1.2.0\src\draco/compression/point_cloud/algorithms/dynamic_integer_points_kd_tree_decoder.h(159): message : Zobrazit odkaz na kompilované vytváření instancí funkce šablona void draco::DynamicIntegerPointsKdTreeDecoder<0>::DecodeInternal<OutputIteratorT>(uint32_t,OutputIteratorT)
+          with
+          [
+              OutputIteratorT=draco::ConversionOutputIterator<std::back_insert_iterator<std::vector<draco::Point3ui,std::allocator<draco::Point3ui>>>,draco::Converter>
+          ]
+C:\draco-1.2.0\draco-1.2.0\src\draco\compression\point_cloud\algorithms\float_points_tree_decoder.cc(98): message : Zobrazit odkaz na kompilované vytváření instancí funkce šablona bool draco::DynamicIntegerPointsKdTreeDecoder<0>::DecodePoints<draco::ConversionOutputIterator<std::back_insert_iterator<std::vector<draco::Point3ui,std::allocator<draco::Point3ui>>>,draco::Converter>>(draco::DecoderBuffer *,OutputIteratorT)
+          with
+          [
+              OutputIteratorT=draco::ConversionOutputIterator<std::back_insert_iterator<std::vector<draco::Point3ui,std::allocator<draco::Point3ui>>>,draco::Converter>
+          ]
+C:\draco-1.2.0\draco-1.2.0\src\draco\compression\point_cloud\algorithms\float_points_tree_decoder.cc(98): message : Zobrazit odkaz na kompilované vytváření instancí funkce šablona bool draco::DynamicIntegerPointsKdTreeDecoder<0>::DecodePoints<draco::ConversionOutputIterator<std::back_insert_iterator<std::vector<draco::Point3ui,std::allocator<draco::Point3ui>>>,draco::Converter>>(draco::DecoderBuffer *,OutputIteratorT)
+          with
+          [
+              OutputIteratorT=draco::ConversionOutputIterator<std::back_insert_iterator<std::vector<draco::Point3ui,std::allocator<draco::Point3ui>>>,draco::Converter>
+          ]
+C:\draco-1.2.0\draco-1.2.0\src\draco/compression/point_cloud/algorithms/dynamic_integer_points_kd_tree_decoder.h(233,27): warning C4018: <: signed/unsigned – neshoda
+  Generování kódu...
+  draco_points_dec.vcxproj -> C:\draco-1.2.0\draco-1.2.0\cmake\draco_points_dec.dir\Debug\draco_points_dec.lib

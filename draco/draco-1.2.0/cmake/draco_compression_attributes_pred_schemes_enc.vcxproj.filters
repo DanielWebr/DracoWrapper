@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\draco-1.2.0\draco-1.2.0\src\draco\compression\attributes\prediction_schemes\prediction_scheme_encoder_factory.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\draco-1.2.0\draco-1.2.0\src\draco\compression\attributes\prediction_schemes\mesh_prediction_scheme_constrained_multi_parallelogram_encoder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\draco-1.2.0\draco-1.2.0\src\draco\compression\attributes\prediction_schemes\mesh_prediction_scheme_constrained_multi_parallelogram_shared.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\draco-1.2.0\draco-1.2.0\src\draco\compression\attributes\prediction_schemes\mesh_prediction_scheme_data.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\draco-1.2.0\draco-1.2.0\src\draco\compression\attributes\prediction_schemes\mesh_prediction_scheme_encoder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\draco-1.2.0\draco-1.2.0\src\draco\compression\attributes\prediction_schemes\mesh_prediction_scheme_geometric_normal_encoder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\draco-1.2.0\draco-1.2.0\src\draco\compression\attributes\prediction_schemes\mesh_prediction_scheme_geometric_normal_predictor_area.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\draco-1.2.0\draco-1.2.0\src\draco\compression\attributes\prediction_schemes\mesh_prediction_scheme_geometric_normal_predictor_base.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\draco-1.2.0\draco-1.2.0\src\draco\compression\attributes\prediction_schemes\mesh_prediction_scheme_multi_parallelogram_encoder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\draco-1.2.0\draco-1.2.0\src\draco\compression\attributes\prediction_schemes\mesh_prediction_scheme_parallelogram_encoder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\draco-1.2.0\draco-1.2.0\src\draco\compression\attributes\prediction_schemes\mesh_prediction_scheme_parallelogram_shared.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\draco-1.2.0\draco-1.2.0\src\draco\compression\attributes\prediction_schemes\mesh_prediction_scheme_tex_coords_encoder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\draco-1.2.0\draco-1.2.0\src\draco\compression\attributes\prediction_schemes\mesh_prediction_scheme_tex_coords_portable_encoder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\draco-1.2.0\draco-1.2.0\src\draco\compression\attributes\prediction_schemes\mesh_prediction_scheme_tex_coords_portable_predictor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\draco-1.2.0\draco-1.2.0\src\draco\compression\attributes\prediction_schemes\prediction_scheme_delta_encoder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\draco-1.2.0\draco-1.2.0\src\draco\compression\attributes\prediction_schemes\prediction_scheme_encoder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\draco-1.2.0\draco-1.2.0\src\draco\compression\attributes\prediction_schemes\prediction_scheme_encoder_factory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\draco-1.2.0\draco-1.2.0\src\draco\compression\attributes\prediction_schemes\prediction_scheme_encoder_interface.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\draco-1.2.0\draco-1.2.0\src\draco\compression\attributes\prediction_schemes\prediction_scheme_encoding_transform.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\draco-1.2.0\draco-1.2.0\src\draco\compression\attributes\prediction_schemes\prediction_scheme_factory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\draco-1.2.0\draco-1.2.0\src\draco\compression\attributes\prediction_schemes\prediction_scheme_interface.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\draco-1.2.0\draco-1.2.0\src\draco\compression\attributes\prediction_schemes\prediction_scheme_normal_octahedron_canonicalized_encoding_transform.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\draco-1.2.0\draco-1.2.0\src\draco\compression\attributes\prediction_schemes\prediction_scheme_normal_octahedron_canonicalized_transform_base.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\draco-1.2.0\draco-1.2.0\src\draco\compression\attributes\prediction_schemes\prediction_scheme_normal_octahedron_encoding_transform.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\draco-1.2.0\draco-1.2.0\src\draco\compression\attributes\prediction_schemes\prediction_scheme_normal_octahedron_transform_base.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\draco-1.2.0\draco-1.2.0\src\draco\compression\attributes\prediction_schemes\prediction_scheme_wrap_encoding_transform.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\draco-1.2.0\draco-1.2.0\src\draco\compression\attributes\prediction_schemes\prediction_scheme_wrap_transform_base.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\draco-1.2.0\draco-1.2.0\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{097C26EA-8CA0-3B04-B837-D2142105F01A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{F213DE81-7EFA-3D1F-9B62-4D256CA82BC8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

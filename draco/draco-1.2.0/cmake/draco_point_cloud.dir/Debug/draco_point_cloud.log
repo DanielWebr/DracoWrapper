@@ -1,0 +1,16 @@
+﻿  Building Custom Rule C:/draco-1.2.0/draco-1.2.0/CMakeLists.txt
+  point_cloud.cc
+C:\draco-1.2.0\draco-1.2.0\src\draco/attributes/point_attribute.h(68,1): warning C4267: =: Převod z: size_t na: int, může dojít ke ztrátě dat.
+C:\draco-1.2.0\draco-1.2.0\src\draco/metadata/metadata.h(134,27): warning C4267: return: Převod z: size_t na: int, může dojít ke ztrátě dat.
+C:\draco-1.2.0\draco-1.2.0\src\draco/point_cloud/point_cloud.h(57,34): warning C4267: return: Převod z: size_t na: int32_t, může dojít ke ztrátě dat.
+C:\draco-1.2.0\draco-1.2.0\src\draco\point_cloud\point_cloud.cc(28,45): warning C4267: return: Převod z: size_t na: int32_t, může dojít ke ztrátě dat.
+C:\draco-1.2.0\draco-1.2.0\src\draco\point_cloud\point_cloud.cc(77,20): warning C4267: return: Převod z: size_t na: int32_t, může dojít ke ztrátě dat.
+C:\draco-1.2.0\draco-1.2.0\src\draco\point_cloud\point_cloud.cc(83,49): warning C4267: argument: Převod z: size_t na: int, může dojít ke ztrátě dat.
+C:\draco-1.2.0\draco-1.2.0\src\draco\point_cloud\point_cloud.cc(84,32): warning C4267: return: Převod z: size_t na: int, může dojít ke ztrátě dat.
+C:\draco-1.2.0\draco-1.2.0\src\draco\point_cloud\point_cloud.cc(157,1): warning C4267: =: Převod z: size_t na: int, může dojít ke ztrátě dat.
+  point_cloud_builder.cc
+C:\draco-1.2.0\draco-1.2.0\src\draco/attributes/point_attribute.h(68,1): warning C4267: =: Převod z: size_t na: int, může dojít ke ztrátě dat.
+C:\draco-1.2.0\draco-1.2.0\src\draco/metadata/metadata.h(134,27): warning C4267: return: Převod z: size_t na: int, může dojít ke ztrátě dat.
+C:\draco-1.2.0\draco-1.2.0\src\draco/point_cloud/point_cloud.h(57,34): warning C4267: return: Převod z: size_t na: int32_t, může dojít ke ztrátě dat.
+  Generování kódu...
+  draco_point_cloud.vcxproj -> C:\draco-1.2.0\draco-1.2.0\cmake\draco_point_cloud.dir\Debug\draco_point_cloud.lib

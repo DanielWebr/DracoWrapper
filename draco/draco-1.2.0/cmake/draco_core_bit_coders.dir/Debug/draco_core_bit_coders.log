@@ -1,0 +1,25 @@
+﻿  Building Custom Rule C:/draco-1.2.0/draco-1.2.0/CMakeLists.txt
+  adaptive_rans_bit_decoder.cc
+  adaptive_rans_bit_encoder.cc
+  direct_bit_decoder.cc
+  direct_bit_encoder.cc
+C:\draco-1.2.0\draco-1.2.0\src\draco\core\bit_coders\direct_bit_encoder.cc(27,49): warning C4267: inicializování: Převod z: size_t na: uint32_t, může dojít ke ztrátě dat.
+C:\draco-1.2.0\draco-1.2.0\src\draco\core\bit_coders\direct_bit_encoder.cc(27,49): warning C4267: inicializování: Převod z: size_t na: const uint32_t, může dojít ke ztrátě dat.
+  rans_bit_decoder.cc
+  rans_bit_encoder.cc
+C:\draco-1.2.0\draco-1.2.0\src\draco/core/symbol_coding_utils.h(44,1): warning C4146: Unární operátor minus je použitý pro typ bez znaménka. Výsledkem bude i tak hodnota bez znaménka.
+C:\draco-1.2.0\draco-1.2.0\src\draco/core/varint_encoding.h(48): message : Zobrazit odkaz na kompilované vytváření instancí funkce šablona unsigned int draco::ConvertSignedIntToSymbol<IntTypeT>(IntTypeT)
+          with
+          [
+              IntTypeT=uint32_t
+          ]
+C:\draco-1.2.0\draco-1.2.0\src\draco\core\bit_coders\rans_bit_encoder.cc(110): message : Zobrazit odkaz na kompilované vytváření instancí funkce šablona bool draco::EncodeVarint<uint32_t>(IntTypeT,draco::EncoderBuffer *)
+          with
+          [
+              IntTypeT=uint32_t
+          ]
+  symbol_bit_decoder.cc
+  symbol_bit_encoder.cc
+C:\draco-1.2.0\draco-1.2.0\src\draco\core\bit_coders\symbol_bit_encoder.cc(20,67): warning C4267: argument: Převod z: size_t na: int, může dojít ke ztrátě dat.
+  Generování kódu...
+  draco_core_bit_coders.vcxproj -> C:\draco-1.2.0\draco-1.2.0\cmake\draco_core_bit_coders.dir\Debug\draco_core_bit_coders.lib

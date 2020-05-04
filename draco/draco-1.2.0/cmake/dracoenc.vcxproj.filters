@@ -1,0 +1,206 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\draco-1.2.0\draco-1.2.0\cmake\draco_version.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\draco-1.2.0\draco-1.2.0\cmake\draco_version.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\draco-1.2.0\draco-1.2.0\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Object Include="C:\draco-1.2.0\draco-1.2.0\cmake\draco_attributes.dir\$(Configuration)\attribute_octahedron_transform.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\draco-1.2.0\draco-1.2.0\cmake\draco_attributes.dir\$(Configuration)\attribute_quantization_transform.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\draco-1.2.0\draco-1.2.0\cmake\draco_attributes.dir\$(Configuration)\attribute_transform.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\draco-1.2.0\draco-1.2.0\cmake\draco_attributes.dir\$(Configuration)\geometry_attribute.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\draco-1.2.0\draco-1.2.0\cmake\draco_attributes.dir\$(Configuration)\point_attribute.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\draco-1.2.0\draco-1.2.0\cmake\draco_compression_attributes_enc.dir\$(Configuration)\attributes_encoder.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\draco-1.2.0\draco-1.2.0\cmake\draco_compression_attributes_enc.dir\$(Configuration)\kd_tree_attributes_encoder.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\draco-1.2.0\draco-1.2.0\cmake\draco_compression_attributes_enc.dir\$(Configuration)\sequential_attribute_encoder.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\draco-1.2.0\draco-1.2.0\cmake\draco_compression_attributes_enc.dir\$(Configuration)\sequential_attribute_encoders_controller.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\draco-1.2.0\draco-1.2.0\cmake\draco_compression_attributes_enc.dir\$(Configuration)\sequential_integer_attribute_encoder.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\draco-1.2.0\draco-1.2.0\cmake\draco_compression_attributes_enc.dir\$(Configuration)\sequential_normal_attribute_encoder.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\draco-1.2.0\draco-1.2.0\cmake\draco_compression_attributes_enc.dir\$(Configuration)\sequential_quantization_attribute_encoder.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\draco-1.2.0\draco-1.2.0\cmake\draco_compression_attributes_pred_schemes_enc.dir\$(Configuration)\prediction_scheme_encoder_factory.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\draco-1.2.0\draco-1.2.0\cmake\draco_compression_encode.dir\$(Configuration)\encode.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\draco-1.2.0\draco-1.2.0\cmake\draco_compression_encode.dir\$(Configuration)\expert_encode.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\draco-1.2.0\draco-1.2.0\cmake\draco_compression_mesh_enc.dir\$(Configuration)\mesh_edgebreaker_encoder.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\draco-1.2.0\draco-1.2.0\cmake\draco_compression_mesh_enc.dir\$(Configuration)\mesh_edgebreaker_encoder_impl.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\draco-1.2.0\draco-1.2.0\cmake\draco_compression_mesh_enc.dir\$(Configuration)\mesh_encoder.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\draco-1.2.0\draco-1.2.0\cmake\draco_compression_mesh_enc.dir\$(Configuration)\mesh_sequential_encoder.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\draco-1.2.0\draco-1.2.0\cmake\draco_compression_point_cloud_enc.dir\$(Configuration)\point_cloud_encoder.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\draco-1.2.0\draco-1.2.0\cmake\draco_compression_point_cloud_enc.dir\$(Configuration)\point_cloud_kd_tree_encoder.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\draco-1.2.0\draco-1.2.0\cmake\draco_compression_point_cloud_enc.dir\$(Configuration)\point_cloud_sequential_encoder.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\draco-1.2.0\draco-1.2.0\cmake\draco_core.dir\$(Configuration)\cycle_timer.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\draco-1.2.0\draco-1.2.0\cmake\draco_core.dir\$(Configuration)\data_buffer.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\draco-1.2.0\draco-1.2.0\cmake\draco_core.dir\$(Configuration)\decoder_buffer.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\draco-1.2.0\draco-1.2.0\cmake\draco_core.dir\$(Configuration)\divide.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\draco-1.2.0\draco-1.2.0\cmake\draco_core.dir\$(Configuration)\draco_types.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\draco-1.2.0\draco-1.2.0\cmake\draco_core.dir\$(Configuration)\encoder_buffer.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\draco-1.2.0\draco-1.2.0\cmake\draco_core.dir\$(Configuration)\hash_utils.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\draco-1.2.0\draco-1.2.0\cmake\draco_core.dir\$(Configuration)\options.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\draco-1.2.0\draco-1.2.0\cmake\draco_core.dir\$(Configuration)\quantization_utils.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\draco-1.2.0\draco-1.2.0\cmake\draco_core.dir\$(Configuration)\shannon_entropy.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\draco-1.2.0\draco-1.2.0\cmake\draco_core.dir\$(Configuration)\symbol_coding_utils.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\draco-1.2.0\draco-1.2.0\cmake\draco_core.dir\$(Configuration)\symbol_decoding.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\draco-1.2.0\draco-1.2.0\cmake\draco_core.dir\$(Configuration)\symbol_encoding.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\draco-1.2.0\draco-1.2.0\cmake\draco_core_bit_coders.dir\$(Configuration)\adaptive_rans_bit_decoder.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\draco-1.2.0\draco-1.2.0\cmake\draco_core_bit_coders.dir\$(Configuration)\adaptive_rans_bit_encoder.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\draco-1.2.0\draco-1.2.0\cmake\draco_core_bit_coders.dir\$(Configuration)\direct_bit_decoder.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\draco-1.2.0\draco-1.2.0\cmake\draco_core_bit_coders.dir\$(Configuration)\direct_bit_encoder.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\draco-1.2.0\draco-1.2.0\cmake\draco_core_bit_coders.dir\$(Configuration)\rans_bit_decoder.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\draco-1.2.0\draco-1.2.0\cmake\draco_core_bit_coders.dir\$(Configuration)\rans_bit_encoder.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\draco-1.2.0\draco-1.2.0\cmake\draco_core_bit_coders.dir\$(Configuration)\symbol_bit_decoder.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\draco-1.2.0\draco-1.2.0\cmake\draco_core_bit_coders.dir\$(Configuration)\symbol_bit_encoder.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\draco-1.2.0\draco-1.2.0\cmake\draco_enc_config.dir\$(Configuration)\draco_enc_config.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\draco-1.2.0\draco-1.2.0\cmake\draco_mesh.dir\$(Configuration)\corner_table.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\draco-1.2.0\draco-1.2.0\cmake\draco_mesh.dir\$(Configuration)\mesh.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\draco-1.2.0\draco-1.2.0\cmake\draco_mesh.dir\$(Configuration)\mesh_are_equivalent.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\draco-1.2.0\draco-1.2.0\cmake\draco_mesh.dir\$(Configuration)\mesh_attribute_corner_table.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\draco-1.2.0\draco-1.2.0\cmake\draco_mesh.dir\$(Configuration)\mesh_cleanup.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\draco-1.2.0\draco-1.2.0\cmake\draco_mesh.dir\$(Configuration)\mesh_misc_functions.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\draco-1.2.0\draco-1.2.0\cmake\draco_mesh.dir\$(Configuration)\mesh_stripifier.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\draco-1.2.0\draco-1.2.0\cmake\draco_mesh.dir\$(Configuration)\triangle_soup_mesh_builder.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\draco-1.2.0\draco-1.2.0\cmake\draco_metadata.dir\$(Configuration)\geometry_metadata.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\draco-1.2.0\draco-1.2.0\cmake\draco_metadata.dir\$(Configuration)\metadata.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\draco-1.2.0\draco-1.2.0\cmake\draco_metadata_enc.dir\$(Configuration)\metadata_encoder.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\draco-1.2.0\draco-1.2.0\cmake\draco_point_cloud.dir\$(Configuration)\point_cloud.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\draco-1.2.0\draco-1.2.0\cmake\draco_point_cloud.dir\$(Configuration)\point_cloud_builder.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\draco-1.2.0\draco-1.2.0\cmake\draco_points_enc.dir\$(Configuration)\dynamic_integer_points_kd_tree_encoder.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\draco-1.2.0\draco-1.2.0\cmake\draco_points_enc.dir\$(Configuration)\float_points_tree_encoder.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{097C26EA-8CA0-3B04-B837-D2142105F01A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object Libraries">
+      <UniqueIdentifier>{3B3E385C-E7BB-3AEB-9A67-FC847AEB6199}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{F213DE81-7EFA-3D1F-9B62-4D256CA82BC8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
