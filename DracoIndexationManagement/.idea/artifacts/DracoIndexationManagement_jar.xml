@@ -1,8 +1,0 @@
-<component name="ArtifactManager">
-  <artifact type="jar" name="DracoIndexationManagement:jar">
-    <output-path>$PROJECT_DIR$/out/artifacts/DracoIndexationManagement_jar</output-path>
-    <root id="archive" name="DracoIndexationManagement.jar">
-      <element id="module-output" name="DracoIndexationManagement" />
-    </root>
-  </artifact>
-</component>
