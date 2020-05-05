@@ -13,4 +13,11 @@
       <UniqueIdentifier>{45A56D12-F897-373D-AC92-8226CD3D956A}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
+  <ItemGroup>
+    <None Include="..\zswi-kompresni-algoritmy-master\zswi-kompresni-algoritmy-master\alg\EPC\EPC_codec.exe" />
+    <None Include="..\zswi-kompresni-algoritmy-master\zswi-kompresni-algoritmy-master\alg\EPC\reindex.exe" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\zswi-kompresni-algoritmy-master\zswi-kompresni-algoritmy-master\alg\EPC\reindex.txt" />
+  </ItemGroup>
 </Project>

@@ -1,5 +1,4 @@
-﻿  Building Custom Rule C:/Users/jachu/Downloads/draco-1.2.0/draco-1.2.0/CMakeLists.txt
-  draco_decoder.cc
+﻿  draco_decoder.cc
 C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/attributes/point_attribute.h(68,1): warning C4267: =: Převod z: size_t na: int, může dojít ke ztrátě dat.
 C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/metadata/metadata.h(134,27): warning C4267: return: Převod z: size_t na: int, může dojít ke ztrátě dat.
 C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco/point_cloud/point_cloud.h(57,34): warning C4267: return: Převod z: size_t na: int32_t, může dojít ke ztrátě dat.

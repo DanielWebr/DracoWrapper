@@ -55,11 +55,8 @@ int main(int argc, char **argv) {
   
   options.input = argv[1];
   options.compression_level = StringToInt(argv[2]);
-  for (int i = 0; i < argc; ++i) {
-      std::cout << argv[i] << std::endl;
-  }
 
-  
+
   std::unique_ptr<draco::PointCloud> pc;
   draco::Mesh *mesh = nullptr;
 
@@ -80,7 +77,7 @@ int main(int argc, char **argv) {
   encoder.SetSpeedOptions(speed, speed);
   encoder.SetEncodingMethod(0);
 
-  options.output = options.input + ".drc";
+  options.output = options.input + ".bin";
 
   int ret = -1;
   if (mesh && mesh->num_faces() > 0)
