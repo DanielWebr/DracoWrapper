@@ -1196,3 +1196,34 @@
 [2019/11/13-15:53:41] - Error while reading from database
 [2019/11/13-15:54:41] - Error while reading from database
 [2019/11/13-15:55:41] - Error while reading from database
+[2020/05/10-13:42:27] - Error while reading records from database
+[2020/05/10-13:42:27] - Error while inserting records to database
+[2020/05/10-13:44:02] - Error while reading records from database
+[2020/05/10-13:44:02] - Error while inserting records to database
+[2020/05/10-13:44:48] - Error while reading records from database
+[2020/05/10-13:44:48] - Error while inserting records to database
+[2020/05/10-14:36:58] - Error when coping folders
+[2020/05/10-14:36:58] - Error when coping folders
+[2020/05/10-14:36:58] - Error when coping folders
+[2020/05/10-14:36:58] - Error when coping folders
+[2020/05/10-14:36:58] - Error when coping folders
+[2020/05/10-14:36:58] - Error while launching executable
+[2020/05/10-14:36:58] - [     Pictures      -      DameCL       - bimba] - Process did not started
+[2020/05/10-14:36:58] - Error while launching executable
+[2020/05/10-14:36:58] - [     Pictures      -        MSE        - bimba] - Process did not started
+[2020/05/10-14:36:58] - Error while launching executable
+[2020/05/10-14:36:58] - [     Pictures      - DameCL_visibility - bimba] - Process did not started
+[2020/05/10-14:36:58] - Error while launching executable
+[2020/05/10-14:36:58] - [      Draco        -        MSE        - bimba] - Process did not started
+[2020/05/10-14:48:39] - Combination [KirchhoffLaplacian - DameCL_visibility - bimba] did not return expected value
+[2020/05/10-14:48:41] - Combination [KirchhoffLaplacian -        MSE        - bimba] did not return expected value
+[2020/05/10-14:51:43] - [KirchhoffLaplacian -      DameCL       - bimba] - Process was terminated (timeout)
+[2020/05/10-14:51:44] - Error while removing temp folder
+[2020/05/10-14:54:50] - Combination [       WPP         -        MSE        - bimba] did not return expected value
+[2020/05/10-14:55:07] - Combination [       WPP         - DameCL_visibility - bimba] did not return expected value
+[2020/05/10-14:57:27] - Error while removing temp folder
+[2020/05/10-14:59:31] - Combination [       EPC         -      DameCL       - bimba] was forced to stop
+[2020/05/10-15:01:24] - Combination [      Draco        -      DameCL       - bimba] did not return any value
+[2020/05/10-15:02:40] - Combination [      Draco        - DameCL_visibility - bimba] did not return expected value
+[2020/05/10-15:03:09] - Combination [      Draco        -      DameCL       - bimba] did not return any value
+[2020/05/10-15:03:57] - Combination [      Draco        -      DameCL       - bimba] did not return any value

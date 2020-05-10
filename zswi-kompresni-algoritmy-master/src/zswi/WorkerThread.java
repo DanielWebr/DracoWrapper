@@ -16,7 +16,7 @@ class WorkerThread extends Thread
 	private BigDecimal score;
 	private Process process;
 	private double currentBitrate, previousBitrate;
-	private boolean forceStop;
+	private boolean forceStop,deltaWholeNumbers;
 	private final double bitrateStep, top, bottom, center, initialStep;
 	private final File algCopyDir, metCopyDir;
 	private final String 	resultObj, compressLaunch, compressedObjName,
@@ -58,11 +58,24 @@ class WorkerThread extends Thread
 	WorkerThread(FilesMessenger combination)
 	{
 		this.combination = combination;
+
+		File wholeNumberLabel = new File(combination.algorithmDir+"\\WholeNumbersDelta");
+		deltaWholeNumbers = wholeNumberLabel.exists();
+		deltaWholeNumbers = false;
+		if(deltaWholeNumbers){
+			top = 10;
+			bottom = 0;
+			center = 5;
+			initialStep = 1;
+		}else{
+			top = 1.0;
+			bottom = 0.0;
+			center = bottom + (top - bottom) / 2.0;
+			initialStep = 0.0625;
+		}
+
 		
-		top = 1.0;
-		bottom = 0.0;
-		center = bottom + (top - bottom) / 2.0;
-		initialStep = 0.0625;
+
 		forceStop = false;
 		forceStopLock = new ReentrantLock();
 		results = new ArrayList<>();
@@ -203,22 +216,33 @@ class WorkerThread extends Thread
 				return false;
 			
 			delta += step;
-			if(step <= 0.00000001 || delta <= 0.0)
-				break;
+			if(deltaWholeNumbers){
+				if(step != 0 || delta < 0.0 || delta > 10.0)
+					break;
+			}else{
+				if(step <= 0.00000001 || delta <= 0.0)
+					break;
+			}
+
 			
 			if(testing(delta))
 				return true;
 			
 			if(previousBitrate != -1.0)
-				if(previousBitrate - currentBitrate > bitrateStep)
-				{
-					delta -= step * 2;
-					step /= 2;
-				}
-				else if(previousBitrate == currentBitrate)
-					break;
-				else
+				if(deltaWholeNumbers){
 					testedDeltas.add(delta);
+				}else{
+
+					if(previousBitrate - currentBitrate > bitrateStep)
+					{
+						delta -= step * 2;
+						step /= 2;
+					}
+					else if(previousBitrate == currentBitrate)
+						break;
+					else
+						testedDeltas.add(delta);
+				}
 			else
 				testedDeltas.add(delta);
 			
@@ -248,20 +272,30 @@ class WorkerThread extends Thread
 				return false;
 			
 			delta -= step;
-			if(step <= 0.00000001 || delta <= 0.0)
-				break;
+			if(deltaWholeNumbers){
+				if(step != 0 || delta < 0.0 || delta > 10.0)
+					break;
+			}else{
+				if(step <= 0.00000001 || delta <= 0.0)
+					break;
+			}
 			
 			if(testing(delta))
 				return true;
 			
 			if(previousBitrate != -1.0)
-				if(currentBitrate - previousBitrate > bitrateStep)
-				{
-					delta += step * 2;
-					step /= 2;
-				}
-				else
+				if(deltaWholeNumbers){
 					testedDeltas.add(delta);
+				}else{
+					if(currentBitrate - previousBitrate > bitrateStep)
+					{
+						delta += step * 2;
+						step /= 2;
+					}
+					else
+						testedDeltas.add(delta);
+				}
+
 			else
 				testedDeltas.add(delta);
 			

@@ -6,7 +6,7 @@ public enum Category
 	 * Categories without "d" at the beginning represents local file
 	 * and with d at the beginning represents records in database
 	 */
-	Algorithm, Metric, Object, dAlgorithm, dMetric, dObject, dCombination;
+	Algorithm,AlgorithmWholeNum, Metric, Object, dAlgorithm, dMetric, dObject, dCombination;
 	
 	/**
 	 * @return 	If category starts with "d" then "d" is removed

@@ -24,10 +24,11 @@
          <RowConstraints maxHeight="150.0" minHeight="10.0" prefHeight="70.0" vgrow="SOMETIMES" />
         </rowConstraints>
         <Label text="Threads" GridPane.rowIndex="2" />
+        <Button fx:id="algWholeNum" mnemonicParsing="false" prefHeight="10000.0" prefWidth="10000.0" text="Algorithm whole del" GridPane.columnSpan="2" GridPane.rowIndex="7" />
         <Button fx:id="alg" mnemonicParsing="false" prefHeight="10000.0" prefWidth="10000.0" text="Algorithm" GridPane.columnSpan="2" GridPane.rowIndex="8" />
         <Button fx:id="met" mnemonicParsing="false" prefHeight="10000.0" prefWidth="10000.0" text="Metric" GridPane.columnSpan="2" GridPane.rowIndex="9" />
         <Button fx:id="obj" mnemonicParsing="false" prefHeight="10000.0" prefWidth="10000.0" text="Object" GridPane.columnSpan="2" GridPane.rowIndex="10" />
-        <Label text="Upload" GridPane.columnSpan="2" GridPane.halignment="CENTER" GridPane.rowIndex="7" />
+        <Label text="Upload" GridPane.columnSpan="2" GridPane.halignment="CENTER" GridPane.rowIndex="6" />
         <Label text="Timeout [s]" GridPane.rowIndex="3" />
         <Label text="Max bitrate" GridPane.rowIndex="4" />
         <Label text="Bitrate step" GridPane.rowIndex="5" />

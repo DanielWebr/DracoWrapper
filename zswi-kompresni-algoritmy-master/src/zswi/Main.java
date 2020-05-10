@@ -175,7 +175,15 @@ public class Main extends Application
 			upload(primaryStage, Category.Algorithm);
 			update();
 		});
-		
+
+		Button algWholeNumUpload = (Button)loader.getNamespace().get("algWholeNum");
+		algWholeNumUpload.setOnAction(e ->
+		{
+			upload(primaryStage, Category.AlgorithmWholeNum);
+			update();
+		});
+
+
 		Button metUpload = (Button)loader.getNamespace().get("met");
 		metUpload.setOnAction(e ->
 		{
@@ -541,6 +549,7 @@ public class Main extends Application
 		boolean dynObj = false;
 		switch(category)
 		{
+			case AlgorithmWholeNum:
 			case Algorithm:
 				categoryDir = comboMessenger.algDir;
 				break;
@@ -554,8 +563,14 @@ public class Main extends Application
 				dynObj = binFiles.length > 1; //is dynamic object?
 				break;
 		}
-		
-		String table = category.toString().toLowerCase();
+		String table = "";
+		if(category == Category.AlgorithmWholeNum ){
+			table = Category.Algorithm.toString().toLowerCase();
+		}else{
+			table = category.toString().toLowerCase();
+		}
+
+
 		if(dynObj)
 		{
 			String[] names = new String[binFiles.length];
@@ -576,12 +591,29 @@ public class Main extends Application
 			String name = selectedDirectory.getName();
 			copyFolder(selectedDirectory.toPath(),
 					   Paths.get(categoryDir.getAbsolutePath() + "\\" + name));
+			if(category==Category.AlgorithmWholeNum){
+				setAlgorithmWholeNumbers(categoryDir.getAbsolutePath() + "\\" + name);
+			}
 			alert.setContentText("Writing to database...");
 			insertCategory(table, name);
 		}
 		alert.close();
 	}
-	
+
+	/**
+	 * Set testing of alghorithm with whole numbers
+	 *
+	 * @param algorithmDir directory with algorithm
+	 */
+	private static void setAlgorithmWholeNumbers(String algorithmDir) {
+		File wholeNumberLabel = new File(algorithmDir+"\\WholeNumbersDelta");
+		try {
+			wholeNumberLabel.createNewFile();
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+	}
+
 	/**
 	 * Inserts a record of a given category if it does not already exist in database.
 	 *
