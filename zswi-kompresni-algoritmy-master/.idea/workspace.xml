@@ -2,35 +2,659 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1a0d611e-b903-4be8-8bf5-f932fcd61e16" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../DracoEncoderWrapper/DracoEncoderWrapper.sln" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DracoEncoderWrapper/DracoEncoderWrapper/DracoEncoderWrapper.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DracoEncoderWrapper/DracoEncoderWrapper/DracoEncoderWrapper.sln" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DracoEncoderWrapper/DracoEncoderWrapper/DracoEncoderWrapper.vcxproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DracoEncoderWrapper/DracoEncoderWrapper/DracoEncoderWrapper.vcxproj.filters" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DracoIndexationManagement/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DracoIndexationManagement/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DracoIndexationManagement/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DracoIndexationManagement/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DracoIndexationManagement/DracoIndexationManagement.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DracoIndexationManagement/out/production/DracoIndexationManagement/DracoIndexationManagement.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DracoIndexationManagement/out/production/DracoIndexationManagement/FileTypes.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DracoIndexationManagement/out/production/DracoIndexationManagement/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DracoIndexationManagement/out/production/DracoIndexationManagement/RunDracoIndexationManagement.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DracoIndexationManagement/src/DracoIndexationManagement.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DracoIndexationManagement/src/FileTypes.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DracoIndexationManagement/src/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DracoIndexationManagement/src/RunDracoIndexationManagement.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/ALL_BUILD.vcxproj" beforeDir="false" afterPath="$PROJECT_DIR$/../draco/ALL_BUILD.vcxproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/ALL_BUILD.vcxproj.filters" beforeDir="false" afterPath="$PROJECT_DIR$/../draco/ALL_BUILD.vcxproj.filters" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../draco/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/CMakeFiles/3.16.4/CMakeDetermineCompilerABI_C.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../draco/CMakeFiles/3.16.4/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/CMakeFiles/3.16.4/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../draco/CMakeFiles/3.16.4/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/CMakeFiles/3.16.4/CompilerIdC/CompilerIdC.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../draco/CMakeFiles/3.16.4/CompilerIdC/CompilerIdC.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/CMakeFiles/3.16.4/CompilerIdCXX/CompilerIdCXX.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../draco/CMakeFiles/3.16.4/CompilerIdCXX/CompilerIdCXX.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../draco/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/CMakeFiles/ff35455ae6cfe3d8954e9555a2cacd6b/INSTALL_force.rule" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/CMakeFiles/ff35455ae6cfe3d8954e9555a2cacd6b/generate.stamp.rule" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/CMakeFiles/generate.stamp.depend" beforeDir="false" afterPath="$PROJECT_DIR$/../draco/CMakeFiles/generate.stamp.depend" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/CMakeFiles/generate.stamp.list" beforeDir="false" afterPath="$PROJECT_DIR$/../draco/CMakeFiles/generate.stamp.list" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/DracoConfig.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../draco/DracoConfig.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/DracoConfigVersion.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../draco/DracoConfigVersion.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/INSTALL.vcxproj" beforeDir="false" afterPath="$PROJECT_DIR$/../draco/INSTALL.vcxproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/INSTALL.vcxproj.filters" beforeDir="false" afterPath="$PROJECT_DIR$/../draco/INSTALL.vcxproj.filters" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/ZERO_CHECK.vcxproj" beforeDir="false" afterPath="$PROJECT_DIR$/../draco/ZERO_CHECK.vcxproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/ZERO_CHECK.vcxproj.filters" beforeDir="false" afterPath="$PROJECT_DIR$/../draco/ZERO_CHECK.vcxproj.filters" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../draco/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/.ruby-version" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/AUTHORS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/CMakeLists.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/CONTRIBUTING.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/Makefile.decoder.emcc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/Makefile.encoder.emcc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/cmake/DracoConfig.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/cmake/FindDraco.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/cmake/compiler_flags.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/cmake/compiler_tests.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/cmake/draco_test_config.h.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/cmake/draco_version.cc.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/cmake/draco_version.h.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/cmake/msvc_runtime.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/cmake/sanitizers.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/cmake/util.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/docs/.ruby-version" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/docs/DracoLogo.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/docs/Gemfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/docs/Gemfile.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/docs/_config.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/docs/_includes/analytics.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/docs/_includes/footer.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/docs/_layouts/home.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/docs/_layouts/spec-page.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/docs/_layouts/spec.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/docs/artwork/draco-favicon-src.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/docs/artwork/draco-favicon-src.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/docs/artwork/draco3d-horiz-320x79.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/docs/artwork/draco3d-horiz-640x158.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/docs/artwork/draco3d-horiz.ai" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/docs/artwork/draco3d-horiz.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/docs/artwork/draco3d-mark-180x180.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/docs/artwork/draco3d-mark-360x360.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/docs/artwork/draco3d-mark.ai" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/docs/artwork/draco3d-mark.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/docs/artwork/draco3d-vert-180x137.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/docs/artwork/draco3d-vert-360x274.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/docs/artwork/draco3d-vert-452x344.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/docs/artwork/draco3d-vert.ai" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/docs/artwork/draco3d-vert.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/docs/artwork/favicon/android-icon-144x144.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/docs/artwork/favicon/android-icon-192x192.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/docs/artwork/favicon/android-icon-36x36.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/docs/artwork/favicon/android-icon-48x48.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/docs/artwork/favicon/android-icon-72x72.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/docs/artwork/favicon/android-icon-96x96.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/docs/artwork/favicon/apple-icon-114x114.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/docs/artwork/favicon/apple-icon-120x120.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/docs/artwork/favicon/apple-icon-144x144.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/docs/artwork/favicon/apple-icon-152x152.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/docs/artwork/favicon/apple-icon-180x180.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/docs/artwork/favicon/apple-icon-57x57.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/docs/artwork/favicon/apple-icon-60x60.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/docs/artwork/favicon/apple-icon-72x72.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/docs/artwork/favicon/apple-icon-76x76.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/docs/artwork/favicon/apple-icon-precomposed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/docs/artwork/favicon/apple-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/docs/artwork/favicon/browserconfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/docs/artwork/favicon/favicon-16x16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/docs/artwork/favicon/favicon-32x32.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/docs/artwork/favicon/favicon-96x96.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/docs/artwork/favicon/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/docs/artwork/favicon/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/docs/artwork/favicon/ms-icon-144x144.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/docs/artwork/favicon/ms-icon-150x150.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/docs/artwork/favicon/ms-icon-310x310.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/docs/artwork/favicon/ms-icon-70x70.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/docs/assets/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/docs/assets/css/bootstrap.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/docs/assets/css/ie10-viewport-bug-workaround.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/docs/assets/css/navbar-fixed-top.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/docs/assets/css/pygments/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/docs/assets/css/pygments/UNLICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/docs/assets/css/pygments/autumn.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/docs/assets/css/pygments/borland.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/docs/assets/css/pygments/bw.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/docs/assets/css/pygments/colorful.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/docs/assets/css/pygments/default.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/docs/assets/css/pygments/emacs.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/docs/assets/css/pygments/friendly.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/docs/assets/css/pygments/fruity.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/docs/assets/css/pygments/github.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/docs/assets/css/pygments/manni.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/docs/assets/css/pygments/monokai.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/docs/assets/css/pygments/murphy.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/docs/assets/css/pygments/native.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/docs/assets/css/pygments/pastie.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/docs/assets/css/pygments/perldoc.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/docs/assets/css/pygments/tango.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/docs/assets/css/pygments/trac.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/docs/assets/css/pygments/vim.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/docs/assets/css/pygments/vs.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/docs/assets/css/pygments/zenburn.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/docs/assets/css/spec-style.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/docs/assets/css/sticky-footer.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/docs/assets/js/ASCIIMathML.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/docs/assets/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/docs/assets/js/ie10-viewport-bug-workaround.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/docs/index.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/docs/spec/00.00.00.title.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/docs/spec/00.00.01.version.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/docs/spec/00.00.02.authors.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/docs/spec/00.00.03.last.modified.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/docs/spec/00.00.04.abstract.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/docs/spec/00.00.05.toc.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/docs/spec/01.00.00.scope.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/docs/spec/03.00.00.symbols.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/docs/spec/04.00.00.conventions.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/docs/spec/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/docs/spec/attributes.decoder.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/docs/spec/boundary.decoder.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/docs/spec/connectivity.decoder.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/docs/spec/core.functions.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/docs/spec/corner.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/docs/spec/draco.decoder.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/docs/spec/edgebreaker.decoder.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/docs/spec/edgebreaker.traversal.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/docs/spec/edgebreaker.traversal.prediction.degree.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/docs/spec/edgebreaker.traversal.valence.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/docs/spec/images/attributes.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/docs/spec/images/draco_file.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/docs/spec/images/edgebreaker_connectivity.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/docs/spec/images/edgebreaker_valence_connectivity.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/docs/spec/images/sequential_connectivity.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/docs/spec/index.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/docs/spec/metadata.decoder.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/docs/spec/prediction.decoder.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/docs/spec/prediction.multi.parallelogram.decoder.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/docs/spec/prediction.normal.decoder.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/docs/spec/prediction.normal.transform.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/docs/spec/prediction.parallelogram.decoder.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/docs/spec/prediction.texcoords.decoder.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/docs/spec/prediction.wrap.transform.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/docs/spec/rans.decoding.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/docs/spec/sequential.decoder.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/docs/spec/sequential.integer.attribute.decoder.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/docs/spec/sequential.normal.attribute.decoder.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/docs/spec/sequential.quantization.attribute.decoder.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/docs/spec/variable.descriptions.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/docs/spec/vector.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/javascript/draco_decoder.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/javascript/draco_decoder.wasm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/javascript/draco_encoder.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/javascript/draco_wasm_wrapper.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/javascript/example/DRACOLoader.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/javascript/example/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/javascript/example/geometry_helper.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/javascript/example/models/bunny.drc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/javascript/example/webgl_loader_draco.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/javascript/npm/draco3d/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/javascript/npm/draco3d/bunny.drc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/javascript/npm/draco3d/draco3d.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/javascript/npm/draco3d/draco_decoder_nodejs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/javascript/npm/draco3d/draco_encoder_nodejs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/javascript/npm/draco3d/draco_nodejs_example.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/javascript/npm/draco3d/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/javascript/time_draco_decode.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/attributes/attribute_octahedron_transform.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/attributes/attribute_octahedron_transform.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/attributes/attribute_quantization_transform.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/attributes/attribute_quantization_transform.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/attributes/attribute_transform.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/attributes/attribute_transform.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/attributes/attribute_transform_data.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/attributes/attribute_transform_type.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/attributes/geometry_attribute.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/attributes/geometry_attribute.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/attributes/geometry_indices.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/attributes/point_attribute.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/attributes/point_attribute.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/attributes/point_attribute_test.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/compression/attributes/attributes_decoder.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/compression/attributes/attributes_decoder.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/compression/attributes/attributes_decoder_interface.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/compression/attributes/attributes_encoder.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/compression/attributes/attributes_encoder.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/compression/attributes/kd_tree_attributes_decoder.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/compression/attributes/kd_tree_attributes_decoder.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/compression/attributes/kd_tree_attributes_encoder.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/compression/attributes/kd_tree_attributes_encoder.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/compression/attributes/kd_tree_attributes_shared.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/compression/attributes/linear_sequencer.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/compression/attributes/mesh_attribute_indices_encoding_data.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/compression/attributes/mesh_attribute_indices_encoding_observer.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/compression/attributes/mesh_traversal_sequencer.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/compression/attributes/normal_compression_utils.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/compression/attributes/points_sequencer.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/compression/attributes/prediction_schemes/mesh_prediction_scheme_constrained_multi_parallelogram_decoder.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/compression/attributes/prediction_schemes/mesh_prediction_scheme_constrained_multi_parallelogram_encoder.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/compression/attributes/prediction_schemes/mesh_prediction_scheme_constrained_multi_parallelogram_shared.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/compression/attributes/prediction_schemes/mesh_prediction_scheme_data.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/compression/attributes/prediction_schemes/mesh_prediction_scheme_decoder.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/compression/attributes/prediction_schemes/mesh_prediction_scheme_encoder.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/compression/attributes/prediction_schemes/mesh_prediction_scheme_geometric_normal_decoder.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/compression/attributes/prediction_schemes/mesh_prediction_scheme_geometric_normal_encoder.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/compression/attributes/prediction_schemes/mesh_prediction_scheme_geometric_normal_predictor_area.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/compression/attributes/prediction_schemes/mesh_prediction_scheme_geometric_normal_predictor_base.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/compression/attributes/prediction_schemes/mesh_prediction_scheme_multi_parallelogram_decoder.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/compression/attributes/prediction_schemes/mesh_prediction_scheme_multi_parallelogram_encoder.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/compression/attributes/prediction_schemes/mesh_prediction_scheme_parallelogram_decoder.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/compression/attributes/prediction_schemes/mesh_prediction_scheme_parallelogram_encoder.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/compression/attributes/prediction_schemes/mesh_prediction_scheme_parallelogram_shared.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/compression/attributes/prediction_schemes/mesh_prediction_scheme_tex_coords_decoder.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/compression/attributes/prediction_schemes/mesh_prediction_scheme_tex_coords_encoder.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/compression/attributes/prediction_schemes/mesh_prediction_scheme_tex_coords_portable_decoder.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/compression/attributes/prediction_schemes/mesh_prediction_scheme_tex_coords_portable_encoder.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/compression/attributes/prediction_schemes/mesh_prediction_scheme_tex_coords_portable_predictor.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/compression/attributes/prediction_schemes/prediction_scheme_decoder.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/compression/attributes/prediction_schemes/prediction_scheme_decoder_factory.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/compression/attributes/prediction_schemes/prediction_scheme_decoder_interface.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/compression/attributes/prediction_schemes/prediction_scheme_decoding_transform.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/compression/attributes/prediction_schemes/prediction_scheme_delta_decoder.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/compression/attributes/prediction_schemes/prediction_scheme_delta_encoder.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/compression/attributes/prediction_schemes/prediction_scheme_encoder.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/compression/attributes/prediction_schemes/prediction_scheme_encoder_factory.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/compression/attributes/prediction_schemes/prediction_scheme_encoder_factory.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/compression/attributes/prediction_schemes/prediction_scheme_encoder_interface.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/compression/attributes/prediction_schemes/prediction_scheme_encoding_transform.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/compression/attributes/prediction_schemes/prediction_scheme_factory.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/compression/attributes/prediction_schemes/prediction_scheme_interface.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/compression/attributes/prediction_schemes/prediction_scheme_normal_octahedron_canonicalized_decoding_transform.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/compression/attributes/prediction_schemes/prediction_scheme_normal_octahedron_canonicalized_encoding_transform.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/compression/attributes/prediction_schemes/prediction_scheme_normal_octahedron_canonicalized_transform_base.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/compression/attributes/prediction_schemes/prediction_scheme_normal_octahedron_canonicalized_transform_test.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/compression/attributes/prediction_schemes/prediction_scheme_normal_octahedron_decoding_transform.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/compression/attributes/prediction_schemes/prediction_scheme_normal_octahedron_encoding_transform.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/compression/attributes/prediction_schemes/prediction_scheme_normal_octahedron_transform_base.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/compression/attributes/prediction_schemes/prediction_scheme_normal_octahedron_transform_test.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/compression/attributes/prediction_schemes/prediction_scheme_wrap_decoding_transform.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/compression/attributes/prediction_schemes/prediction_scheme_wrap_encoding_transform.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/compression/attributes/prediction_schemes/prediction_scheme_wrap_transform_base.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/compression/attributes/sequential_attribute_decoder.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/compression/attributes/sequential_attribute_decoder.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/compression/attributes/sequential_attribute_decoders_controller.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/compression/attributes/sequential_attribute_decoders_controller.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/compression/attributes/sequential_attribute_encoder.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/compression/attributes/sequential_attribute_encoder.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/compression/attributes/sequential_attribute_encoders_controller.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/compression/attributes/sequential_attribute_encoders_controller.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/compression/attributes/sequential_integer_attribute_decoder.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/compression/attributes/sequential_integer_attribute_decoder.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/compression/attributes/sequential_integer_attribute_encoder.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/compression/attributes/sequential_integer_attribute_encoder.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/compression/attributes/sequential_integer_attribute_encoding_test.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/compression/attributes/sequential_normal_attribute_decoder.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/compression/attributes/sequential_normal_attribute_decoder.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/compression/attributes/sequential_normal_attribute_encoder.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/compression/attributes/sequential_normal_attribute_encoder.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/compression/attributes/sequential_quantization_attribute_decoder.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/compression/attributes/sequential_quantization_attribute_decoder.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/compression/attributes/sequential_quantization_attribute_encoder.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/compression/attributes/sequential_quantization_attribute_encoder.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/compression/config/compression_shared.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/compression/config/decoder_options.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/compression/config/decoder_options_test.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/compression/config/draco_options.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/compression/config/encoder_options.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/compression/config/encoding_features.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/compression/decode.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/compression/decode.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/compression/decode_test.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/compression/encode.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/compression/encode.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/compression/encode_base.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/compression/encode_test.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/compression/expert_encode.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/compression/expert_encode.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/compression/mesh/mesh_decoder.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/compression/mesh/mesh_decoder.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/compression/mesh/mesh_decoder_helpers.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/compression/mesh/mesh_edgebreaker_decoder.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/compression/mesh/mesh_edgebreaker_decoder.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/compression/mesh/mesh_edgebreaker_decoder_impl.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/compression/mesh/mesh_edgebreaker_decoder_impl.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/compression/mesh/mesh_edgebreaker_decoder_impl_interface.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/compression/mesh/mesh_edgebreaker_encoder.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/compression/mesh/mesh_edgebreaker_encoder.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/compression/mesh/mesh_edgebreaker_encoder_impl.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/compression/mesh/mesh_edgebreaker_encoder_impl.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/compression/mesh/mesh_edgebreaker_encoder_impl_interface.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/compression/mesh/mesh_edgebreaker_encoding_test.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/compression/mesh/mesh_edgebreaker_shared.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/compression/mesh/mesh_edgebreaker_traversal_decoder.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/compression/mesh/mesh_edgebreaker_traversal_encoder.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/compression/mesh/mesh_edgebreaker_traversal_predictive_decoder.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/compression/mesh/mesh_edgebreaker_traversal_predictive_encoder.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/compression/mesh/mesh_edgebreaker_traversal_valence_decoder.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/compression/mesh/mesh_edgebreaker_traversal_valence_encoder.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/compression/mesh/mesh_encoder.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/compression/mesh/mesh_encoder.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/compression/mesh/mesh_encoder_helpers.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/compression/mesh/mesh_encoder_test.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/compression/mesh/mesh_sequential_decoder.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/compression/mesh/mesh_sequential_decoder.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/compression/mesh/mesh_sequential_encoder.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/compression/mesh/mesh_sequential_encoder.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/compression/point_cloud/algorithms/dynamic_integer_points_kd_tree_decoder.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/compression/point_cloud/algorithms/dynamic_integer_points_kd_tree_decoder.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/compression/point_cloud/algorithms/dynamic_integer_points_kd_tree_encoder.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/compression/point_cloud/algorithms/dynamic_integer_points_kd_tree_encoder.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/compression/point_cloud/algorithms/float_points_tree_decoder.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/compression/point_cloud/algorithms/float_points_tree_decoder.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/compression/point_cloud/algorithms/float_points_tree_encoder.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/compression/point_cloud/algorithms/float_points_tree_encoder.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/compression/point_cloud/algorithms/integer_points_kd_tree_decoder.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/compression/point_cloud/algorithms/integer_points_kd_tree_decoder.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/compression/point_cloud/algorithms/integer_points_kd_tree_encoder.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/compression/point_cloud/algorithms/integer_points_kd_tree_encoder.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/compression/point_cloud/algorithms/point_cloud_compression_method.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/compression/point_cloud/algorithms/point_cloud_types.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/compression/point_cloud/algorithms/quantize_points_3.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/compression/point_cloud/algorithms/queuing_policy.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/compression/point_cloud/point_cloud_decoder.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/compression/point_cloud/point_cloud_decoder.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/compression/point_cloud/point_cloud_encoder.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/compression/point_cloud/point_cloud_encoder.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/compression/point_cloud/point_cloud_kd_tree_decoder.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/compression/point_cloud/point_cloud_kd_tree_decoder.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/compression/point_cloud/point_cloud_kd_tree_encoder.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/compression/point_cloud/point_cloud_kd_tree_encoder.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/compression/point_cloud/point_cloud_kd_tree_encoding_test.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/compression/point_cloud/point_cloud_sequential_decoder.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/compression/point_cloud/point_cloud_sequential_decoder.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/compression/point_cloud/point_cloud_sequential_encoder.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/compression/point_cloud/point_cloud_sequential_encoder.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/compression/point_cloud/point_cloud_sequential_encoding_test.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/core/ans.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/core/bit_coders/adaptive_rans_bit_coding_shared.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/core/bit_coders/adaptive_rans_bit_decoder.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/core/bit_coders/adaptive_rans_bit_decoder.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/core/bit_coders/adaptive_rans_bit_encoder.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/core/bit_coders/adaptive_rans_bit_encoder.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/core/bit_coders/direct_bit_decoder.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/core/bit_coders/direct_bit_decoder.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/core/bit_coders/direct_bit_encoder.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/core/bit_coders/direct_bit_encoder.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/core/bit_coders/folded_integer_bit_decoder.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/core/bit_coders/folded_integer_bit_encoder.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/core/bit_coders/rans_bit_decoder.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/core/bit_coders/rans_bit_decoder.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/core/bit_coders/rans_bit_encoder.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/core/bit_coders/rans_bit_encoder.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/core/bit_coders/rans_coding_test.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/core/bit_coders/symbol_bit_decoder.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/core/bit_coders/symbol_bit_decoder.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/core/bit_coders/symbol_bit_encoder.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/core/bit_coders/symbol_bit_encoder.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/core/bit_utils.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/core/buffer_bit_coding_test.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/core/cycle_timer.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/core/cycle_timer.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/core/data_buffer.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/core/data_buffer.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/core/decoder_buffer.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/core/decoder_buffer.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/core/divide.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/core/divide.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/core/draco_index_type.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/core/draco_index_type_vector.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/core/draco_test_base.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/core/draco_test_utils.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/core/draco_test_utils.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/core/draco_tests.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/core/draco_types.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/core/draco_types.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/core/draco_version.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/core/encoder_buffer.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/core/encoder_buffer.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/core/hash_utils.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/core/hash_utils.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/core/macros.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/core/math_utils.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/core/math_utils_test.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/core/options.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/core/options.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/core/quantization_utils.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/core/quantization_utils.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/core/quantization_utils_test.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/core/rans_symbol_coding.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/core/rans_symbol_decoder.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/core/rans_symbol_encoder.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/core/shannon_entropy.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/core/shannon_entropy.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/core/status.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/core/status_test.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/core/statusor.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/core/symbol_coding_test.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/core/symbol_coding_utils.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/core/symbol_coding_utils.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/core/symbol_decoding.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/core/symbol_decoding.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/core/symbol_encoding.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/core/symbol_encoding.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/core/varint_decoding.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/core/varint_encoding.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/core/vector_d.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/core/vector_d_test.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/io/mesh_io.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/io/mesh_io.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/io/obj_decoder.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/io/obj_decoder.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/io/obj_decoder_test.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/io/obj_encoder.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/io/obj_encoder.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/io/obj_encoder_test.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/io/parser_utils.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/io/parser_utils.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/io/ply_decoder.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/io/ply_decoder.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/io/ply_decoder_test.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/io/ply_encoder.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/io/ply_encoder.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/io/ply_property_reader.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/io/ply_property_writer.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/io/ply_reader.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/io/ply_reader.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/io/ply_reader_test.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/io/point_cloud_io.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/io/point_cloud_io.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/io/point_cloud_io_test.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/javascript/emscripten/decoder_webidl_wrapper.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/javascript/emscripten/decoder_webidl_wrapper.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/javascript/emscripten/draco_decoder_glue_wrapper.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/javascript/emscripten/draco_encoder_glue_wrapper.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/javascript/emscripten/draco_web_decoder.idl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/javascript/emscripten/draco_web_encoder.idl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/javascript/emscripten/encoder_webidl_wrapper.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/javascript/emscripten/encoder_webidl_wrapper.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/javascript/emscripten/finalize.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/javascript/emscripten/prepareCallbacks.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/javascript/emscripten/version.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/mesh/corner_table.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/mesh/corner_table.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/mesh/corner_table_indices.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/mesh/corner_table_iterators.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/mesh/corner_table_traversal_processor.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/mesh/edgebreaker_observer.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/mesh/edgebreaker_traverser.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/mesh/mesh.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/mesh/mesh.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/mesh/mesh_are_equivalent.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/mesh/mesh_are_equivalent.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/mesh/mesh_are_equivalent_test.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/mesh/mesh_attribute_corner_table.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/mesh/mesh_attribute_corner_table.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/mesh/mesh_cleanup.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/mesh/mesh_cleanup.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/mesh/mesh_cleanup_test.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/mesh/mesh_indices.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/mesh/mesh_misc_functions.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/mesh/mesh_misc_functions.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/mesh/mesh_stripifier.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/mesh/mesh_stripifier.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/mesh/prediction_degree_traverser.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/mesh/triangle_soup_mesh_builder.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/mesh/triangle_soup_mesh_builder.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/mesh/triangle_soup_mesh_builder_test.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/metadata/geometry_metadata.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/metadata/geometry_metadata.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/metadata/metadata.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/metadata/metadata.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/metadata/metadata_decoder.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/metadata/metadata_decoder.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/metadata/metadata_encoder.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/metadata/metadata_encoder.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/metadata/metadata_encoder_test.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/metadata/metadata_test.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/point_cloud/point_cloud.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/point_cloud/point_cloud.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/point_cloud/point_cloud_builder.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/point_cloud/point_cloud_builder.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/point_cloud/point_cloud_builder_test.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/point_cloud/point_cloud_test.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/tools/draco_decoder.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/src/draco/tools/draco_encoder.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/testdata/bun_zipper.ply" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/testdata/cube_att.ply" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/testdata/mat_test.mtl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/testdata/point_cloud_test_pos.ply" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/testdata/point_cloud_test_pos_norm.ply" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/testdata/test_extra_whitespace.ply" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/testdata/test_more_datatypes.ply" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/testdata/test_nm.obj.edgebreaker.0.10.0.drc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/testdata/test_nm.obj.edgebreaker.0.9.1.drc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/testdata/test_nm.obj.edgebreaker.1.0.0.drc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/testdata/test_nm.obj.edgebreaker.1.1.0.drc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/testdata/test_nm.obj.edgebreaker.1.2.0.drc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/testdata/test_nm.obj.sequential.0.10.0.drc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/testdata/test_nm.obj.sequential.0.9.1.drc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/testdata/test_nm.obj.sequential.1.0.0.drc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/testdata/test_nm.obj.sequential.1.1.0.drc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/testdata/test_nm.obj.sequential.1.2.0.drc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/testdata/test_nm_quant.0.9.0.drc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/testdata/test_pos_color.ply" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco-1.2.0/testdata/test_pos_color_ascii.ply" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco.sln" beforeDir="false" afterPath="$PROJECT_DIR$/../draco/draco.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco.vcxproj" beforeDir="false" afterPath="$PROJECT_DIR$/../draco/draco.vcxproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco.vcxproj.filters" beforeDir="false" afterPath="$PROJECT_DIR$/../draco/draco.vcxproj.filters" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco_attributes.vcxproj" beforeDir="false" afterPath="$PROJECT_DIR$/../draco/draco_attributes.vcxproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco_attributes.vcxproj.filters" beforeDir="false" afterPath="$PROJECT_DIR$/../draco/draco_attributes.vcxproj.filters" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco_compression_attributes_dec.vcxproj" beforeDir="false" afterPath="$PROJECT_DIR$/../draco/draco_compression_attributes_dec.vcxproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco_compression_attributes_dec.vcxproj.filters" beforeDir="false" afterPath="$PROJECT_DIR$/../draco/draco_compression_attributes_dec.vcxproj.filters" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco_compression_attributes_enc.vcxproj" beforeDir="false" afterPath="$PROJECT_DIR$/../draco/draco_compression_attributes_enc.vcxproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco_compression_attributes_enc.vcxproj.filters" beforeDir="false" afterPath="$PROJECT_DIR$/../draco/draco_compression_attributes_enc.vcxproj.filters" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco_compression_attributes_pred_schemes_dec.vcxproj" beforeDir="false" afterPath="$PROJECT_DIR$/../draco/draco_compression_attributes_pred_schemes_dec.vcxproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco_compression_attributes_pred_schemes_dec.vcxproj.filters" beforeDir="false" afterPath="$PROJECT_DIR$/../draco/draco_compression_attributes_pred_schemes_dec.vcxproj.filters" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco_compression_attributes_pred_schemes_enc.vcxproj" beforeDir="false" afterPath="$PROJECT_DIR$/../draco/draco_compression_attributes_pred_schemes_enc.vcxproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco_compression_attributes_pred_schemes_enc.vcxproj.filters" beforeDir="false" afterPath="$PROJECT_DIR$/../draco/draco_compression_attributes_pred_schemes_enc.vcxproj.filters" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco_compression_decode.vcxproj" beforeDir="false" afterPath="$PROJECT_DIR$/../draco/draco_compression_decode.vcxproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco_compression_decode.vcxproj.filters" beforeDir="false" afterPath="$PROJECT_DIR$/../draco/draco_compression_decode.vcxproj.filters" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco_compression_encode.vcxproj" beforeDir="false" afterPath="$PROJECT_DIR$/../draco/draco_compression_encode.vcxproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco_compression_encode.vcxproj.filters" beforeDir="false" afterPath="$PROJECT_DIR$/../draco/draco_compression_encode.vcxproj.filters" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco_compression_mesh_dec.vcxproj" beforeDir="false" afterPath="$PROJECT_DIR$/../draco/draco_compression_mesh_dec.vcxproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco_compression_mesh_dec.vcxproj.filters" beforeDir="false" afterPath="$PROJECT_DIR$/../draco/draco_compression_mesh_dec.vcxproj.filters" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco_compression_mesh_enc.vcxproj" beforeDir="false" afterPath="$PROJECT_DIR$/../draco/draco_compression_mesh_enc.vcxproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco_compression_mesh_enc.vcxproj.filters" beforeDir="false" afterPath="$PROJECT_DIR$/../draco/draco_compression_mesh_enc.vcxproj.filters" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco_compression_point_cloud_dec.vcxproj" beforeDir="false" afterPath="$PROJECT_DIR$/../draco/draco_compression_point_cloud_dec.vcxproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco_compression_point_cloud_dec.vcxproj.filters" beforeDir="false" afterPath="$PROJECT_DIR$/../draco/draco_compression_point_cloud_dec.vcxproj.filters" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco_compression_point_cloud_enc.vcxproj" beforeDir="false" afterPath="$PROJECT_DIR$/../draco/draco_compression_point_cloud_enc.vcxproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco_compression_point_cloud_enc.vcxproj.filters" beforeDir="false" afterPath="$PROJECT_DIR$/../draco/draco_compression_point_cloud_enc.vcxproj.filters" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco_core.vcxproj" beforeDir="false" afterPath="$PROJECT_DIR$/../draco/draco_core.vcxproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco_core.vcxproj.filters" beforeDir="false" afterPath="$PROJECT_DIR$/../draco/draco_core.vcxproj.filters" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco_core_bit_coders.vcxproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco_core_bit_coders.vcxproj.filters" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco_dec_config.vcxproj" beforeDir="false" afterPath="$PROJECT_DIR$/../draco/draco_dec_config.vcxproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco_dec_config.vcxproj.filters" beforeDir="false" afterPath="$PROJECT_DIR$/../draco/draco_dec_config.vcxproj.filters" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco_decoder.vcxproj" beforeDir="false" afterPath="$PROJECT_DIR$/../draco/draco_decoder.vcxproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco_decoder.vcxproj.filters" beforeDir="false" afterPath="$PROJECT_DIR$/../draco/draco_decoder.vcxproj.filters" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco_enc_config.vcxproj" beforeDir="false" afterPath="$PROJECT_DIR$/../draco/draco_enc_config.vcxproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco_enc_config.vcxproj.filters" beforeDir="false" afterPath="$PROJECT_DIR$/../draco/draco_enc_config.vcxproj.filters" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco_encoder.vcxproj" beforeDir="false" afterPath="$PROJECT_DIR$/../draco/draco_encoder.vcxproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco_encoder.vcxproj.filters" beforeDir="false" afterPath="$PROJECT_DIR$/../draco/draco_encoder.vcxproj.filters" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco_io.vcxproj" beforeDir="false" afterPath="$PROJECT_DIR$/../draco/draco_io.vcxproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco_io.vcxproj.filters" beforeDir="false" afterPath="$PROJECT_DIR$/../draco/draco_io.vcxproj.filters" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco_mesh.vcxproj" beforeDir="false" afterPath="$PROJECT_DIR$/../draco/draco_mesh.vcxproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco_mesh.vcxproj.filters" beforeDir="false" afterPath="$PROJECT_DIR$/../draco/draco_mesh.vcxproj.filters" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco_metadata.vcxproj" beforeDir="false" afterPath="$PROJECT_DIR$/../draco/draco_metadata.vcxproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco_metadata.vcxproj.filters" beforeDir="false" afterPath="$PROJECT_DIR$/../draco/draco_metadata.vcxproj.filters" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco_metadata_dec.vcxproj" beforeDir="false" afterPath="$PROJECT_DIR$/../draco/draco_metadata_dec.vcxproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco_metadata_dec.vcxproj.filters" beforeDir="false" afterPath="$PROJECT_DIR$/../draco/draco_metadata_dec.vcxproj.filters" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco_metadata_enc.vcxproj" beforeDir="false" afterPath="$PROJECT_DIR$/../draco/draco_metadata_enc.vcxproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco_metadata_enc.vcxproj.filters" beforeDir="false" afterPath="$PROJECT_DIR$/../draco/draco_metadata_enc.vcxproj.filters" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco_point_cloud.vcxproj" beforeDir="false" afterPath="$PROJECT_DIR$/../draco/draco_point_cloud.vcxproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco_point_cloud.vcxproj.filters" beforeDir="false" afterPath="$PROJECT_DIR$/../draco/draco_point_cloud.vcxproj.filters" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco_points_dec.vcxproj" beforeDir="false" afterPath="$PROJECT_DIR$/../draco/draco_points_dec.vcxproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco_points_dec.vcxproj.filters" beforeDir="false" afterPath="$PROJECT_DIR$/../draco/draco_points_dec.vcxproj.filters" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco_points_enc.vcxproj" beforeDir="false" afterPath="$PROJECT_DIR$/../draco/draco_points_enc.vcxproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco_points_enc.vcxproj.filters" beforeDir="false" afterPath="$PROJECT_DIR$/../draco/draco_points_enc.vcxproj.filters" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco_version.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/draco_version.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/dracodec.vcxproj" beforeDir="false" afterPath="$PROJECT_DIR$/../draco/dracodec.vcxproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/dracodec.vcxproj.filters" beforeDir="false" afterPath="$PROJECT_DIR$/../draco/dracodec.vcxproj.filters" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/dracoenc.vcxproj" beforeDir="false" afterPath="$PROJECT_DIR$/../draco/dracoenc.vcxproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draco/dracoenc.vcxproj.filters" beforeDir="false" afterPath="$PROJECT_DIR$/../draco/dracoenc.vcxproj.filters" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alg/Draco/compress.exe" beforeDir="false" afterPath="$PROJECT_DIR$/alg/Draco/compress.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alg/Draco/decompress.exe" beforeDir="false" afterPath="$PROJECT_DIR$/alg/Draco/decompress.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alg/Draco/reindex.exe" beforeDir="false" afterPath="$PROJECT_DIR$/alg/Draco/reindex.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/zswi/zswi/GUI.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/zswi/zswi/GUI.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/zswi/zswi/Main$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/zswi/zswi/Main$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/zswi/zswi/Main$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/zswi/zswi/Main$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/zswi/zswi/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/zswi/zswi/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/zswi/zswi/WorkerThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/zswi/zswi/WorkerThread.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zswi/BossThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/zswi/BossThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zswi/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/zswi/Category.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zswi/ComboMessenger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/zswi/ComboMessenger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zswi/Database.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/zswi/Database.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zswi/FilesMessenger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/zswi/FilesMessenger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zswi/GUI.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/zswi/GUI.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zswi/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/zswi/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zswi/TestingState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/zswi/TestingState.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zswi/WorkerThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/zswi/WorkerThread.java" afterDir="false" />
     </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileEditorManager">
+    <leaf />
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="457" />
+    <option name="y" value="-44" />
+    <option name="width" value="993" />
+    <option name="height" value="1060" />
+  </component>
   <component name="ProjectId" id="1ZDVw4zUbBq5Bx2PzInSloqMBcf" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="zswi-kompresni-algoritmy-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zswi-kompresni-algoritmy-master" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="zswi-kompresni-algoritmy-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zswi-kompresni-algoritmy-master" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="zswi-kompresni-algoritmy-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zswi-kompresni-algoritmy-master" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="zswi" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="zswi-kompresni-algoritmy-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -38,8 +662,22 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
   </component>
   <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -55,15 +693,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Wrapper.jar" type="JarApplication" temporary="true">
+    <configuration name="Wrapper.jar" type="JarApplication" factoryName="JAR Application" temporary="true">
       <option name="JAR_PATH" value="$PROJECT_DIR$/Wrapper/Wrapper.jar" />
       <method v="2" />
     </configuration>
-    <configuration name="commons-io-2.6.jar" type="JarApplication" temporary="true">
+    <configuration name="commons-io-2.6.jar" type="JarApplication" factoryName="JAR Application" temporary="true">
       <option name="JAR_PATH" value="$PROJECT_DIR$/commons-io-2.6.jar" />
       <method v="2" />
     </configuration>
-    <configuration name="mysql-connector-java-8.0.15.jar" type="JarApplication" temporary="true">
+    <configuration name="mysql-connector-java-8.0.15.jar" type="JarApplication" factoryName="JAR Application" temporary="true">
       <option name="JAR_PATH" value="$PROJECT_DIR$/mysql-connector-java-8.0.15.jar" />
       <method v="2" />
     </configuration>
@@ -86,8 +724,49 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1584373887018</updated>
+      <workItem from="1590084406749" duration="1278000" />
     </task>
     <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="1278000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1753" height="962" extended-state="6" />
+    <layout>
+      <window_info id="Image Layers" />
+      <window_info id="Designer" />
+      <window_info id="UI Designer" />
+      <window_info id="Capture Tool" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24955752" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Messages" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32972324" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Maven" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
     <state x="414" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1585052869856">
@@ -139,5 +818,10 @@
     </state>
     <state x="-1264" y="343" key="com.intellij.ide.util.TipDialog/-1920.0.1920.1040/0.0.1920.1040@-1920.0.1920.1040" timestamp="1585228927485" />
     <state x="656" y="343" key="com.intellij.ide.util.TipDialog/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1585052825299" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/log.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
   </component>
 </project>

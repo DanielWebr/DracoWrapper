@@ -1,23 +1,111 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco\tools\draco_encoder.cc">
+    <ClCompile Include="C:\Users\jachu\Downloads\draco-master\draco-master\src\draco\tools\draco_encoder.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\jachu\Downloads\draco-master\draco-master\src\draco\io\file_reader_factory.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\jachu\Downloads\draco-master\draco-master\src\draco\io\file_utils.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\jachu\Downloads\draco-master\draco-master\src\draco\io\file_writer_factory.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\jachu\Downloads\draco-master\draco-master\src\draco\io\mesh_io.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\jachu\Downloads\draco-master\draco-master\src\draco\io\obj_decoder.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\jachu\Downloads\draco-master\draco-master\src\draco\io\obj_encoder.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\jachu\Downloads\draco-master\draco-master\src\draco\io\parser_utils.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\jachu\Downloads\draco-master\draco-master\src\draco\io\ply_decoder.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\jachu\Downloads\draco-master\draco-master\src\draco\io\ply_encoder.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\jachu\Downloads\draco-master\draco-master\src\draco\io\ply_reader.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\jachu\Downloads\draco-master\draco-master\src\draco\io\point_cloud_io.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\jachu\Downloads\draco-master\draco-master\src\draco\io\stdio_file_reader.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\jachu\Downloads\draco-master\draco-master\src\draco\io\stdio_file_writer.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\CMakeLists.txt" />
+    <ClInclude Include="C:\Users\jachu\Downloads\draco-master\draco-master\src\draco\io\file_reader_factory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\jachu\Downloads\draco-master\draco-master\src\draco\io\file_reader_interface.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\jachu\Downloads\draco-master\draco-master\src\draco\io\file_utils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\jachu\Downloads\draco-master\draco-master\src\draco\io\file_writer_factory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\jachu\Downloads\draco-master\draco-master\src\draco\io\file_writer_interface.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\jachu\Downloads\draco-master\draco-master\src\draco\io\mesh_io.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\jachu\Downloads\draco-master\draco-master\src\draco\io\obj_decoder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\jachu\Downloads\draco-master\draco-master\src\draco\io\obj_encoder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\jachu\Downloads\draco-master\draco-master\src\draco\io\parser_utils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\jachu\Downloads\draco-master\draco-master\src\draco\io\ply_decoder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\jachu\Downloads\draco-master\draco-master\src\draco\io\ply_encoder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\jachu\Downloads\draco-master\draco-master\src\draco\io\ply_property_reader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\jachu\Downloads\draco-master\draco-master\src\draco\io\ply_property_writer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\jachu\Downloads\draco-master\draco-master\src\draco\io\ply_reader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\jachu\Downloads\draco-master\draco-master\src\draco\io\point_cloud_io.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\jachu\Downloads\draco-master\draco-master\src\draco\io\stdio_file_reader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\jachu\Downloads\draco-master\draco-master\src\draco\io\stdio_file_writer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <Filter Include="Source Files">
-      <UniqueIdentifier>{45A56D12-F897-373D-AC92-8226CD3D956A}</UniqueIdentifier>
+    <CustomBuild Include="C:\Users\jachu\Downloads\draco-master\draco-master\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{49E20499-AE41-377A-A871-E020A772C9D2}</UniqueIdentifier>
     </Filter>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="..\zswi-kompresni-algoritmy-master\zswi-kompresni-algoritmy-master\alg\EPC\EPC_codec.exe" />
-    <None Include="..\zswi-kompresni-algoritmy-master\zswi-kompresni-algoritmy-master\alg\EPC\reindex.exe" />
-  </ItemGroup>
-  <ItemGroup>
-    <Text Include="..\zswi-kompresni-algoritmy-master\zswi-kompresni-algoritmy-master\alg\EPC\reindex.txt" />
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{C8F31FB8-F1A1-3318-94E9-47C2E5E8E5D8}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
 </Project>

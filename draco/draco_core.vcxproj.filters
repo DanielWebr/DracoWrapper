@@ -1,138 +1,111 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco\core\cycle_timer.cc">
+    <ClCompile Include="C:\Users\jachu\Downloads\draco-master\draco-master\src\draco\core\bit_utils.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco\core\data_buffer.cc">
+    <ClCompile Include="C:\Users\jachu\Downloads\draco-master\draco-master\src\draco\core\bounding_box.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco\core\decoder_buffer.cc">
+    <ClCompile Include="C:\Users\jachu\Downloads\draco-master\draco-master\src\draco\core\cycle_timer.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco\core\divide.cc">
+    <ClCompile Include="C:\Users\jachu\Downloads\draco-master\draco-master\src\draco\core\data_buffer.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco\core\draco_types.cc">
+    <ClCompile Include="C:\Users\jachu\Downloads\draco-master\draco-master\src\draco\core\decoder_buffer.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco\core\encoder_buffer.cc">
+    <ClCompile Include="C:\Users\jachu\Downloads\draco-master\draco-master\src\draco\core\divide.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco\core\hash_utils.cc">
+    <ClCompile Include="C:\Users\jachu\Downloads\draco-master\draco-master\src\draco\core\draco_types.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco\core\options.cc">
+    <ClCompile Include="C:\Users\jachu\Downloads\draco-master\draco-master\src\draco\core\encoder_buffer.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco\core\quantization_utils.cc">
+    <ClCompile Include="C:\Users\jachu\Downloads\draco-master\draco-master\src\draco\core\hash_utils.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco\core\shannon_entropy.cc">
+    <ClCompile Include="C:\Users\jachu\Downloads\draco-master\draco-master\src\draco\core\options.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco\core\symbol_coding_utils.cc">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco\core\symbol_decoding.cc">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco\core\symbol_encoding.cc">
+    <ClCompile Include="C:\Users\jachu\Downloads\draco-master\draco-master\src\draco\core\quantization_utils.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco\core\ans.h">
+    <ClInclude Include="C:\Users\jachu\Downloads\draco-master\draco-master\src\draco\core\bit_utils.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco\core\bit_utils.h">
+    <ClInclude Include="C:\Users\jachu\Downloads\draco-master\draco-master\src\draco\core\bounding_box.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco\core\cycle_timer.h">
+    <ClInclude Include="C:\Users\jachu\Downloads\draco-master\draco-master\src\draco\core\cycle_timer.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco\core\data_buffer.h">
+    <ClInclude Include="C:\Users\jachu\Downloads\draco-master\draco-master\src\draco\core\data_buffer.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco\core\decoder_buffer.h">
+    <ClInclude Include="C:\Users\jachu\Downloads\draco-master\draco-master\src\draco\core\decoder_buffer.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco\core\divide.h">
+    <ClInclude Include="C:\Users\jachu\Downloads\draco-master\draco-master\src\draco\core\divide.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco\core\draco_index_type.h">
+    <ClInclude Include="C:\Users\jachu\Downloads\draco-master\draco-master\src\draco\core\draco_index_type.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco\core\draco_index_type_vector.h">
+    <ClInclude Include="C:\Users\jachu\Downloads\draco-master\draco-master\src\draco\core\draco_index_type_vector.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco\core\draco_types.h">
+    <ClInclude Include="C:\Users\jachu\Downloads\draco-master\draco-master\src\draco\core\draco_types.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco\core\encoder_buffer.h">
+    <ClInclude Include="C:\Users\jachu\Downloads\draco-master\draco-master\src\draco\core\encoder_buffer.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco\core\hash_utils.h">
+    <ClInclude Include="C:\Users\jachu\Downloads\draco-master\draco-master\src\draco\core\hash_utils.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco\core\macros.h">
+    <ClInclude Include="C:\Users\jachu\Downloads\draco-master\draco-master\src\draco\core\macros.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco\core\math_utils.h">
+    <ClInclude Include="C:\Users\jachu\Downloads\draco-master\draco-master\src\draco\core\math_utils.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco\core\options.h">
+    <ClInclude Include="C:\Users\jachu\Downloads\draco-master\draco-master\src\draco\core\options.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco\core\quantization_utils.h">
+    <ClInclude Include="C:\Users\jachu\Downloads\draco-master\draco-master\src\draco\core\quantization_utils.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco\core\rans_symbol_coding.h">
+    <ClInclude Include="C:\Users\jachu\Downloads\draco-master\draco-master\src\draco\core\status.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco\core\rans_symbol_decoder.h">
+    <ClInclude Include="C:\Users\jachu\Downloads\draco-master\draco-master\src\draco\core\status_or.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco\core\rans_symbol_encoder.h">
+    <ClInclude Include="C:\Users\jachu\Downloads\draco-master\draco-master\src\draco\core\varint_decoding.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco\core\shannon_entropy.h">
+    <ClInclude Include="C:\Users\jachu\Downloads\draco-master\draco-master\src\draco\core\varint_encoding.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco\core\status.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco\core\statusor.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco\core\symbol_coding_utils.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco\core\symbol_decoding.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco\core\symbol_encoding.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco\core\varint_decoding.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco\core\varint_encoding.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco\core\vector_d.h">
+    <ClInclude Include="C:\Users\jachu\Downloads\draco-master\draco-master\src\draco\core\vector_d.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\CMakeLists.txt" />
+    <CustomBuild Include="C:\Users\jachu\Downloads\draco-master\draco-master\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Header Files">
-      <UniqueIdentifier>{55FDC50C-BA74-35A1-AA81-181F9552D62E}</UniqueIdentifier>
+      <UniqueIdentifier>{49E20499-AE41-377A-A871-E020A772C9D2}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{45A56D12-F897-373D-AC92-8226CD3D956A}</UniqueIdentifier>
+      <UniqueIdentifier>{C8F31FB8-F1A1-3318-94E9-47C2E5E8E5D8}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

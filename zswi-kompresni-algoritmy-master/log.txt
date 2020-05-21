@@ -1,0 +1,2 @@
+[2020/05/21-20:11:39] - Combination [      Draco        -       Metro       - bimba] did not return any value
+[2020/05/21-20:12:55] - Error while removing temp folder

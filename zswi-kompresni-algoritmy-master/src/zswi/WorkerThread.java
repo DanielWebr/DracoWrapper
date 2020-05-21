@@ -61,7 +61,6 @@ class WorkerThread extends Thread
 
 		File wholeNumberLabel = new File(combination.algorithmDir+"\\WholeNumbersDelta");
 		deltaWholeNumbers = wholeNumberLabel.exists();
-		deltaWholeNumbers = false;
 		if(deltaWholeNumbers){
 			top = 10;
 			bottom = 0;
@@ -217,7 +216,7 @@ class WorkerThread extends Thread
 			
 			delta += step;
 			if(deltaWholeNumbers){
-				if(step != 0 || delta < 0.0 || delta > 10.0)
+				if(step == 0 || delta < 0.0 || delta > 10.0)
 					break;
 			}else{
 				if(step <= 0.00000001 || delta <= 0.0)
@@ -273,7 +272,7 @@ class WorkerThread extends Thread
 			
 			delta -= step;
 			if(deltaWholeNumbers){
-				if(step != 0 || delta < 0.0 || delta > 10.0)
+				if(step == 0 || delta < 0.0 || delta > 10.0)
 					break;
 			}else{
 				if(step <= 0.00000001 || delta <= 0.0)
@@ -316,7 +315,9 @@ class WorkerThread extends Thread
 	 */
 	private boolean testing(double delta)
 	{
+
 		process = launchExe(compressLaunch + delta, algCopyDir);
+
 		if(waitForProcess(System.nanoTime()) || isForceStopped(true))
 			return true;
 		
@@ -328,23 +329,50 @@ class WorkerThread extends Thread
 		process = launchExe(decompressLaunch, algCopyDir);
 		if(waitForProcess(System.nanoTime()) || isForceStopped(true))
 			return true;
-		
-		process = launchExe(metricLaunch, metCopyDir);
-		if(waitForProcess(System.nanoTime()) || isForceStopped(true))
-			return true;
-		
-		BufferedReader reader = new BufferedReader(
-				new InputStreamReader(process.getInputStream()));
-		String line;
-		try
-		{
-			line = reader.readLine();
+
+		String line = null;
+		String s1 = "metro.exe";
+		String s2 = this.combination.metricDir.getName().toLowerCase() + ".exe";
+		if(s1.equals(s2)){
+			try
+			{
+				process = launchExe(metricLaunch, metCopyDir);
+				InputStream stdin = process.getInputStream();
+				InputStreamReader isr = new InputStreamReader(stdin);
+				BufferedReader br = new BufferedReader(isr);
+				String line2;
+				while ((line2 = br.readLine()) != null){
+					if(line2.contains("Hausdorff distance: ")){
+						line = line2.replace("Hausdorff distance: ", "");
+						line = line.substring(0,8);
+					}
+				}
+				int exitVal = process.waitFor();
+			}
+			catch (Throwable t)
+			{
+				t.printStackTrace();
+			}
 		}
-		catch(IOException e)
+		else
 		{
-			printToLog("Error while reading output of algorithm", true);
-			return true;
+
+			process = launchExe(metricLaunch, metCopyDir);
+			if(waitForProcess(System.nanoTime()) || isForceStopped(true))
+				return true;
+			BufferedReader reader = new BufferedReader(
+					new InputStreamReader(process.getInputStream()));
+			try
+			{
+				line = reader.readLine();
+			}
+			catch(IOException e)
+			{
+				printToLog("Error while reading output of algorithm", true);
+				return true;
+			}
 		}
+
 		if(line != null)
 		{
 			try
@@ -404,6 +432,15 @@ class WorkerThread extends Thread
 		forceStopLock.unlock();
 		return false;
 	}
+
+	private void printStream (InputStream stream) throws IOException
+	{
+		BufferedReader in = new BufferedReader(new InputStreamReader(stream));
+		String inputLine;
+		while ((inputLine = in.readLine()) != null)
+			System.out.println(inputLine);
+		in.close();
+	}
 	
 	/**
 	 * Waits for process for number of seconds given by user.
@@ -415,9 +452,10 @@ class WorkerThread extends Thread
 	 */
 	private boolean waitForProcess(long start)
 	{
+
 		if(process == null)
 		{
-			printToLog("[" + combination + "] - Process did not started",
+			printToLog("[" + combination + "] - Process did not start",
 					   false);
 			return true;
 		}

@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <CustomBuild Include="C:\Users\jachu\Downloads\draco-1.2.0\CMakeFiles\ff35455ae6cfe3d8954e9555a2cacd6b\INSTALL_force.rule">
+    <CustomBuild Include="C:\Users\jachu\Downloads\draco-master\CMakeFiles\309fcf9340e8b9d2e913d43d28f4b4bf\INSTALL_force.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="CMake Rules">
-      <UniqueIdentifier>{72A9D581-3D74-3E37-8ACC-2449DFC52C00}</UniqueIdentifier>
+      <UniqueIdentifier>{7EAD8677-02FC-35B4-B0B1-A596EFEBF1DD}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

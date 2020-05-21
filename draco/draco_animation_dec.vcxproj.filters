@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\jachu\Downloads\draco-master\draco-master\src\draco\animation\keyframe_animation_decoder.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\jachu\Downloads\draco-master\draco-master\src\draco\animation\keyframe_animation_decoder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\jachu\Downloads\draco-master\draco-master\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{49E20499-AE41-377A-A871-E020A772C9D2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{C8F31FB8-F1A1-3318-94E9-47C2E5E8E5D8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

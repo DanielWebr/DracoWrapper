@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/jachu/Downloads/draco-1.2.0/draco-1.2.0
+# Install script for directory: C:/Users/jachu/Downloads/draco-master/draco-master
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,6 +34,42 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
+   "C:/Program Files (x86)/draco/include/draco/animation/keyframe_animation.h")
+  if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
+    message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
+  endif()
+  if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
+    message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
+  endif()
+file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/animation" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-master/draco-master/src/draco/animation/keyframe_animation.h")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
+   "C:/Program Files (x86)/draco/include/draco/animation/keyframe_animation_decoder.h")
+  if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
+    message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
+  endif()
+  if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
+    message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
+  endif()
+file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/animation" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-master/draco-master/src/draco/animation/keyframe_animation_decoder.h")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
+   "C:/Program Files (x86)/draco/include/draco/animation/keyframe_animation_encoder.h")
+  if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
+    message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
+  endif()
+  if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
+    message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
+  endif()
+file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/animation" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-master/draco-master/src/draco/animation/keyframe_animation_encoder.h")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
    "C:/Program Files (x86)/draco/include/draco/attributes/attribute_octahedron_transform.h")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
@@ -41,7 +77,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/attributes" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-1.2.0/draco-1.2.0/src/draco/attributes/attribute_octahedron_transform.h")
+file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/attributes" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-master/draco-master/src/draco/attributes/attribute_octahedron_transform.h")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -53,7 +89,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/attributes" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-1.2.0/draco-1.2.0/src/draco/attributes/attribute_quantization_transform.h")
+file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/attributes" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-master/draco-master/src/draco/attributes/attribute_quantization_transform.h")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -65,7 +101,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/attributes" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-1.2.0/draco-1.2.0/src/draco/attributes/attribute_transform.h")
+file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/attributes" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-master/draco-master/src/draco/attributes/attribute_transform.h")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -77,7 +113,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/attributes" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-1.2.0/draco-1.2.0/src/draco/attributes/attribute_transform_data.h")
+file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/attributes" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-master/draco-master/src/draco/attributes/attribute_transform_data.h")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -89,7 +125,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/attributes" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-1.2.0/draco-1.2.0/src/draco/attributes/attribute_transform_type.h")
+file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/attributes" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-master/draco-master/src/draco/attributes/attribute_transform_type.h")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -101,7 +137,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/attributes" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-1.2.0/draco-1.2.0/src/draco/attributes/geometry_attribute.h")
+file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/attributes" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-master/draco-master/src/draco/attributes/geometry_attribute.h")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -113,7 +149,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/attributes" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-1.2.0/draco-1.2.0/src/draco/attributes/geometry_indices.h")
+file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/attributes" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-master/draco-master/src/draco/attributes/geometry_indices.h")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -125,7 +161,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/attributes" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-1.2.0/draco-1.2.0/src/draco/attributes/point_attribute.h")
+file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/attributes" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-master/draco-master/src/draco/attributes/point_attribute.h")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -137,7 +173,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/compression/attributes" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-1.2.0/draco-1.2.0/src/draco/compression/attributes/attributes_decoder.h")
+file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/compression/attributes" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-master/draco-master/src/draco/compression/attributes/attributes_decoder.h")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -149,7 +185,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/compression/attributes" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-1.2.0/draco-1.2.0/src/draco/compression/attributes/attributes_decoder_interface.h")
+file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/compression/attributes" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-master/draco-master/src/draco/compression/attributes/attributes_decoder_interface.h")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -161,7 +197,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/compression/attributes" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-1.2.0/draco-1.2.0/src/draco/compression/attributes/attributes_encoder.h")
+file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/compression/attributes" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-master/draco-master/src/draco/compression/attributes/attributes_encoder.h")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -173,7 +209,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/compression/attributes" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-1.2.0/draco-1.2.0/src/draco/compression/attributes/kd_tree_attributes_decoder.h")
+file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/compression/attributes" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-master/draco-master/src/draco/compression/attributes/kd_tree_attributes_decoder.h")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -185,7 +221,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/compression/attributes" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-1.2.0/draco-1.2.0/src/draco/compression/attributes/kd_tree_attributes_encoder.h")
+file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/compression/attributes" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-master/draco-master/src/draco/compression/attributes/kd_tree_attributes_encoder.h")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -197,7 +233,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/compression/attributes" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-1.2.0/draco-1.2.0/src/draco/compression/attributes/kd_tree_attributes_shared.h")
+file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/compression/attributes" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-master/draco-master/src/draco/compression/attributes/kd_tree_attributes_shared.h")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -209,7 +245,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/compression/attributes" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-1.2.0/draco-1.2.0/src/draco/compression/attributes/linear_sequencer.h")
+file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/compression/attributes" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-master/draco-master/src/draco/compression/attributes/linear_sequencer.h")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -221,31 +257,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/compression/attributes" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-1.2.0/draco-1.2.0/src/draco/compression/attributes/mesh_attribute_indices_encoding_data.h")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "C:/Program Files (x86)/draco/include/draco/compression/attributes/mesh_attribute_indices_encoding_observer.h")
-  if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
-    message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
-  endif()
-  if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
-    message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
-  endif()
-file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/compression/attributes" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-1.2.0/draco-1.2.0/src/draco/compression/attributes/mesh_attribute_indices_encoding_observer.h")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "C:/Program Files (x86)/draco/include/draco/compression/attributes/mesh_traversal_sequencer.h")
-  if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
-    message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
-  endif()
-  if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
-    message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
-  endif()
-file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/compression/attributes" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-1.2.0/draco-1.2.0/src/draco/compression/attributes/mesh_traversal_sequencer.h")
+file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/compression/attributes" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-master/draco-master/src/draco/compression/attributes/mesh_attribute_indices_encoding_data.h")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -257,7 +269,19 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/compression/attributes" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-1.2.0/draco-1.2.0/src/draco/compression/attributes/normal_compression_utils.h")
+file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/compression/attributes" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-master/draco-master/src/draco/compression/attributes/normal_compression_utils.h")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
+   "C:/Program Files (x86)/draco/include/draco/compression/attributes/point_d_vector.h")
+  if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
+    message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
+  endif()
+  if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
+    message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
+  endif()
+file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/compression/attributes" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-master/draco-master/src/draco/compression/attributes/point_d_vector.h")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -269,7 +293,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/compression/attributes" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-1.2.0/draco-1.2.0/src/draco/compression/attributes/points_sequencer.h")
+file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/compression/attributes" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-master/draco-master/src/draco/compression/attributes/points_sequencer.h")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -281,7 +305,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/compression/attributes/prediction_schemes" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-1.2.0/draco-1.2.0/src/draco/compression/attributes/prediction_schemes/mesh_prediction_scheme_constrained_multi_parallelogram_decoder.h")
+file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/compression/attributes/prediction_schemes" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-master/draco-master/src/draco/compression/attributes/prediction_schemes/mesh_prediction_scheme_constrained_multi_parallelogram_decoder.h")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -293,7 +317,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/compression/attributes/prediction_schemes" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-1.2.0/draco-1.2.0/src/draco/compression/attributes/prediction_schemes/mesh_prediction_scheme_constrained_multi_parallelogram_encoder.h")
+file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/compression/attributes/prediction_schemes" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-master/draco-master/src/draco/compression/attributes/prediction_schemes/mesh_prediction_scheme_constrained_multi_parallelogram_encoder.h")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -305,7 +329,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/compression/attributes/prediction_schemes" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-1.2.0/draco-1.2.0/src/draco/compression/attributes/prediction_schemes/mesh_prediction_scheme_constrained_multi_parallelogram_shared.h")
+file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/compression/attributes/prediction_schemes" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-master/draco-master/src/draco/compression/attributes/prediction_schemes/mesh_prediction_scheme_constrained_multi_parallelogram_shared.h")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -317,7 +341,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/compression/attributes/prediction_schemes" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-1.2.0/draco-1.2.0/src/draco/compression/attributes/prediction_schemes/mesh_prediction_scheme_data.h")
+file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/compression/attributes/prediction_schemes" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-master/draco-master/src/draco/compression/attributes/prediction_schemes/mesh_prediction_scheme_data.h")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -329,7 +353,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/compression/attributes/prediction_schemes" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-1.2.0/draco-1.2.0/src/draco/compression/attributes/prediction_schemes/mesh_prediction_scheme_decoder.h")
+file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/compression/attributes/prediction_schemes" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-master/draco-master/src/draco/compression/attributes/prediction_schemes/mesh_prediction_scheme_decoder.h")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -341,7 +365,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/compression/attributes/prediction_schemes" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-1.2.0/draco-1.2.0/src/draco/compression/attributes/prediction_schemes/mesh_prediction_scheme_encoder.h")
+file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/compression/attributes/prediction_schemes" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-master/draco-master/src/draco/compression/attributes/prediction_schemes/mesh_prediction_scheme_encoder.h")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -353,7 +377,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/compression/attributes/prediction_schemes" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-1.2.0/draco-1.2.0/src/draco/compression/attributes/prediction_schemes/mesh_prediction_scheme_geometric_normal_decoder.h")
+file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/compression/attributes/prediction_schemes" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-master/draco-master/src/draco/compression/attributes/prediction_schemes/mesh_prediction_scheme_geometric_normal_decoder.h")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -365,7 +389,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/compression/attributes/prediction_schemes" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-1.2.0/draco-1.2.0/src/draco/compression/attributes/prediction_schemes/mesh_prediction_scheme_geometric_normal_encoder.h")
+file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/compression/attributes/prediction_schemes" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-master/draco-master/src/draco/compression/attributes/prediction_schemes/mesh_prediction_scheme_geometric_normal_encoder.h")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -377,7 +401,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/compression/attributes/prediction_schemes" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-1.2.0/draco-1.2.0/src/draco/compression/attributes/prediction_schemes/mesh_prediction_scheme_geometric_normal_predictor_area.h")
+file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/compression/attributes/prediction_schemes" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-master/draco-master/src/draco/compression/attributes/prediction_schemes/mesh_prediction_scheme_geometric_normal_predictor_area.h")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -389,7 +413,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/compression/attributes/prediction_schemes" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-1.2.0/draco-1.2.0/src/draco/compression/attributes/prediction_schemes/mesh_prediction_scheme_geometric_normal_predictor_base.h")
+file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/compression/attributes/prediction_schemes" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-master/draco-master/src/draco/compression/attributes/prediction_schemes/mesh_prediction_scheme_geometric_normal_predictor_base.h")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -401,7 +425,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/compression/attributes/prediction_schemes" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-1.2.0/draco-1.2.0/src/draco/compression/attributes/prediction_schemes/mesh_prediction_scheme_multi_parallelogram_decoder.h")
+file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/compression/attributes/prediction_schemes" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-master/draco-master/src/draco/compression/attributes/prediction_schemes/mesh_prediction_scheme_multi_parallelogram_decoder.h")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -413,7 +437,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/compression/attributes/prediction_schemes" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-1.2.0/draco-1.2.0/src/draco/compression/attributes/prediction_schemes/mesh_prediction_scheme_multi_parallelogram_encoder.h")
+file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/compression/attributes/prediction_schemes" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-master/draco-master/src/draco/compression/attributes/prediction_schemes/mesh_prediction_scheme_multi_parallelogram_encoder.h")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -425,7 +449,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/compression/attributes/prediction_schemes" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-1.2.0/draco-1.2.0/src/draco/compression/attributes/prediction_schemes/mesh_prediction_scheme_parallelogram_decoder.h")
+file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/compression/attributes/prediction_schemes" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-master/draco-master/src/draco/compression/attributes/prediction_schemes/mesh_prediction_scheme_parallelogram_decoder.h")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -437,7 +461,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/compression/attributes/prediction_schemes" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-1.2.0/draco-1.2.0/src/draco/compression/attributes/prediction_schemes/mesh_prediction_scheme_parallelogram_encoder.h")
+file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/compression/attributes/prediction_schemes" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-master/draco-master/src/draco/compression/attributes/prediction_schemes/mesh_prediction_scheme_parallelogram_encoder.h")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -449,7 +473,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/compression/attributes/prediction_schemes" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-1.2.0/draco-1.2.0/src/draco/compression/attributes/prediction_schemes/mesh_prediction_scheme_parallelogram_shared.h")
+file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/compression/attributes/prediction_schemes" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-master/draco-master/src/draco/compression/attributes/prediction_schemes/mesh_prediction_scheme_parallelogram_shared.h")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -461,7 +485,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/compression/attributes/prediction_schemes" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-1.2.0/draco-1.2.0/src/draco/compression/attributes/prediction_schemes/mesh_prediction_scheme_tex_coords_decoder.h")
+file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/compression/attributes/prediction_schemes" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-master/draco-master/src/draco/compression/attributes/prediction_schemes/mesh_prediction_scheme_tex_coords_decoder.h")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -473,7 +497,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/compression/attributes/prediction_schemes" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-1.2.0/draco-1.2.0/src/draco/compression/attributes/prediction_schemes/mesh_prediction_scheme_tex_coords_encoder.h")
+file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/compression/attributes/prediction_schemes" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-master/draco-master/src/draco/compression/attributes/prediction_schemes/mesh_prediction_scheme_tex_coords_encoder.h")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -485,7 +509,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/compression/attributes/prediction_schemes" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-1.2.0/draco-1.2.0/src/draco/compression/attributes/prediction_schemes/mesh_prediction_scheme_tex_coords_portable_decoder.h")
+file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/compression/attributes/prediction_schemes" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-master/draco-master/src/draco/compression/attributes/prediction_schemes/mesh_prediction_scheme_tex_coords_portable_decoder.h")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -497,7 +521,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/compression/attributes/prediction_schemes" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-1.2.0/draco-1.2.0/src/draco/compression/attributes/prediction_schemes/mesh_prediction_scheme_tex_coords_portable_encoder.h")
+file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/compression/attributes/prediction_schemes" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-master/draco-master/src/draco/compression/attributes/prediction_schemes/mesh_prediction_scheme_tex_coords_portable_encoder.h")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -509,7 +533,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/compression/attributes/prediction_schemes" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-1.2.0/draco-1.2.0/src/draco/compression/attributes/prediction_schemes/mesh_prediction_scheme_tex_coords_portable_predictor.h")
+file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/compression/attributes/prediction_schemes" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-master/draco-master/src/draco/compression/attributes/prediction_schemes/mesh_prediction_scheme_tex_coords_portable_predictor.h")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -521,7 +545,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/compression/attributes/prediction_schemes" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-1.2.0/draco-1.2.0/src/draco/compression/attributes/prediction_schemes/prediction_scheme_decoder.h")
+file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/compression/attributes/prediction_schemes" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-master/draco-master/src/draco/compression/attributes/prediction_schemes/prediction_scheme_decoder.h")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -533,7 +557,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/compression/attributes/prediction_schemes" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-1.2.0/draco-1.2.0/src/draco/compression/attributes/prediction_schemes/prediction_scheme_decoder_factory.h")
+file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/compression/attributes/prediction_schemes" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-master/draco-master/src/draco/compression/attributes/prediction_schemes/prediction_scheme_decoder_factory.h")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -545,7 +569,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/compression/attributes/prediction_schemes" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-1.2.0/draco-1.2.0/src/draco/compression/attributes/prediction_schemes/prediction_scheme_decoder_interface.h")
+file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/compression/attributes/prediction_schemes" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-master/draco-master/src/draco/compression/attributes/prediction_schemes/prediction_scheme_decoder_interface.h")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -557,7 +581,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/compression/attributes/prediction_schemes" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-1.2.0/draco-1.2.0/src/draco/compression/attributes/prediction_schemes/prediction_scheme_decoding_transform.h")
+file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/compression/attributes/prediction_schemes" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-master/draco-master/src/draco/compression/attributes/prediction_schemes/prediction_scheme_decoding_transform.h")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -569,7 +593,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/compression/attributes/prediction_schemes" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-1.2.0/draco-1.2.0/src/draco/compression/attributes/prediction_schemes/prediction_scheme_delta_decoder.h")
+file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/compression/attributes/prediction_schemes" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-master/draco-master/src/draco/compression/attributes/prediction_schemes/prediction_scheme_delta_decoder.h")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -581,7 +605,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/compression/attributes/prediction_schemes" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-1.2.0/draco-1.2.0/src/draco/compression/attributes/prediction_schemes/prediction_scheme_delta_encoder.h")
+file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/compression/attributes/prediction_schemes" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-master/draco-master/src/draco/compression/attributes/prediction_schemes/prediction_scheme_delta_encoder.h")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -593,7 +617,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/compression/attributes/prediction_schemes" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-1.2.0/draco-1.2.0/src/draco/compression/attributes/prediction_schemes/prediction_scheme_encoder.h")
+file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/compression/attributes/prediction_schemes" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-master/draco-master/src/draco/compression/attributes/prediction_schemes/prediction_scheme_encoder.h")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -605,7 +629,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/compression/attributes/prediction_schemes" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-1.2.0/draco-1.2.0/src/draco/compression/attributes/prediction_schemes/prediction_scheme_encoder_factory.h")
+file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/compression/attributes/prediction_schemes" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-master/draco-master/src/draco/compression/attributes/prediction_schemes/prediction_scheme_encoder_factory.h")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -617,7 +641,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/compression/attributes/prediction_schemes" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-1.2.0/draco-1.2.0/src/draco/compression/attributes/prediction_schemes/prediction_scheme_encoder_interface.h")
+file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/compression/attributes/prediction_schemes" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-master/draco-master/src/draco/compression/attributes/prediction_schemes/prediction_scheme_encoder_interface.h")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -629,7 +653,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/compression/attributes/prediction_schemes" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-1.2.0/draco-1.2.0/src/draco/compression/attributes/prediction_schemes/prediction_scheme_encoding_transform.h")
+file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/compression/attributes/prediction_schemes" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-master/draco-master/src/draco/compression/attributes/prediction_schemes/prediction_scheme_encoding_transform.h")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -641,7 +665,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/compression/attributes/prediction_schemes" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-1.2.0/draco-1.2.0/src/draco/compression/attributes/prediction_schemes/prediction_scheme_factory.h")
+file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/compression/attributes/prediction_schemes" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-master/draco-master/src/draco/compression/attributes/prediction_schemes/prediction_scheme_factory.h")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -653,7 +677,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/compression/attributes/prediction_schemes" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-1.2.0/draco-1.2.0/src/draco/compression/attributes/prediction_schemes/prediction_scheme_interface.h")
+file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/compression/attributes/prediction_schemes" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-master/draco-master/src/draco/compression/attributes/prediction_schemes/prediction_scheme_interface.h")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -665,7 +689,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/compression/attributes/prediction_schemes" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-1.2.0/draco-1.2.0/src/draco/compression/attributes/prediction_schemes/prediction_scheme_normal_octahedron_canonicalized_decoding_transform.h")
+file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/compression/attributes/prediction_schemes" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-master/draco-master/src/draco/compression/attributes/prediction_schemes/prediction_scheme_normal_octahedron_canonicalized_decoding_transform.h")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -677,7 +701,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/compression/attributes/prediction_schemes" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-1.2.0/draco-1.2.0/src/draco/compression/attributes/prediction_schemes/prediction_scheme_normal_octahedron_canonicalized_encoding_transform.h")
+file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/compression/attributes/prediction_schemes" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-master/draco-master/src/draco/compression/attributes/prediction_schemes/prediction_scheme_normal_octahedron_canonicalized_encoding_transform.h")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -689,7 +713,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/compression/attributes/prediction_schemes" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-1.2.0/draco-1.2.0/src/draco/compression/attributes/prediction_schemes/prediction_scheme_normal_octahedron_canonicalized_transform_base.h")
+file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/compression/attributes/prediction_schemes" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-master/draco-master/src/draco/compression/attributes/prediction_schemes/prediction_scheme_normal_octahedron_canonicalized_transform_base.h")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -701,7 +725,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/compression/attributes/prediction_schemes" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-1.2.0/draco-1.2.0/src/draco/compression/attributes/prediction_schemes/prediction_scheme_normal_octahedron_decoding_transform.h")
+file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/compression/attributes/prediction_schemes" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-master/draco-master/src/draco/compression/attributes/prediction_schemes/prediction_scheme_normal_octahedron_decoding_transform.h")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -713,7 +737,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/compression/attributes/prediction_schemes" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-1.2.0/draco-1.2.0/src/draco/compression/attributes/prediction_schemes/prediction_scheme_normal_octahedron_encoding_transform.h")
+file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/compression/attributes/prediction_schemes" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-master/draco-master/src/draco/compression/attributes/prediction_schemes/prediction_scheme_normal_octahedron_encoding_transform.h")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -725,7 +749,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/compression/attributes/prediction_schemes" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-1.2.0/draco-1.2.0/src/draco/compression/attributes/prediction_schemes/prediction_scheme_normal_octahedron_transform_base.h")
+file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/compression/attributes/prediction_schemes" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-master/draco-master/src/draco/compression/attributes/prediction_schemes/prediction_scheme_normal_octahedron_transform_base.h")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -737,7 +761,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/compression/attributes/prediction_schemes" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-1.2.0/draco-1.2.0/src/draco/compression/attributes/prediction_schemes/prediction_scheme_wrap_decoding_transform.h")
+file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/compression/attributes/prediction_schemes" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-master/draco-master/src/draco/compression/attributes/prediction_schemes/prediction_scheme_wrap_decoding_transform.h")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -749,7 +773,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/compression/attributes/prediction_schemes" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-1.2.0/draco-1.2.0/src/draco/compression/attributes/prediction_schemes/prediction_scheme_wrap_encoding_transform.h")
+file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/compression/attributes/prediction_schemes" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-master/draco-master/src/draco/compression/attributes/prediction_schemes/prediction_scheme_wrap_encoding_transform.h")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -761,7 +785,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/compression/attributes/prediction_schemes" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-1.2.0/draco-1.2.0/src/draco/compression/attributes/prediction_schemes/prediction_scheme_wrap_transform_base.h")
+file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/compression/attributes/prediction_schemes" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-master/draco-master/src/draco/compression/attributes/prediction_schemes/prediction_scheme_wrap_transform_base.h")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -773,7 +797,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/compression/attributes" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-1.2.0/draco-1.2.0/src/draco/compression/attributes/sequential_attribute_decoder.h")
+file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/compression/attributes" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-master/draco-master/src/draco/compression/attributes/sequential_attribute_decoder.h")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -785,7 +809,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/compression/attributes" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-1.2.0/draco-1.2.0/src/draco/compression/attributes/sequential_attribute_decoders_controller.h")
+file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/compression/attributes" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-master/draco-master/src/draco/compression/attributes/sequential_attribute_decoders_controller.h")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -797,7 +821,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/compression/attributes" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-1.2.0/draco-1.2.0/src/draco/compression/attributes/sequential_attribute_encoder.h")
+file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/compression/attributes" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-master/draco-master/src/draco/compression/attributes/sequential_attribute_encoder.h")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -809,7 +833,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/compression/attributes" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-1.2.0/draco-1.2.0/src/draco/compression/attributes/sequential_attribute_encoders_controller.h")
+file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/compression/attributes" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-master/draco-master/src/draco/compression/attributes/sequential_attribute_encoders_controller.h")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -821,7 +845,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/compression/attributes" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-1.2.0/draco-1.2.0/src/draco/compression/attributes/sequential_integer_attribute_decoder.h")
+file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/compression/attributes" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-master/draco-master/src/draco/compression/attributes/sequential_integer_attribute_decoder.h")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -833,7 +857,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/compression/attributes" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-1.2.0/draco-1.2.0/src/draco/compression/attributes/sequential_integer_attribute_encoder.h")
+file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/compression/attributes" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-master/draco-master/src/draco/compression/attributes/sequential_integer_attribute_encoder.h")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -845,7 +869,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/compression/attributes" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-1.2.0/draco-1.2.0/src/draco/compression/attributes/sequential_normal_attribute_decoder.h")
+file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/compression/attributes" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-master/draco-master/src/draco/compression/attributes/sequential_normal_attribute_decoder.h")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -857,7 +881,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/compression/attributes" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-1.2.0/draco-1.2.0/src/draco/compression/attributes/sequential_normal_attribute_encoder.h")
+file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/compression/attributes" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-master/draco-master/src/draco/compression/attributes/sequential_normal_attribute_encoder.h")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -869,7 +893,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/compression/attributes" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-1.2.0/draco-1.2.0/src/draco/compression/attributes/sequential_quantization_attribute_decoder.h")
+file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/compression/attributes" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-master/draco-master/src/draco/compression/attributes/sequential_quantization_attribute_decoder.h")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -881,7 +905,139 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/compression/attributes" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-1.2.0/draco-1.2.0/src/draco/compression/attributes/sequential_quantization_attribute_encoder.h")
+file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/compression/attributes" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-master/draco-master/src/draco/compression/attributes/sequential_quantization_attribute_encoder.h")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
+   "C:/Program Files (x86)/draco/include/draco/compression/bit_coders/adaptive_rans_bit_coding_shared.h")
+  if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
+    message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
+  endif()
+  if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
+    message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
+  endif()
+file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/compression/bit_coders" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-master/draco-master/src/draco/compression/bit_coders/adaptive_rans_bit_coding_shared.h")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
+   "C:/Program Files (x86)/draco/include/draco/compression/bit_coders/adaptive_rans_bit_decoder.h")
+  if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
+    message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
+  endif()
+  if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
+    message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
+  endif()
+file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/compression/bit_coders" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-master/draco-master/src/draco/compression/bit_coders/adaptive_rans_bit_decoder.h")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
+   "C:/Program Files (x86)/draco/include/draco/compression/bit_coders/adaptive_rans_bit_encoder.h")
+  if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
+    message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
+  endif()
+  if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
+    message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
+  endif()
+file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/compression/bit_coders" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-master/draco-master/src/draco/compression/bit_coders/adaptive_rans_bit_encoder.h")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
+   "C:/Program Files (x86)/draco/include/draco/compression/bit_coders/direct_bit_decoder.h")
+  if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
+    message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
+  endif()
+  if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
+    message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
+  endif()
+file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/compression/bit_coders" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-master/draco-master/src/draco/compression/bit_coders/direct_bit_decoder.h")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
+   "C:/Program Files (x86)/draco/include/draco/compression/bit_coders/direct_bit_encoder.h")
+  if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
+    message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
+  endif()
+  if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
+    message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
+  endif()
+file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/compression/bit_coders" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-master/draco-master/src/draco/compression/bit_coders/direct_bit_encoder.h")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
+   "C:/Program Files (x86)/draco/include/draco/compression/bit_coders/folded_integer_bit_decoder.h")
+  if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
+    message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
+  endif()
+  if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
+    message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
+  endif()
+file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/compression/bit_coders" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-master/draco-master/src/draco/compression/bit_coders/folded_integer_bit_decoder.h")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
+   "C:/Program Files (x86)/draco/include/draco/compression/bit_coders/folded_integer_bit_encoder.h")
+  if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
+    message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
+  endif()
+  if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
+    message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
+  endif()
+file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/compression/bit_coders" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-master/draco-master/src/draco/compression/bit_coders/folded_integer_bit_encoder.h")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
+   "C:/Program Files (x86)/draco/include/draco/compression/bit_coders/rans_bit_decoder.h")
+  if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
+    message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
+  endif()
+  if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
+    message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
+  endif()
+file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/compression/bit_coders" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-master/draco-master/src/draco/compression/bit_coders/rans_bit_decoder.h")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
+   "C:/Program Files (x86)/draco/include/draco/compression/bit_coders/rans_bit_encoder.h")
+  if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
+    message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
+  endif()
+  if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
+    message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
+  endif()
+file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/compression/bit_coders" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-master/draco-master/src/draco/compression/bit_coders/rans_bit_encoder.h")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
+   "C:/Program Files (x86)/draco/include/draco/compression/bit_coders/symbol_bit_decoder.h")
+  if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
+    message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
+  endif()
+  if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
+    message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
+  endif()
+file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/compression/bit_coders" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-master/draco-master/src/draco/compression/bit_coders/symbol_bit_decoder.h")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
+   "C:/Program Files (x86)/draco/include/draco/compression/bit_coders/symbol_bit_encoder.h")
+  if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
+    message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
+  endif()
+  if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
+    message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
+  endif()
+file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/compression/bit_coders" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-master/draco-master/src/draco/compression/bit_coders/symbol_bit_encoder.h")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -893,7 +1049,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/compression/config" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-1.2.0/draco-1.2.0/src/draco/compression/config/compression_shared.h")
+file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/compression/config" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-master/draco-master/src/draco/compression/config/compression_shared.h")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -905,7 +1061,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/compression/config" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-1.2.0/draco-1.2.0/src/draco/compression/config/decoder_options.h")
+file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/compression/config" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-master/draco-master/src/draco/compression/config/decoder_options.h")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -917,7 +1073,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/compression/config" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-1.2.0/draco-1.2.0/src/draco/compression/config/draco_options.h")
+file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/compression/config" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-master/draco-master/src/draco/compression/config/draco_options.h")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -929,7 +1085,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/compression/config" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-1.2.0/draco-1.2.0/src/draco/compression/config/encoder_options.h")
+file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/compression/config" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-master/draco-master/src/draco/compression/config/encoder_options.h")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -941,7 +1097,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/compression/config" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-1.2.0/draco-1.2.0/src/draco/compression/config/encoding_features.h")
+file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/compression/config" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-master/draco-master/src/draco/compression/config/encoding_features.h")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -953,7 +1109,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/compression" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-1.2.0/draco-1.2.0/src/draco/compression/decode.h")
+file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/compression" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-master/draco-master/src/draco/compression/decode.h")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -965,7 +1121,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/compression" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-1.2.0/draco-1.2.0/src/draco/compression/encode.h")
+file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/compression" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-master/draco-master/src/draco/compression/encode.h")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -977,7 +1133,91 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/compression" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-1.2.0/draco-1.2.0/src/draco/compression/encode_base.h")
+file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/compression" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-master/draco-master/src/draco/compression/encode_base.h")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
+   "C:/Program Files (x86)/draco/include/draco/compression/entropy/ans.h")
+  if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
+    message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
+  endif()
+  if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
+    message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
+  endif()
+file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/compression/entropy" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-master/draco-master/src/draco/compression/entropy/ans.h")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
+   "C:/Program Files (x86)/draco/include/draco/compression/entropy/rans_symbol_coding.h")
+  if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
+    message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
+  endif()
+  if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
+    message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
+  endif()
+file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/compression/entropy" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-master/draco-master/src/draco/compression/entropy/rans_symbol_coding.h")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
+   "C:/Program Files (x86)/draco/include/draco/compression/entropy/rans_symbol_decoder.h")
+  if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
+    message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
+  endif()
+  if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
+    message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
+  endif()
+file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/compression/entropy" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-master/draco-master/src/draco/compression/entropy/rans_symbol_decoder.h")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
+   "C:/Program Files (x86)/draco/include/draco/compression/entropy/rans_symbol_encoder.h")
+  if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
+    message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
+  endif()
+  if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
+    message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
+  endif()
+file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/compression/entropy" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-master/draco-master/src/draco/compression/entropy/rans_symbol_encoder.h")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
+   "C:/Program Files (x86)/draco/include/draco/compression/entropy/shannon_entropy.h")
+  if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
+    message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
+  endif()
+  if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
+    message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
+  endif()
+file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/compression/entropy" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-master/draco-master/src/draco/compression/entropy/shannon_entropy.h")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
+   "C:/Program Files (x86)/draco/include/draco/compression/entropy/symbol_decoding.h")
+  if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
+    message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
+  endif()
+  if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
+    message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
+  endif()
+file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/compression/entropy" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-master/draco-master/src/draco/compression/entropy/symbol_decoding.h")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
+   "C:/Program Files (x86)/draco/include/draco/compression/entropy/symbol_encoding.h")
+  if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
+    message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
+  endif()
+  if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
+    message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
+  endif()
+file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/compression/entropy" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-master/draco-master/src/draco/compression/entropy/symbol_encoding.h")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -989,7 +1229,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/compression" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-1.2.0/draco-1.2.0/src/draco/compression/expert_encode.h")
+file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/compression" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-master/draco-master/src/draco/compression/expert_encode.h")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -1001,19 +1241,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/compression/mesh" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-1.2.0/draco-1.2.0/src/draco/compression/mesh/mesh_decoder.h")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "C:/Program Files (x86)/draco/include/draco/compression/mesh/mesh_decoder_helpers.h")
-  if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
-    message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
-  endif()
-  if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
-    message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
-  endif()
-file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/compression/mesh" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-1.2.0/draco-1.2.0/src/draco/compression/mesh/mesh_decoder_helpers.h")
+file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/compression/mesh" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-master/draco-master/src/draco/compression/mesh/mesh_decoder.h")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -1025,7 +1253,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/compression/mesh" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-1.2.0/draco-1.2.0/src/draco/compression/mesh/mesh_edgebreaker_decoder.h")
+file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/compression/mesh" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-master/draco-master/src/draco/compression/mesh/mesh_edgebreaker_decoder.h")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -1037,7 +1265,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/compression/mesh" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-1.2.0/draco-1.2.0/src/draco/compression/mesh/mesh_edgebreaker_decoder_impl.h")
+file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/compression/mesh" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-master/draco-master/src/draco/compression/mesh/mesh_edgebreaker_decoder_impl.h")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -1049,7 +1277,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/compression/mesh" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-1.2.0/draco-1.2.0/src/draco/compression/mesh/mesh_edgebreaker_decoder_impl_interface.h")
+file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/compression/mesh" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-master/draco-master/src/draco/compression/mesh/mesh_edgebreaker_decoder_impl_interface.h")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -1061,7 +1289,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/compression/mesh" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-1.2.0/draco-1.2.0/src/draco/compression/mesh/mesh_edgebreaker_encoder.h")
+file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/compression/mesh" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-master/draco-master/src/draco/compression/mesh/mesh_edgebreaker_encoder.h")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -1073,7 +1301,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/compression/mesh" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-1.2.0/draco-1.2.0/src/draco/compression/mesh/mesh_edgebreaker_encoder_impl.h")
+file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/compression/mesh" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-master/draco-master/src/draco/compression/mesh/mesh_edgebreaker_encoder_impl.h")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -1085,7 +1313,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/compression/mesh" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-1.2.0/draco-1.2.0/src/draco/compression/mesh/mesh_edgebreaker_encoder_impl_interface.h")
+file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/compression/mesh" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-master/draco-master/src/draco/compression/mesh/mesh_edgebreaker_encoder_impl_interface.h")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -1097,7 +1325,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/compression/mesh" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-1.2.0/draco-1.2.0/src/draco/compression/mesh/mesh_edgebreaker_shared.h")
+file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/compression/mesh" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-master/draco-master/src/draco/compression/mesh/mesh_edgebreaker_shared.h")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -1109,7 +1337,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/compression/mesh" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-1.2.0/draco-1.2.0/src/draco/compression/mesh/mesh_edgebreaker_traversal_decoder.h")
+file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/compression/mesh" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-master/draco-master/src/draco/compression/mesh/mesh_edgebreaker_traversal_decoder.h")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -1121,7 +1349,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/compression/mesh" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-1.2.0/draco-1.2.0/src/draco/compression/mesh/mesh_edgebreaker_traversal_encoder.h")
+file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/compression/mesh" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-master/draco-master/src/draco/compression/mesh/mesh_edgebreaker_traversal_encoder.h")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -1133,7 +1361,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/compression/mesh" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-1.2.0/draco-1.2.0/src/draco/compression/mesh/mesh_edgebreaker_traversal_predictive_decoder.h")
+file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/compression/mesh" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-master/draco-master/src/draco/compression/mesh/mesh_edgebreaker_traversal_predictive_decoder.h")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -1145,7 +1373,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/compression/mesh" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-1.2.0/draco-1.2.0/src/draco/compression/mesh/mesh_edgebreaker_traversal_predictive_encoder.h")
+file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/compression/mesh" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-master/draco-master/src/draco/compression/mesh/mesh_edgebreaker_traversal_predictive_encoder.h")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -1157,7 +1385,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/compression/mesh" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-1.2.0/draco-1.2.0/src/draco/compression/mesh/mesh_edgebreaker_traversal_valence_decoder.h")
+file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/compression/mesh" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-master/draco-master/src/draco/compression/mesh/mesh_edgebreaker_traversal_valence_decoder.h")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -1169,7 +1397,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/compression/mesh" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-1.2.0/draco-1.2.0/src/draco/compression/mesh/mesh_edgebreaker_traversal_valence_encoder.h")
+file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/compression/mesh" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-master/draco-master/src/draco/compression/mesh/mesh_edgebreaker_traversal_valence_encoder.h")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -1181,19 +1409,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/compression/mesh" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-1.2.0/draco-1.2.0/src/draco/compression/mesh/mesh_encoder.h")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "C:/Program Files (x86)/draco/include/draco/compression/mesh/mesh_encoder_helpers.h")
-  if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
-    message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
-  endif()
-  if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
-    message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
-  endif()
-file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/compression/mesh" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-1.2.0/draco-1.2.0/src/draco/compression/mesh/mesh_encoder_helpers.h")
+file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/compression/mesh" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-master/draco-master/src/draco/compression/mesh/mesh_encoder.h")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -1205,7 +1421,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/compression/mesh" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-1.2.0/draco-1.2.0/src/draco/compression/mesh/mesh_sequential_decoder.h")
+file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/compression/mesh" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-master/draco-master/src/draco/compression/mesh/mesh_sequential_decoder.h")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -1217,7 +1433,67 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/compression/mesh" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-1.2.0/draco-1.2.0/src/draco/compression/mesh/mesh_sequential_encoder.h")
+file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/compression/mesh" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-master/draco-master/src/draco/compression/mesh/mesh_sequential_encoder.h")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
+   "C:/Program Files (x86)/draco/include/draco/compression/mesh/traverser/depth_first_traverser.h")
+  if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
+    message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
+  endif()
+  if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
+    message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
+  endif()
+file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/compression/mesh/traverser" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-master/draco-master/src/draco/compression/mesh/traverser/depth_first_traverser.h")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
+   "C:/Program Files (x86)/draco/include/draco/compression/mesh/traverser/max_prediction_degree_traverser.h")
+  if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
+    message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
+  endif()
+  if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
+    message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
+  endif()
+file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/compression/mesh/traverser" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-master/draco-master/src/draco/compression/mesh/traverser/max_prediction_degree_traverser.h")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
+   "C:/Program Files (x86)/draco/include/draco/compression/mesh/traverser/mesh_attribute_indices_encoding_observer.h")
+  if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
+    message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
+  endif()
+  if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
+    message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
+  endif()
+file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/compression/mesh/traverser" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-master/draco-master/src/draco/compression/mesh/traverser/mesh_attribute_indices_encoding_observer.h")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
+   "C:/Program Files (x86)/draco/include/draco/compression/mesh/traverser/mesh_traversal_sequencer.h")
+  if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
+    message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
+  endif()
+  if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
+    message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
+  endif()
+file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/compression/mesh/traverser" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-master/draco-master/src/draco/compression/mesh/traverser/mesh_traversal_sequencer.h")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
+   "C:/Program Files (x86)/draco/include/draco/compression/mesh/traverser/traverser_base.h")
+  if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
+    message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
+  endif()
+  if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
+    message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
+  endif()
+file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/compression/mesh/traverser" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-master/draco-master/src/draco/compression/mesh/traverser/traverser_base.h")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -1229,7 +1505,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/compression/point_cloud/algorithms" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-1.2.0/draco-1.2.0/src/draco/compression/point_cloud/algorithms/dynamic_integer_points_kd_tree_decoder.h")
+file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/compression/point_cloud/algorithms" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-master/draco-master/src/draco/compression/point_cloud/algorithms/dynamic_integer_points_kd_tree_decoder.h")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -1241,7 +1517,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/compression/point_cloud/algorithms" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-1.2.0/draco-1.2.0/src/draco/compression/point_cloud/algorithms/dynamic_integer_points_kd_tree_encoder.h")
+file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/compression/point_cloud/algorithms" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-master/draco-master/src/draco/compression/point_cloud/algorithms/dynamic_integer_points_kd_tree_encoder.h")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -1253,7 +1529,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/compression/point_cloud/algorithms" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-1.2.0/draco-1.2.0/src/draco/compression/point_cloud/algorithms/float_points_tree_decoder.h")
+file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/compression/point_cloud/algorithms" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-master/draco-master/src/draco/compression/point_cloud/algorithms/float_points_tree_decoder.h")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -1265,7 +1541,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/compression/point_cloud/algorithms" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-1.2.0/draco-1.2.0/src/draco/compression/point_cloud/algorithms/float_points_tree_encoder.h")
+file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/compression/point_cloud/algorithms" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-master/draco-master/src/draco/compression/point_cloud/algorithms/float_points_tree_encoder.h")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -1277,7 +1553,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/compression/point_cloud/algorithms" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-1.2.0/draco-1.2.0/src/draco/compression/point_cloud/algorithms/integer_points_kd_tree_decoder.h")
+file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/compression/point_cloud/algorithms" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-master/draco-master/src/draco/compression/point_cloud/algorithms/integer_points_kd_tree_decoder.h")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -1289,7 +1565,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/compression/point_cloud/algorithms" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-1.2.0/draco-1.2.0/src/draco/compression/point_cloud/algorithms/integer_points_kd_tree_encoder.h")
+file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/compression/point_cloud/algorithms" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-master/draco-master/src/draco/compression/point_cloud/algorithms/integer_points_kd_tree_encoder.h")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -1301,7 +1577,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/compression/point_cloud/algorithms" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-1.2.0/draco-1.2.0/src/draco/compression/point_cloud/algorithms/point_cloud_compression_method.h")
+file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/compression/point_cloud/algorithms" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-master/draco-master/src/draco/compression/point_cloud/algorithms/point_cloud_compression_method.h")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -1313,7 +1589,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/compression/point_cloud/algorithms" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-1.2.0/draco-1.2.0/src/draco/compression/point_cloud/algorithms/point_cloud_types.h")
+file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/compression/point_cloud/algorithms" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-master/draco-master/src/draco/compression/point_cloud/algorithms/point_cloud_types.h")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -1325,7 +1601,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/compression/point_cloud/algorithms" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-1.2.0/draco-1.2.0/src/draco/compression/point_cloud/algorithms/quantize_points_3.h")
+file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/compression/point_cloud/algorithms" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-master/draco-master/src/draco/compression/point_cloud/algorithms/quantize_points_3.h")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -1337,7 +1613,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/compression/point_cloud/algorithms" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-1.2.0/draco-1.2.0/src/draco/compression/point_cloud/algorithms/queuing_policy.h")
+file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/compression/point_cloud/algorithms" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-master/draco-master/src/draco/compression/point_cloud/algorithms/queuing_policy.h")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -1349,7 +1625,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/compression/point_cloud" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-1.2.0/draco-1.2.0/src/draco/compression/point_cloud/point_cloud_decoder.h")
+file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/compression/point_cloud" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-master/draco-master/src/draco/compression/point_cloud/point_cloud_decoder.h")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -1361,7 +1637,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/compression/point_cloud" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-1.2.0/draco-1.2.0/src/draco/compression/point_cloud/point_cloud_encoder.h")
+file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/compression/point_cloud" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-master/draco-master/src/draco/compression/point_cloud/point_cloud_encoder.h")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -1373,7 +1649,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/compression/point_cloud" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-1.2.0/draco-1.2.0/src/draco/compression/point_cloud/point_cloud_kd_tree_decoder.h")
+file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/compression/point_cloud" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-master/draco-master/src/draco/compression/point_cloud/point_cloud_kd_tree_decoder.h")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -1385,7 +1661,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/compression/point_cloud" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-1.2.0/draco-1.2.0/src/draco/compression/point_cloud/point_cloud_kd_tree_encoder.h")
+file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/compression/point_cloud" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-master/draco-master/src/draco/compression/point_cloud/point_cloud_kd_tree_encoder.h")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -1397,7 +1673,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/compression/point_cloud" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-1.2.0/draco-1.2.0/src/draco/compression/point_cloud/point_cloud_sequential_decoder.h")
+file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/compression/point_cloud" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-master/draco-master/src/draco/compression/point_cloud/point_cloud_sequential_decoder.h")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -1409,151 +1685,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/compression/point_cloud" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-1.2.0/draco-1.2.0/src/draco/compression/point_cloud/point_cloud_sequential_encoder.h")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "C:/Program Files (x86)/draco/include/draco/core/ans.h")
-  if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
-    message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
-  endif()
-  if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
-    message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
-  endif()
-file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/core" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-1.2.0/draco-1.2.0/src/draco/core/ans.h")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "C:/Program Files (x86)/draco/include/draco/core/bit_coders/adaptive_rans_bit_coding_shared.h")
-  if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
-    message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
-  endif()
-  if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
-    message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
-  endif()
-file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/core/bit_coders" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-1.2.0/draco-1.2.0/src/draco/core/bit_coders/adaptive_rans_bit_coding_shared.h")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "C:/Program Files (x86)/draco/include/draco/core/bit_coders/adaptive_rans_bit_decoder.h")
-  if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
-    message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
-  endif()
-  if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
-    message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
-  endif()
-file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/core/bit_coders" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-1.2.0/draco-1.2.0/src/draco/core/bit_coders/adaptive_rans_bit_decoder.h")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "C:/Program Files (x86)/draco/include/draco/core/bit_coders/adaptive_rans_bit_encoder.h")
-  if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
-    message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
-  endif()
-  if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
-    message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
-  endif()
-file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/core/bit_coders" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-1.2.0/draco-1.2.0/src/draco/core/bit_coders/adaptive_rans_bit_encoder.h")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "C:/Program Files (x86)/draco/include/draco/core/bit_coders/direct_bit_decoder.h")
-  if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
-    message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
-  endif()
-  if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
-    message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
-  endif()
-file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/core/bit_coders" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-1.2.0/draco-1.2.0/src/draco/core/bit_coders/direct_bit_decoder.h")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "C:/Program Files (x86)/draco/include/draco/core/bit_coders/direct_bit_encoder.h")
-  if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
-    message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
-  endif()
-  if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
-    message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
-  endif()
-file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/core/bit_coders" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-1.2.0/draco-1.2.0/src/draco/core/bit_coders/direct_bit_encoder.h")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "C:/Program Files (x86)/draco/include/draco/core/bit_coders/folded_integer_bit_decoder.h")
-  if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
-    message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
-  endif()
-  if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
-    message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
-  endif()
-file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/core/bit_coders" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-1.2.0/draco-1.2.0/src/draco/core/bit_coders/folded_integer_bit_decoder.h")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "C:/Program Files (x86)/draco/include/draco/core/bit_coders/folded_integer_bit_encoder.h")
-  if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
-    message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
-  endif()
-  if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
-    message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
-  endif()
-file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/core/bit_coders" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-1.2.0/draco-1.2.0/src/draco/core/bit_coders/folded_integer_bit_encoder.h")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "C:/Program Files (x86)/draco/include/draco/core/bit_coders/rans_bit_decoder.h")
-  if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
-    message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
-  endif()
-  if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
-    message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
-  endif()
-file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/core/bit_coders" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-1.2.0/draco-1.2.0/src/draco/core/bit_coders/rans_bit_decoder.h")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "C:/Program Files (x86)/draco/include/draco/core/bit_coders/rans_bit_encoder.h")
-  if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
-    message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
-  endif()
-  if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
-    message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
-  endif()
-file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/core/bit_coders" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-1.2.0/draco-1.2.0/src/draco/core/bit_coders/rans_bit_encoder.h")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "C:/Program Files (x86)/draco/include/draco/core/bit_coders/symbol_bit_decoder.h")
-  if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
-    message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
-  endif()
-  if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
-    message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
-  endif()
-file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/core/bit_coders" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-1.2.0/draco-1.2.0/src/draco/core/bit_coders/symbol_bit_decoder.h")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "C:/Program Files (x86)/draco/include/draco/core/bit_coders/symbol_bit_encoder.h")
-  if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
-    message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
-  endif()
-  if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
-    message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
-  endif()
-file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/core/bit_coders" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-1.2.0/draco-1.2.0/src/draco/core/bit_coders/symbol_bit_encoder.h")
+file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/compression/point_cloud" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-master/draco-master/src/draco/compression/point_cloud/point_cloud_sequential_encoder.h")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -1565,7 +1697,19 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/core" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-1.2.0/draco-1.2.0/src/draco/core/bit_utils.h")
+file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/core" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-master/draco-master/src/draco/core/bit_utils.h")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
+   "C:/Program Files (x86)/draco/include/draco/core/bounding_box.h")
+  if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
+    message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
+  endif()
+  if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
+    message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
+  endif()
+file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/core" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-master/draco-master/src/draco/core/bounding_box.h")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -1577,7 +1721,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/core" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-1.2.0/draco-1.2.0/src/draco/core/cycle_timer.h")
+file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/core" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-master/draco-master/src/draco/core/cycle_timer.h")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -1589,7 +1733,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/core" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-1.2.0/draco-1.2.0/src/draco/core/data_buffer.h")
+file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/core" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-master/draco-master/src/draco/core/data_buffer.h")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -1601,7 +1745,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/core" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-1.2.0/draco-1.2.0/src/draco/core/decoder_buffer.h")
+file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/core" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-master/draco-master/src/draco/core/decoder_buffer.h")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -1613,7 +1757,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/core" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-1.2.0/draco-1.2.0/src/draco/core/divide.h")
+file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/core" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-master/draco-master/src/draco/core/divide.h")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -1625,7 +1769,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/core" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-1.2.0/draco-1.2.0/src/draco/core/draco_index_type.h")
+file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/core" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-master/draco-master/src/draco/core/draco_index_type.h")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -1637,7 +1781,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/core" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-1.2.0/draco-1.2.0/src/draco/core/draco_index_type_vector.h")
+file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/core" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-master/draco-master/src/draco/core/draco_index_type_vector.h")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -1649,7 +1793,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/core" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-1.2.0/draco-1.2.0/src/draco/core/draco_test_base.h")
+file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/core" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-master/draco-master/src/draco/core/draco_test_base.h")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -1661,7 +1805,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/core" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-1.2.0/draco-1.2.0/src/draco/core/draco_test_utils.h")
+file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/core" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-master/draco-master/src/draco/core/draco_test_utils.h")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -1673,7 +1817,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/core" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-1.2.0/draco-1.2.0/src/draco/core/draco_types.h")
+file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/core" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-master/draco-master/src/draco/core/draco_types.h")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -1685,7 +1829,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/core" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-1.2.0/draco-1.2.0/src/draco/core/draco_version.h")
+file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/core" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-master/draco-master/src/draco/core/draco_version.h")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -1697,7 +1841,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/core" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-1.2.0/draco-1.2.0/src/draco/core/encoder_buffer.h")
+file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/core" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-master/draco-master/src/draco/core/encoder_buffer.h")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -1709,7 +1853,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/core" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-1.2.0/draco-1.2.0/src/draco/core/hash_utils.h")
+file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/core" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-master/draco-master/src/draco/core/hash_utils.h")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -1721,7 +1865,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/core" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-1.2.0/draco-1.2.0/src/draco/core/macros.h")
+file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/core" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-master/draco-master/src/draco/core/macros.h")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -1733,7 +1877,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/core" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-1.2.0/draco-1.2.0/src/draco/core/math_utils.h")
+file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/core" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-master/draco-master/src/draco/core/math_utils.h")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -1745,7 +1889,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/core" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-1.2.0/draco-1.2.0/src/draco/core/options.h")
+file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/core" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-master/draco-master/src/draco/core/options.h")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -1757,55 +1901,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/core" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-1.2.0/draco-1.2.0/src/draco/core/quantization_utils.h")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "C:/Program Files (x86)/draco/include/draco/core/rans_symbol_coding.h")
-  if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
-    message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
-  endif()
-  if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
-    message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
-  endif()
-file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/core" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-1.2.0/draco-1.2.0/src/draco/core/rans_symbol_coding.h")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "C:/Program Files (x86)/draco/include/draco/core/rans_symbol_decoder.h")
-  if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
-    message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
-  endif()
-  if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
-    message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
-  endif()
-file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/core" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-1.2.0/draco-1.2.0/src/draco/core/rans_symbol_decoder.h")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "C:/Program Files (x86)/draco/include/draco/core/rans_symbol_encoder.h")
-  if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
-    message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
-  endif()
-  if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
-    message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
-  endif()
-file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/core" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-1.2.0/draco-1.2.0/src/draco/core/rans_symbol_encoder.h")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "C:/Program Files (x86)/draco/include/draco/core/shannon_entropy.h")
-  if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
-    message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
-  endif()
-  if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
-    message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
-  endif()
-file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/core" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-1.2.0/draco-1.2.0/src/draco/core/shannon_entropy.h")
+file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/core" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-master/draco-master/src/draco/core/quantization_utils.h")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -1817,55 +1913,19 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/core" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-1.2.0/draco-1.2.0/src/draco/core/status.h")
+file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/core" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-master/draco-master/src/draco/core/status.h")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "C:/Program Files (x86)/draco/include/draco/core/statusor.h")
+   "C:/Program Files (x86)/draco/include/draco/core/status_or.h")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/core" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-1.2.0/draco-1.2.0/src/draco/core/statusor.h")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "C:/Program Files (x86)/draco/include/draco/core/symbol_coding_utils.h")
-  if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
-    message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
-  endif()
-  if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
-    message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
-  endif()
-file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/core" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-1.2.0/draco-1.2.0/src/draco/core/symbol_coding_utils.h")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "C:/Program Files (x86)/draco/include/draco/core/symbol_decoding.h")
-  if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
-    message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
-  endif()
-  if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
-    message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
-  endif()
-file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/core" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-1.2.0/draco-1.2.0/src/draco/core/symbol_decoding.h")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "C:/Program Files (x86)/draco/include/draco/core/symbol_encoding.h")
-  if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
-    message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
-  endif()
-  if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
-    message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
-  endif()
-file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/core" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-1.2.0/draco-1.2.0/src/draco/core/symbol_encoding.h")
+file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/core" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-master/draco-master/src/draco/core/status_or.h")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -1877,7 +1937,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/core" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-1.2.0/draco-1.2.0/src/draco/core/varint_decoding.h")
+file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/core" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-master/draco-master/src/draco/core/varint_decoding.h")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -1889,7 +1949,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/core" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-1.2.0/draco-1.2.0/src/draco/core/varint_encoding.h")
+file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/core" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-master/draco-master/src/draco/core/varint_encoding.h")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -1901,7 +1961,79 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/core" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-1.2.0/draco-1.2.0/src/draco/core/vector_d.h")
+file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/core" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-master/draco-master/src/draco/core/vector_d.h")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
+   "C:/Program Files (x86)/draco/include/draco/io/file_reader_factory.h")
+  if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
+    message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
+  endif()
+  if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
+    message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
+  endif()
+file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/io" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-master/draco-master/src/draco/io/file_reader_factory.h")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
+   "C:/Program Files (x86)/draco/include/draco/io/file_reader_interface.h")
+  if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
+    message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
+  endif()
+  if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
+    message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
+  endif()
+file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/io" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-master/draco-master/src/draco/io/file_reader_interface.h")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
+   "C:/Program Files (x86)/draco/include/draco/io/file_reader_test_common.h")
+  if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
+    message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
+  endif()
+  if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
+    message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
+  endif()
+file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/io" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-master/draco-master/src/draco/io/file_reader_test_common.h")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
+   "C:/Program Files (x86)/draco/include/draco/io/file_utils.h")
+  if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
+    message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
+  endif()
+  if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
+    message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
+  endif()
+file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/io" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-master/draco-master/src/draco/io/file_utils.h")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
+   "C:/Program Files (x86)/draco/include/draco/io/file_writer_factory.h")
+  if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
+    message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
+  endif()
+  if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
+    message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
+  endif()
+file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/io" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-master/draco-master/src/draco/io/file_writer_factory.h")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
+   "C:/Program Files (x86)/draco/include/draco/io/file_writer_interface.h")
+  if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
+    message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
+  endif()
+  if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
+    message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
+  endif()
+file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/io" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-master/draco-master/src/draco/io/file_writer_interface.h")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -1913,7 +2045,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/io" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-1.2.0/draco-1.2.0/src/draco/io/mesh_io.h")
+file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/io" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-master/draco-master/src/draco/io/mesh_io.h")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -1925,7 +2057,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/io" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-1.2.0/draco-1.2.0/src/draco/io/obj_decoder.h")
+file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/io" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-master/draco-master/src/draco/io/obj_decoder.h")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -1937,7 +2069,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/io" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-1.2.0/draco-1.2.0/src/draco/io/obj_encoder.h")
+file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/io" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-master/draco-master/src/draco/io/obj_encoder.h")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -1949,7 +2081,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/io" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-1.2.0/draco-1.2.0/src/draco/io/parser_utils.h")
+file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/io" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-master/draco-master/src/draco/io/parser_utils.h")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -1961,7 +2093,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/io" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-1.2.0/draco-1.2.0/src/draco/io/ply_decoder.h")
+file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/io" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-master/draco-master/src/draco/io/ply_decoder.h")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -1973,7 +2105,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/io" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-1.2.0/draco-1.2.0/src/draco/io/ply_encoder.h")
+file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/io" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-master/draco-master/src/draco/io/ply_encoder.h")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -1985,7 +2117,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/io" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-1.2.0/draco-1.2.0/src/draco/io/ply_property_reader.h")
+file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/io" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-master/draco-master/src/draco/io/ply_property_reader.h")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -1997,7 +2129,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/io" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-1.2.0/draco-1.2.0/src/draco/io/ply_property_writer.h")
+file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/io" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-master/draco-master/src/draco/io/ply_property_writer.h")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -2009,7 +2141,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/io" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-1.2.0/draco-1.2.0/src/draco/io/ply_reader.h")
+file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/io" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-master/draco-master/src/draco/io/ply_reader.h")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -2021,7 +2153,55 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/io" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-1.2.0/draco-1.2.0/src/draco/io/point_cloud_io.h")
+file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/io" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-master/draco-master/src/draco/io/point_cloud_io.h")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
+   "C:/Program Files (x86)/draco/include/draco/io/stdio_file_reader.h")
+  if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
+    message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
+  endif()
+  if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
+    message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
+  endif()
+file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/io" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-master/draco-master/src/draco/io/stdio_file_reader.h")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
+   "C:/Program Files (x86)/draco/include/draco/io/stdio_file_writer.h")
+  if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
+    message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
+  endif()
+  if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
+    message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
+  endif()
+file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/io" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-master/draco-master/src/draco/io/stdio_file_writer.h")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
+   "C:/Program Files (x86)/draco/include/draco/javascript/emscripten/animation_decoder_webidl_wrapper.h")
+  if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
+    message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
+  endif()
+  if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
+    message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
+  endif()
+file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/javascript/emscripten" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-master/draco-master/src/draco/javascript/emscripten/animation_decoder_webidl_wrapper.h")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
+   "C:/Program Files (x86)/draco/include/draco/javascript/emscripten/animation_encoder_webidl_wrapper.h")
+  if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
+    message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
+  endif()
+  if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
+    message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
+  endif()
+file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/javascript/emscripten" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-master/draco-master/src/draco/javascript/emscripten/animation_encoder_webidl_wrapper.h")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -2033,7 +2213,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/javascript/emscripten" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-1.2.0/draco-1.2.0/src/draco/javascript/emscripten/decoder_webidl_wrapper.h")
+file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/javascript/emscripten" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-master/draco-master/src/draco/javascript/emscripten/decoder_webidl_wrapper.h")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -2045,7 +2225,19 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/javascript/emscripten" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-1.2.0/draco-1.2.0/src/draco/javascript/emscripten/encoder_webidl_wrapper.h")
+file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/javascript/emscripten" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-master/draco-master/src/draco/javascript/emscripten/encoder_webidl_wrapper.h")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
+   "C:/Program Files (x86)/draco/include/draco/maya/draco_maya_plugin.h")
+  if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
+    message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
+  endif()
+  if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
+    message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
+  endif()
+file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/maya" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-master/draco-master/src/draco/maya/draco_maya_plugin.h")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -2057,19 +2249,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/mesh" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-1.2.0/draco-1.2.0/src/draco/mesh/corner_table.h")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "C:/Program Files (x86)/draco/include/draco/mesh/corner_table_indices.h")
-  if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
-    message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
-  endif()
-  if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
-    message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
-  endif()
-file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/mesh" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-1.2.0/draco-1.2.0/src/draco/mesh/corner_table_indices.h")
+file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/mesh" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-master/draco-master/src/draco/mesh/corner_table.h")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -2081,43 +2261,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/mesh" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-1.2.0/draco-1.2.0/src/draco/mesh/corner_table_iterators.h")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "C:/Program Files (x86)/draco/include/draco/mesh/corner_table_traversal_processor.h")
-  if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
-    message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
-  endif()
-  if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
-    message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
-  endif()
-file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/mesh" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-1.2.0/draco-1.2.0/src/draco/mesh/corner_table_traversal_processor.h")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "C:/Program Files (x86)/draco/include/draco/mesh/edgebreaker_observer.h")
-  if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
-    message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
-  endif()
-  if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
-    message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
-  endif()
-file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/mesh" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-1.2.0/draco-1.2.0/src/draco/mesh/edgebreaker_observer.h")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "C:/Program Files (x86)/draco/include/draco/mesh/edgebreaker_traverser.h")
-  if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
-    message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
-  endif()
-  if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
-    message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
-  endif()
-file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/mesh" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-1.2.0/draco-1.2.0/src/draco/mesh/edgebreaker_traverser.h")
+file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/mesh" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-master/draco-master/src/draco/mesh/corner_table_iterators.h")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -2129,7 +2273,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/mesh" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-1.2.0/draco-1.2.0/src/draco/mesh/mesh.h")
+file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/mesh" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-master/draco-master/src/draco/mesh/mesh.h")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -2141,7 +2285,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/mesh" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-1.2.0/draco-1.2.0/src/draco/mesh/mesh_are_equivalent.h")
+file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/mesh" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-master/draco-master/src/draco/mesh/mesh_are_equivalent.h")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -2153,7 +2297,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/mesh" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-1.2.0/draco-1.2.0/src/draco/mesh/mesh_attribute_corner_table.h")
+file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/mesh" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-master/draco-master/src/draco/mesh/mesh_attribute_corner_table.h")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -2165,19 +2309,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/mesh" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-1.2.0/draco-1.2.0/src/draco/mesh/mesh_cleanup.h")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "C:/Program Files (x86)/draco/include/draco/mesh/mesh_indices.h")
-  if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
-    message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
-  endif()
-  if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
-    message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
-  endif()
-file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/mesh" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-1.2.0/draco-1.2.0/src/draco/mesh/mesh_indices.h")
+file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/mesh" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-master/draco-master/src/draco/mesh/mesh_cleanup.h")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -2189,7 +2321,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/mesh" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-1.2.0/draco-1.2.0/src/draco/mesh/mesh_misc_functions.h")
+file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/mesh" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-master/draco-master/src/draco/mesh/mesh_misc_functions.h")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -2201,19 +2333,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/mesh" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-1.2.0/draco-1.2.0/src/draco/mesh/mesh_stripifier.h")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "C:/Program Files (x86)/draco/include/draco/mesh/prediction_degree_traverser.h")
-  if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
-    message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
-  endif()
-  if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
-    message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
-  endif()
-file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/mesh" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-1.2.0/draco-1.2.0/src/draco/mesh/prediction_degree_traverser.h")
+file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/mesh" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-master/draco-master/src/draco/mesh/mesh_stripifier.h")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -2225,7 +2345,19 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/mesh" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-1.2.0/draco-1.2.0/src/draco/mesh/triangle_soup_mesh_builder.h")
+file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/mesh" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-master/draco-master/src/draco/mesh/triangle_soup_mesh_builder.h")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
+   "C:/Program Files (x86)/draco/include/draco/mesh/valence_cache.h")
+  if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
+    message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
+  endif()
+  if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
+    message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
+  endif()
+file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/mesh" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-master/draco-master/src/draco/mesh/valence_cache.h")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -2237,7 +2369,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/metadata" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-1.2.0/draco-1.2.0/src/draco/metadata/geometry_metadata.h")
+file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/metadata" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-master/draco-master/src/draco/metadata/geometry_metadata.h")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -2249,7 +2381,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/metadata" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-1.2.0/draco-1.2.0/src/draco/metadata/metadata.h")
+file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/metadata" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-master/draco-master/src/draco/metadata/metadata.h")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -2261,7 +2393,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/metadata" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-1.2.0/draco-1.2.0/src/draco/metadata/metadata_decoder.h")
+file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/metadata" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-master/draco-master/src/draco/metadata/metadata_decoder.h")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -2273,7 +2405,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/metadata" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-1.2.0/draco-1.2.0/src/draco/metadata/metadata_encoder.h")
+file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/metadata" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-master/draco-master/src/draco/metadata/metadata_encoder.h")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -2285,7 +2417,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/point_cloud" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-1.2.0/draco-1.2.0/src/draco/point_cloud/point_cloud.h")
+file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/point_cloud" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-master/draco-master/src/draco/point_cloud/point_cloud.h")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -2297,7 +2429,31 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/point_cloud" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-1.2.0/draco-1.2.0/src/draco/point_cloud/point_cloud_builder.h")
+file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/point_cloud" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-master/draco-master/src/draco/point_cloud/point_cloud_builder.h")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
+   "C:/Program Files (x86)/draco/include/draco/unity/draco_unity_plugin.h")
+  if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
+    message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
+  endif()
+  if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
+    message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
+  endif()
+file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco/unity" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-master/draco-master/src/draco/unity/draco_unity_plugin.h")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
+   "C:/Program Files (x86)/draco/include/draco/draco_features.h")
+  if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
+    message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
+  endif()
+  if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
+    message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
+  endif()
+file(INSTALL DESTINATION "C:/Program Files (x86)/draco/include/draco" TYPE FILE FILES "C:/Users/jachu/Downloads/draco-master/draco/draco_features.h")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -2310,7 +2466,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
     if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
         message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
     endif()
-file(INSTALL DESTINATION "C:/Program Files (x86)/draco/lib" TYPE STATIC_LIBRARY FILES "C:/Users/jachu/Downloads/draco-1.2.0/Debug/dracodec.lib")
+file(INSTALL DESTINATION "C:/Program Files (x86)/draco/lib" TYPE STATIC_LIBRARY FILES "C:/Users/jachu/Downloads/draco-master/Debug/dracodec.lib")
   elseif("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Rr][Ee][Ll][Ee][Aa][Ss][Ee])$")
     list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
      "C:/Program Files (x86)/draco/lib/dracodec.lib")
@@ -2320,7 +2476,7 @@ file(INSTALL DESTINATION "C:/Program Files (x86)/draco/lib" TYPE STATIC_LIBRARY 
     if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
         message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
     endif()
-file(INSTALL DESTINATION "C:/Program Files (x86)/draco/lib" TYPE STATIC_LIBRARY FILES "C:/Users/jachu/Downloads/draco-1.2.0/Release/dracodec.lib")
+file(INSTALL DESTINATION "C:/Program Files (x86)/draco/lib" TYPE STATIC_LIBRARY FILES "C:/Users/jachu/Downloads/draco-master/Release/dracodec.lib")
   elseif("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Mm][Ii][Nn][Ss][Ii][Zz][Ee][Rr][Ee][Ll])$")
     list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
      "C:/Program Files (x86)/draco/lib/dracodec.lib")
@@ -2330,7 +2486,7 @@ file(INSTALL DESTINATION "C:/Program Files (x86)/draco/lib" TYPE STATIC_LIBRARY 
     if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
         message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
     endif()
-file(INSTALL DESTINATION "C:/Program Files (x86)/draco/lib" TYPE STATIC_LIBRARY FILES "C:/Users/jachu/Downloads/draco-1.2.0/MinSizeRel/dracodec.lib")
+file(INSTALL DESTINATION "C:/Program Files (x86)/draco/lib" TYPE STATIC_LIBRARY FILES "C:/Users/jachu/Downloads/draco-master/MinSizeRel/dracodec.lib")
   elseif("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Rr][Ee][Ll][Ww][Ii][Tt][Hh][Dd][Ee][Bb][Ii][Nn][Ff][Oo])$")
     list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
      "C:/Program Files (x86)/draco/lib/dracodec.lib")
@@ -2340,7 +2496,7 @@ file(INSTALL DESTINATION "C:/Program Files (x86)/draco/lib" TYPE STATIC_LIBRARY 
     if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
         message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
     endif()
-file(INSTALL DESTINATION "C:/Program Files (x86)/draco/lib" TYPE STATIC_LIBRARY FILES "C:/Users/jachu/Downloads/draco-1.2.0/RelWithDebInfo/dracodec.lib")
+file(INSTALL DESTINATION "C:/Program Files (x86)/draco/lib" TYPE STATIC_LIBRARY FILES "C:/Users/jachu/Downloads/draco-master/RelWithDebInfo/dracodec.lib")
   endif()
 endif()
 
@@ -2354,7 +2510,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
     if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
         message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
     endif()
-file(INSTALL DESTINATION "C:/Program Files (x86)/draco/lib" TYPE STATIC_LIBRARY FILES "C:/Users/jachu/Downloads/draco-1.2.0/Debug/dracoenc.lib")
+file(INSTALL DESTINATION "C:/Program Files (x86)/draco/lib" TYPE STATIC_LIBRARY FILES "C:/Users/jachu/Downloads/draco-master/Debug/dracoenc.lib")
   elseif("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Rr][Ee][Ll][Ee][Aa][Ss][Ee])$")
     list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
      "C:/Program Files (x86)/draco/lib/dracoenc.lib")
@@ -2364,7 +2520,7 @@ file(INSTALL DESTINATION "C:/Program Files (x86)/draco/lib" TYPE STATIC_LIBRARY 
     if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
         message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
     endif()
-file(INSTALL DESTINATION "C:/Program Files (x86)/draco/lib" TYPE STATIC_LIBRARY FILES "C:/Users/jachu/Downloads/draco-1.2.0/Release/dracoenc.lib")
+file(INSTALL DESTINATION "C:/Program Files (x86)/draco/lib" TYPE STATIC_LIBRARY FILES "C:/Users/jachu/Downloads/draco-master/Release/dracoenc.lib")
   elseif("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Mm][Ii][Nn][Ss][Ii][Zz][Ee][Rr][Ee][Ll])$")
     list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
      "C:/Program Files (x86)/draco/lib/dracoenc.lib")
@@ -2374,7 +2530,7 @@ file(INSTALL DESTINATION "C:/Program Files (x86)/draco/lib" TYPE STATIC_LIBRARY 
     if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
         message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
     endif()
-file(INSTALL DESTINATION "C:/Program Files (x86)/draco/lib" TYPE STATIC_LIBRARY FILES "C:/Users/jachu/Downloads/draco-1.2.0/MinSizeRel/dracoenc.lib")
+file(INSTALL DESTINATION "C:/Program Files (x86)/draco/lib" TYPE STATIC_LIBRARY FILES "C:/Users/jachu/Downloads/draco-master/MinSizeRel/dracoenc.lib")
   elseif("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Rr][Ee][Ll][Ww][Ii][Tt][Hh][Dd][Ee][Bb][Ii][Nn][Ff][Oo])$")
     list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
      "C:/Program Files (x86)/draco/lib/dracoenc.lib")
@@ -2384,7 +2540,7 @@ file(INSTALL DESTINATION "C:/Program Files (x86)/draco/lib" TYPE STATIC_LIBRARY 
     if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
         message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
     endif()
-file(INSTALL DESTINATION "C:/Program Files (x86)/draco/lib" TYPE STATIC_LIBRARY FILES "C:/Users/jachu/Downloads/draco-1.2.0/RelWithDebInfo/dracoenc.lib")
+file(INSTALL DESTINATION "C:/Program Files (x86)/draco/lib" TYPE STATIC_LIBRARY FILES "C:/Users/jachu/Downloads/draco-master/RelWithDebInfo/dracoenc.lib")
   endif()
 endif()
 
@@ -2398,7 +2554,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
     if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
         message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
     endif()
-file(INSTALL DESTINATION "C:/Program Files (x86)/draco/lib" TYPE STATIC_LIBRARY FILES "C:/Users/jachu/Downloads/draco-1.2.0/Debug/draco.lib")
+file(INSTALL DESTINATION "C:/Program Files (x86)/draco/lib" TYPE STATIC_LIBRARY FILES "C:/Users/jachu/Downloads/draco-master/Debug/draco.lib")
   elseif("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Rr][Ee][Ll][Ee][Aa][Ss][Ee])$")
     list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
      "C:/Program Files (x86)/draco/lib/draco.lib")
@@ -2408,7 +2564,7 @@ file(INSTALL DESTINATION "C:/Program Files (x86)/draco/lib" TYPE STATIC_LIBRARY 
     if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
         message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
     endif()
-file(INSTALL DESTINATION "C:/Program Files (x86)/draco/lib" TYPE STATIC_LIBRARY FILES "C:/Users/jachu/Downloads/draco-1.2.0/Release/draco.lib")
+file(INSTALL DESTINATION "C:/Program Files (x86)/draco/lib" TYPE STATIC_LIBRARY FILES "C:/Users/jachu/Downloads/draco-master/Release/draco.lib")
   elseif("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Mm][Ii][Nn][Ss][Ii][Zz][Ee][Rr][Ee][Ll])$")
     list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
      "C:/Program Files (x86)/draco/lib/draco.lib")
@@ -2418,7 +2574,7 @@ file(INSTALL DESTINATION "C:/Program Files (x86)/draco/lib" TYPE STATIC_LIBRARY 
     if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
         message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
     endif()
-file(INSTALL DESTINATION "C:/Program Files (x86)/draco/lib" TYPE STATIC_LIBRARY FILES "C:/Users/jachu/Downloads/draco-1.2.0/MinSizeRel/draco.lib")
+file(INSTALL DESTINATION "C:/Program Files (x86)/draco/lib" TYPE STATIC_LIBRARY FILES "C:/Users/jachu/Downloads/draco-master/MinSizeRel/draco.lib")
   elseif("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Rr][Ee][Ll][Ww][Ii][Tt][Hh][Dd][Ee][Bb][Ii][Nn][Ff][Oo])$")
     list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
      "C:/Program Files (x86)/draco/lib/draco.lib")
@@ -2428,7 +2584,7 @@ file(INSTALL DESTINATION "C:/Program Files (x86)/draco/lib" TYPE STATIC_LIBRARY 
     if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
         message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
     endif()
-file(INSTALL DESTINATION "C:/Program Files (x86)/draco/lib" TYPE STATIC_LIBRARY FILES "C:/Users/jachu/Downloads/draco-1.2.0/RelWithDebInfo/draco.lib")
+file(INSTALL DESTINATION "C:/Program Files (x86)/draco/lib" TYPE STATIC_LIBRARY FILES "C:/Users/jachu/Downloads/draco-master/RelWithDebInfo/draco.lib")
   endif()
 endif()
 
@@ -2442,7 +2598,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
     if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
         message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
     endif()
-file(INSTALL DESTINATION "C:/Program Files (x86)/draco/bin" TYPE EXECUTABLE FILES "C:/Users/jachu/Downloads/draco-1.2.0/Debug/draco_decoder.exe")
+file(INSTALL DESTINATION "C:/Program Files (x86)/draco/bin" TYPE EXECUTABLE FILES "C:/Users/jachu/Downloads/draco-master/Debug/draco_decoder.exe")
   elseif("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Rr][Ee][Ll][Ee][Aa][Ss][Ee])$")
     list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
      "C:/Program Files (x86)/draco/bin/draco_decoder.exe")
@@ -2452,7 +2608,7 @@ file(INSTALL DESTINATION "C:/Program Files (x86)/draco/bin" TYPE EXECUTABLE FILE
     if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
         message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
     endif()
-file(INSTALL DESTINATION "C:/Program Files (x86)/draco/bin" TYPE EXECUTABLE FILES "C:/Users/jachu/Downloads/draco-1.2.0/Release/draco_decoder.exe")
+file(INSTALL DESTINATION "C:/Program Files (x86)/draco/bin" TYPE EXECUTABLE FILES "C:/Users/jachu/Downloads/draco-master/Release/draco_decoder.exe")
   elseif("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Mm][Ii][Nn][Ss][Ii][Zz][Ee][Rr][Ee][Ll])$")
     list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
      "C:/Program Files (x86)/draco/bin/draco_decoder.exe")
@@ -2462,7 +2618,7 @@ file(INSTALL DESTINATION "C:/Program Files (x86)/draco/bin" TYPE EXECUTABLE FILE
     if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
         message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
     endif()
-file(INSTALL DESTINATION "C:/Program Files (x86)/draco/bin" TYPE EXECUTABLE FILES "C:/Users/jachu/Downloads/draco-1.2.0/MinSizeRel/draco_decoder.exe")
+file(INSTALL DESTINATION "C:/Program Files (x86)/draco/bin" TYPE EXECUTABLE FILES "C:/Users/jachu/Downloads/draco-master/MinSizeRel/draco_decoder.exe")
   elseif("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Rr][Ee][Ll][Ww][Ii][Tt][Hh][Dd][Ee][Bb][Ii][Nn][Ff][Oo])$")
     list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
      "C:/Program Files (x86)/draco/bin/draco_decoder.exe")
@@ -2472,7 +2628,7 @@ file(INSTALL DESTINATION "C:/Program Files (x86)/draco/bin" TYPE EXECUTABLE FILE
     if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
         message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
     endif()
-file(INSTALL DESTINATION "C:/Program Files (x86)/draco/bin" TYPE EXECUTABLE FILES "C:/Users/jachu/Downloads/draco-1.2.0/RelWithDebInfo/draco_decoder.exe")
+file(INSTALL DESTINATION "C:/Program Files (x86)/draco/bin" TYPE EXECUTABLE FILES "C:/Users/jachu/Downloads/draco-master/RelWithDebInfo/draco_decoder.exe")
   endif()
 endif()
 
@@ -2486,7 +2642,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
     if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
         message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
     endif()
-file(INSTALL DESTINATION "C:/Program Files (x86)/draco/bin" TYPE EXECUTABLE FILES "C:/Users/jachu/Downloads/draco-1.2.0/Debug/draco_encoder.exe")
+file(INSTALL DESTINATION "C:/Program Files (x86)/draco/bin" TYPE EXECUTABLE FILES "C:/Users/jachu/Downloads/draco-master/Debug/draco_encoder.exe")
   elseif("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Rr][Ee][Ll][Ee][Aa][Ss][Ee])$")
     list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
      "C:/Program Files (x86)/draco/bin/draco_encoder.exe")
@@ -2496,7 +2652,7 @@ file(INSTALL DESTINATION "C:/Program Files (x86)/draco/bin" TYPE EXECUTABLE FILE
     if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
         message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
     endif()
-file(INSTALL DESTINATION "C:/Program Files (x86)/draco/bin" TYPE EXECUTABLE FILES "C:/Users/jachu/Downloads/draco-1.2.0/Release/draco_encoder.exe")
+file(INSTALL DESTINATION "C:/Program Files (x86)/draco/bin" TYPE EXECUTABLE FILES "C:/Users/jachu/Downloads/draco-master/Release/draco_encoder.exe")
   elseif("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Mm][Ii][Nn][Ss][Ii][Zz][Ee][Rr][Ee][Ll])$")
     list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
      "C:/Program Files (x86)/draco/bin/draco_encoder.exe")
@@ -2506,7 +2662,7 @@ file(INSTALL DESTINATION "C:/Program Files (x86)/draco/bin" TYPE EXECUTABLE FILE
     if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
         message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
     endif()
-file(INSTALL DESTINATION "C:/Program Files (x86)/draco/bin" TYPE EXECUTABLE FILES "C:/Users/jachu/Downloads/draco-1.2.0/MinSizeRel/draco_encoder.exe")
+file(INSTALL DESTINATION "C:/Program Files (x86)/draco/bin" TYPE EXECUTABLE FILES "C:/Users/jachu/Downloads/draco-master/MinSizeRel/draco_encoder.exe")
   elseif("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Rr][Ee][Ll][Ww][Ii][Tt][Hh][Dd][Ee][Bb][Ii][Nn][Ff][Oo])$")
     list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
      "C:/Program Files (x86)/draco/bin/draco_encoder.exe")
@@ -2516,7 +2672,7 @@ file(INSTALL DESTINATION "C:/Program Files (x86)/draco/bin" TYPE EXECUTABLE FILE
     if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
         message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
     endif()
-file(INSTALL DESTINATION "C:/Program Files (x86)/draco/bin" TYPE EXECUTABLE FILES "C:/Users/jachu/Downloads/draco-1.2.0/RelWithDebInfo/draco_encoder.exe")
+file(INSTALL DESTINATION "C:/Program Files (x86)/draco/bin" TYPE EXECUTABLE FILES "C:/Users/jachu/Downloads/draco-master/RelWithDebInfo/draco_encoder.exe")
   endif()
 endif()
 
@@ -2530,9 +2686,9 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
 file(INSTALL DESTINATION "C:/Program Files (x86)/draco/lib/draco/cmake" TYPE FILE FILES
-    "C:/Users/jachu/Downloads/draco-1.2.0/draco-1.2.0/cmake/FindDraco.cmake"
-    "C:/Users/jachu/Downloads/draco-1.2.0/DracoConfig.cmake"
-    "C:/Users/jachu/Downloads/draco-1.2.0/DracoConfigVersion.cmake"
+    "C:/Users/jachu/Downloads/draco-master/draco-master/cmake/FindDraco.cmake"
+    "C:/Users/jachu/Downloads/draco-master/DracoConfig.cmake"
+    "C:/Users/jachu/Downloads/draco-master/DracoConfigVersion.cmake"
     )
 endif()
 
@@ -2544,5 +2700,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/jachu/Downloads/draco-1.2.0/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/jachu/Downloads/draco-master/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

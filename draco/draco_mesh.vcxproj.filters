@@ -1,84 +1,72 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco\mesh\corner_table.cc">
+    <ClCompile Include="C:\Users\jachu\Downloads\draco-master\draco-master\src\draco\mesh\corner_table.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco\mesh\mesh.cc">
+    <ClCompile Include="C:\Users\jachu\Downloads\draco-master\draco-master\src\draco\mesh\mesh.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco\mesh\mesh_are_equivalent.cc">
+    <ClCompile Include="C:\Users\jachu\Downloads\draco-master\draco-master\src\draco\mesh\mesh_are_equivalent.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco\mesh\mesh_attribute_corner_table.cc">
+    <ClCompile Include="C:\Users\jachu\Downloads\draco-master\draco-master\src\draco\mesh\mesh_attribute_corner_table.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco\mesh\mesh_cleanup.cc">
+    <ClCompile Include="C:\Users\jachu\Downloads\draco-master\draco-master\src\draco\mesh\mesh_cleanup.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco\mesh\mesh_misc_functions.cc">
+    <ClCompile Include="C:\Users\jachu\Downloads\draco-master\draco-master\src\draco\mesh\mesh_misc_functions.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco\mesh\mesh_stripifier.cc">
+    <ClCompile Include="C:\Users\jachu\Downloads\draco-master\draco-master\src\draco\mesh\mesh_stripifier.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco\mesh\triangle_soup_mesh_builder.cc">
+    <ClCompile Include="C:\Users\jachu\Downloads\draco-master\draco-master\src\draco\mesh\triangle_soup_mesh_builder.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco\mesh\corner_table.h">
+    <ClInclude Include="C:\Users\jachu\Downloads\draco-master\draco-master\src\draco\mesh\corner_table.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco\mesh\corner_table_indices.h">
+    <ClInclude Include="C:\Users\jachu\Downloads\draco-master\draco-master\src\draco\mesh\corner_table_iterators.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco\mesh\corner_table_iterators.h">
+    <ClInclude Include="C:\Users\jachu\Downloads\draco-master\draco-master\src\draco\mesh\mesh.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco\mesh\corner_table_traversal_processor.h">
+    <ClInclude Include="C:\Users\jachu\Downloads\draco-master\draco-master\src\draco\mesh\mesh_are_equivalent.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco\mesh\edgebreaker_observer.h">
+    <ClInclude Include="C:\Users\jachu\Downloads\draco-master\draco-master\src\draco\mesh\mesh_attribute_corner_table.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco\mesh\edgebreaker_traverser.h">
+    <ClInclude Include="C:\Users\jachu\Downloads\draco-master\draco-master\src\draco\mesh\mesh_cleanup.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco\mesh\mesh.h">
+    <ClInclude Include="C:\Users\jachu\Downloads\draco-master\draco-master\src\draco\mesh\mesh_misc_functions.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco\mesh\mesh_are_equivalent.h">
+    <ClInclude Include="C:\Users\jachu\Downloads\draco-master\draco-master\src\draco\mesh\mesh_stripifier.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco\mesh\mesh_attribute_corner_table.h">
+    <ClInclude Include="C:\Users\jachu\Downloads\draco-master\draco-master\src\draco\mesh\triangle_soup_mesh_builder.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco\mesh\mesh_cleanup.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco\mesh\mesh_indices.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco\mesh\mesh_misc_functions.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco\mesh\mesh_stripifier.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco\mesh\triangle_soup_mesh_builder.h">
+    <ClInclude Include="C:\Users\jachu\Downloads\draco-master\draco-master\src\draco\mesh\valence_cache.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\CMakeLists.txt" />
+    <CustomBuild Include="C:\Users\jachu\Downloads\draco-master\draco-master\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Header Files">
-      <UniqueIdentifier>{55FDC50C-BA74-35A1-AA81-181F9552D62E}</UniqueIdentifier>
+      <UniqueIdentifier>{49E20499-AE41-377A-A871-E020A772C9D2}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{45A56D12-F897-373D-AC92-8226CD3D956A}</UniqueIdentifier>
+      <UniqueIdentifier>{C8F31FB8-F1A1-3318-94E9-47C2E5E8E5D8}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

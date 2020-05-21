@@ -1,99 +1,99 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="C:\Users\jachu\Downloads\draco-1.2.0\draco_compression_attributes_pred_schemes_dec.cc">
+    <ClCompile Include="C:\Users\jachu\Downloads\draco-master\draco_compression_attributes_pred_schemes_dec.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco\compression\attributes\prediction_schemes\mesh_prediction_scheme_constrained_multi_parallelogram_decoder.h">
+    <ClInclude Include="C:\Users\jachu\Downloads\draco-master\draco-master\src\draco\compression\attributes\prediction_schemes\mesh_prediction_scheme_constrained_multi_parallelogram_decoder.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco\compression\attributes\prediction_schemes\mesh_prediction_scheme_constrained_multi_parallelogram_shared.h">
+    <ClInclude Include="C:\Users\jachu\Downloads\draco-master\draco-master\src\draco\compression\attributes\prediction_schemes\mesh_prediction_scheme_constrained_multi_parallelogram_shared.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco\compression\attributes\prediction_schemes\mesh_prediction_scheme_data.h">
+    <ClInclude Include="C:\Users\jachu\Downloads\draco-master\draco-master\src\draco\compression\attributes\prediction_schemes\mesh_prediction_scheme_data.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco\compression\attributes\prediction_schemes\mesh_prediction_scheme_decoder.h">
+    <ClInclude Include="C:\Users\jachu\Downloads\draco-master\draco-master\src\draco\compression\attributes\prediction_schemes\mesh_prediction_scheme_decoder.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco\compression\attributes\prediction_schemes\mesh_prediction_scheme_geometric_normal_decoder.h">
+    <ClInclude Include="C:\Users\jachu\Downloads\draco-master\draco-master\src\draco\compression\attributes\prediction_schemes\mesh_prediction_scheme_geometric_normal_decoder.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco\compression\attributes\prediction_schemes\mesh_prediction_scheme_geometric_normal_predictor_area.h">
+    <ClInclude Include="C:\Users\jachu\Downloads\draco-master\draco-master\src\draco\compression\attributes\prediction_schemes\mesh_prediction_scheme_geometric_normal_predictor_area.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco\compression\attributes\prediction_schemes\mesh_prediction_scheme_geometric_normal_predictor_base.h">
+    <ClInclude Include="C:\Users\jachu\Downloads\draco-master\draco-master\src\draco\compression\attributes\prediction_schemes\mesh_prediction_scheme_geometric_normal_predictor_base.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco\compression\attributes\prediction_schemes\mesh_prediction_scheme_multi_parallelogram_decoder.h">
+    <ClInclude Include="C:\Users\jachu\Downloads\draco-master\draco-master\src\draco\compression\attributes\prediction_schemes\mesh_prediction_scheme_multi_parallelogram_decoder.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco\compression\attributes\prediction_schemes\mesh_prediction_scheme_parallelogram_encoder.h">
+    <ClInclude Include="C:\Users\jachu\Downloads\draco-master\draco-master\src\draco\compression\attributes\prediction_schemes\mesh_prediction_scheme_parallelogram_encoder.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco\compression\attributes\prediction_schemes\mesh_prediction_scheme_parallelogram_shared.h">
+    <ClInclude Include="C:\Users\jachu\Downloads\draco-master\draco-master\src\draco\compression\attributes\prediction_schemes\mesh_prediction_scheme_parallelogram_shared.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco\compression\attributes\prediction_schemes\mesh_prediction_scheme_tex_coords_decoder.h">
+    <ClInclude Include="C:\Users\jachu\Downloads\draco-master\draco-master\src\draco\compression\attributes\prediction_schemes\mesh_prediction_scheme_tex_coords_decoder.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco\compression\attributes\prediction_schemes\mesh_prediction_scheme_tex_coords_portable_decoder.h">
+    <ClInclude Include="C:\Users\jachu\Downloads\draco-master\draco-master\src\draco\compression\attributes\prediction_schemes\mesh_prediction_scheme_tex_coords_portable_decoder.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco\compression\attributes\prediction_schemes\mesh_prediction_scheme_tex_coords_portable_predictor.h">
+    <ClInclude Include="C:\Users\jachu\Downloads\draco-master\draco-master\src\draco\compression\attributes\prediction_schemes\mesh_prediction_scheme_tex_coords_portable_predictor.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco\compression\attributes\prediction_schemes\prediction_scheme_decoder.h">
+    <ClInclude Include="C:\Users\jachu\Downloads\draco-master\draco-master\src\draco\compression\attributes\prediction_schemes\prediction_scheme_decoder.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco\compression\attributes\prediction_schemes\prediction_scheme_decoder_factory.h">
+    <ClInclude Include="C:\Users\jachu\Downloads\draco-master\draco-master\src\draco\compression\attributes\prediction_schemes\prediction_scheme_decoder_factory.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco\compression\attributes\prediction_schemes\prediction_scheme_decoder_interface.h">
+    <ClInclude Include="C:\Users\jachu\Downloads\draco-master\draco-master\src\draco\compression\attributes\prediction_schemes\prediction_scheme_decoder_interface.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco\compression\attributes\prediction_schemes\prediction_scheme_decoding_transform.h">
+    <ClInclude Include="C:\Users\jachu\Downloads\draco-master\draco-master\src\draco\compression\attributes\prediction_schemes\prediction_scheme_decoding_transform.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco\compression\attributes\prediction_schemes\prediction_scheme_delta_decoder.h">
+    <ClInclude Include="C:\Users\jachu\Downloads\draco-master\draco-master\src\draco\compression\attributes\prediction_schemes\prediction_scheme_delta_decoder.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco\compression\attributes\prediction_schemes\prediction_scheme_factory.h">
+    <ClInclude Include="C:\Users\jachu\Downloads\draco-master\draco-master\src\draco\compression\attributes\prediction_schemes\prediction_scheme_factory.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco\compression\attributes\prediction_schemes\prediction_scheme_interface.h">
+    <ClInclude Include="C:\Users\jachu\Downloads\draco-master\draco-master\src\draco\compression\attributes\prediction_schemes\prediction_scheme_interface.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco\compression\attributes\prediction_schemes\prediction_scheme_normal_octahedron_canonicalized_decoding_transform.h">
+    <ClInclude Include="C:\Users\jachu\Downloads\draco-master\draco-master\src\draco\compression\attributes\prediction_schemes\prediction_scheme_normal_octahedron_canonicalized_decoding_transform.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco\compression\attributes\prediction_schemes\prediction_scheme_normal_octahedron_canonicalized_transform_base.h">
+    <ClInclude Include="C:\Users\jachu\Downloads\draco-master\draco-master\src\draco\compression\attributes\prediction_schemes\prediction_scheme_normal_octahedron_canonicalized_transform_base.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco\compression\attributes\prediction_schemes\prediction_scheme_normal_octahedron_decoding_transform.h">
+    <ClInclude Include="C:\Users\jachu\Downloads\draco-master\draco-master\src\draco\compression\attributes\prediction_schemes\prediction_scheme_normal_octahedron_decoding_transform.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco\compression\attributes\prediction_schemes\prediction_scheme_normal_octahedron_transform_base.h">
+    <ClInclude Include="C:\Users\jachu\Downloads\draco-master\draco-master\src\draco\compression\attributes\prediction_schemes\prediction_scheme_normal_octahedron_transform_base.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco\compression\attributes\prediction_schemes\prediction_scheme_wrap_decoding_transform.h">
+    <ClInclude Include="C:\Users\jachu\Downloads\draco-master\draco-master\src\draco\compression\attributes\prediction_schemes\prediction_scheme_wrap_decoding_transform.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\src\draco\compression\attributes\prediction_schemes\prediction_scheme_wrap_transform_base.h">
+    <ClInclude Include="C:\Users\jachu\Downloads\draco-master\draco-master\src\draco\compression\attributes\prediction_schemes\prediction_scheme_wrap_transform_base.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\jachu\Downloads\draco-1.2.0\draco-1.2.0\CMakeLists.txt" />
+    <CustomBuild Include="C:\Users\jachu\Downloads\draco-master\draco-master\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Header Files">
-      <UniqueIdentifier>{55FDC50C-BA74-35A1-AA81-181F9552D62E}</UniqueIdentifier>
+      <UniqueIdentifier>{49E20499-AE41-377A-A871-E020A772C9D2}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{45A56D12-F897-373D-AC92-8226CD3D956A}</UniqueIdentifier>
+      <UniqueIdentifier>{C8F31FB8-F1A1-3318-94E9-47C2E5E8E5D8}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

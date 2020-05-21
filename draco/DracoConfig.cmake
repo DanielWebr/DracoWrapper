@@ -1,4 +1,4 @@
-set(draco_VERSION "1.2.0")
+set(draco_VERSION "1.3.6")
 ####### Expanded from @PACKAGE_INIT@ by configure_package_config_file() #######
 ####### Any changes to this file will be overwritten by the next CMake run ####
 ####### The input file was DracoConfig.cmake                            ########
